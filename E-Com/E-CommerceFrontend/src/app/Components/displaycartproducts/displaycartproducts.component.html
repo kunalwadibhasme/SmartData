@@ -1,0 +1,73 @@
+<div style="display: flex; justify-content: center; align-items: center; height: 70vh; margin: 0;">
+<div class="cart-popup" *ngIf="!isVisible">
+    <h2>Cart Details</h2>
+    <div class="cart-header">
+        <div class="item-details">
+            <span><b style="color:#e09a00;">Product</b></span>
+            <span><b style="color:#e09a00;">Brand</b></span>
+            <span><b style="color:#e09a00;">Price</b></span>
+            <span><b style="color:#e09a00;">Quantity</b></span>
+            <span><b style="color:white;">Buttons</b></span>
+        </div>
+    </div>
+    <div *ngFor="let item of cartItems" class="cart-item">
+        <div class="item-details">
+            <span>{{ item.productName }}</span>
+            <span>{{ item.brand }}</span>
+            <span>{{ item.sellingPrice | currency: 'INR' }}</span>
+            <span>{{ item.quantity }}</span>
+        <span>
+        <button (click)="addToCart(item)"><b style="color:black; display: inline-block; width: 20px; text-align: center;">+</b></button>
+        <button (click)="deleteItem(item.id)"><b style="color:black; display: inline-block; width: 20px; text-align: center;">-</b></button>
+    </span>
+</div>
+    </div>
+    <div class="cart-summary">
+        <p><strong>TotalPrice :</strong> {{ subtotal | currency: 'INR' }}</p>
+        <button (click)="Back()"><b style="color:black;">Back</b></button>
+        <button (click)="pay()"><b style="color:black;">Pay</b></button>
+        
+    </div>
+</div>
+</div>
+
+
+<div class="overlay" *ngIf="isVisible">
+    <div class="payment-popup">
+        <h2>Payment Details</h2>
+        <form [formGroup]="paymentForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input id="cardNumber" formControlName="cardNumber" type="text" (keypress)="omit_special_char($event)" maxlength="16" pattern="\d{16}"  />
+                <div *ngIf="paymentForm.get('cardNumber')?.invalid && paymentForm.get('cardNumber')?.touched"
+                    class="error">
+                    This field is required and must be 16 digits.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="expiryDate">Expiry Date (MM/YY)</label>
+                <input id="expiryDate" formControlName="expiryDate" type="text" maxlength="5" />
+                <div *ngIf="paymentForm.get('expiryDate')?.invalid && paymentForm.get('expiryDate')?.touched"
+                    class="error">
+                    This field is required and must be in MM/YY format.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input id="cvv" formControlName="cvv" type="text" (keypress)="omit_special_char($event)" max="999" maxlength="3" />
+                <div *ngIf="paymentForm.get('cvv')?.invalid && paymentForm.get('cvv')?.touched" class="error">
+                    This field is required and must be 3 digits.
+                </div>
+            </div>
+            <div class="subtotal">
+                <strong>Total Amount:</strong> {{ subtotal | currency: 'INR' }}
+            </div>
+            <button type="submit">Pay</button>
+            <button type="cancel" (click)="onCancel()">Cancel</button>
+        </form>
+    </div>
+</div>
+
+
+
+

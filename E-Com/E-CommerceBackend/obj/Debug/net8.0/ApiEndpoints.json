@@ -1,0 +1,599 @@
+[
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.AdminProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/AdminProduct/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsertableId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productImagePath",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sellingPrice",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "purchasePrice",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "purchaseDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.AdminProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/AdminProduct/DeleteProduct/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.AdminProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/AdminProduct/GetAllProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.AdminProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/AdminProduct/GetProductById/{productId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.AdminProductController",
+    "Method": "GetProductsByUserAsync",
+    "RelativePath": "api/AdminProduct/GetProductsByUserAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsertableId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.AdminProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/AdminProduct/UpdateProduct/{productId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UsertableId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productImagePath",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sellingPrice",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "purchasePrice",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "purchaseDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "stock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "AddMasterDetails",
+    "RelativePath": "api/Cart/AddMasterDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartMasterDetaildto",
+        "Type": "E_CommerceBackend.DTOs.CartMasterDetaildto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "FetchUserAddedProduct",
+    "RelativePath": "api/Cart/FetchUserAddedProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "GetSalesDetail",
+    "RelativePath": "api/Cart/GetSalesDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "ReducefromMastertables",
+    "RelativePath": "api/Cart/ReducefromMastertables",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userTableId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "ReduceStockofproduct",
+    "RelativePath": "api/Cart/ReduceStockofproduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Productid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "Updatesalesdetails",
+    "RelativePath": "api/Cart/Updatesalesdetails",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "total",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "Updatesalesdetails2",
+    "RelativePath": "api/Cart/Updatesalesdetails2",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "total",
+        "Type": "System.Single",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.CartController",
+    "Method": "ValidateDetails",
+    "RelativePath": "api/Cart/ValidateDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "card",
+        "Type": "E_CommerceBackend.DTOs.Carddto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/LoginRegister/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changepassworddto",
+        "Type": "E_CommerceBackend.DTOs.ChangePassworddto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "CountryList",
+    "RelativePath": "api/LoginRegister/CountryList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "ForgetPassword",
+    "RelativePath": "api/LoginRegister/ForgetPassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "GetUserById",
+    "RelativePath": "api/LoginRegister/GetUserById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "LoginUser",
+    "RelativePath": "api/LoginRegister/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "E_CommerceBackend.DTOs.Logindto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/LoginRegister/RegisterUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsertypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ZipCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Profileimage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "StateId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "StateList",
+    "RelativePath": "api/LoginRegister/StateList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "byCountryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "UpdateUserAsync",
+    "RelativePath": "api/LoginRegister/UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsertypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ZipCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Profileimage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "StateId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "UserType",
+    "RelativePath": "api/LoginRegister/UserType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.LoginRegisterController",
+    "Method": "Verifyotp",
+    "RelativePath": "api/LoginRegister/Verifyotp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "otpdto",
+        "Type": "E_CommerceBackend.DTOs.OtpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_CommerceBackend.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[E_CommerceBackend.WeatherForecast, E-CommerceBackend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

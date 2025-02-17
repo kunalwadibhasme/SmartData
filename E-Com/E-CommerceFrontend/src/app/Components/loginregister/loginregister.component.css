@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #f8f8f8, #ffffff, #e8e8e8);
+}
+
+.loginsignup-container {
+    width: 100%;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Background shadow */
+    transition: all 0.3s ease-in-out;
+    margin: auto; /* Ensure the container is centered horizontally */
+}
+
+h2.text-primary {
+    color: #e09a00; /* Maroon color */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.2rem;
+    margin-top: 0.2rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #e09a00; /* Maroon color */
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.btn-primary {
+    background-color: #e09a00; /* Maroon color */
+    border-color: #e09a00; /* Maroon color */
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #e4be6d; /* Lighter maroon */
+    border-color: #e4be6d; /* Lighter maroon */
+}
+
+.highlighted {
+    color: #e09a00; /* Maroon color */
+    cursor: pointer;
+}
+
+.highlighted:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #6c757d;
+    transition: color 0.3s ease-in-out;
+}
+
+p:hover {
+    color: #e4be6d; /* Maroon color */
+}

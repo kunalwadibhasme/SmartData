@@ -1,0 +1,196 @@
+<div class="products-page">
+  <button class="add-button" (click)="openForm('add')">Add Product</button>
+
+  <div class="product-grid">
+    <div class="product-header">
+      <div class="product-column">Product Name</div>
+      <div class="product-column">Product Code</div>
+      <div class="product-column">Category</div>
+      <div class="product-column">Brand</div>
+      <div class="product-column">Selling Price</div>
+      <div class="product-column actions-column">Actions</div>
+    </div>
+    <div *ngFor="let product of products" class="product-row">
+      <!-- <div class="product-column">{{ product.productName (*ngIf = product.stock<=1)=>{{Out Of Stock}}}}</div> -->
+      <div class="product-column">
+        {{ product.productName }}
+        <span *ngIf="product.stock <= 1" style="color: red; font-size: small;"> (Out Of Stock)</span>
+      </div>
+        
+      <div class="product-column">{{ product.productCode }}</div>
+      <div class="product-column">{{ product.category }}</div>
+      <div class="product-column">{{ product.brand }}</div>
+      <div class="product-column">{{ product.sellingPrice | currency:'INR' }}</div>
+      <div class="product-column actions">
+        <button class="action-button view-button" (click)="openForm('view', product)">
+          View
+        </button>
+        <button class="action-button edit-button" (click)="openForm('edit', product)">
+          Edit
+        </button>
+        <button class="action-button delete-button" (click)="deleteProduct(product.id)">
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="showForm" class="popup">
+    <div class="popup-content">
+      <span class="close-button" style="font-size: 24px; font-weight: bold; padding-left: 90%; cursor: pointer;"
+        (click)="closeForm()">×</span>
+      <ng-container [ngSwitch]="formType">
+        <form [formGroup]="productForm" (ngSubmit)="submitForm()">
+          <h3>{{ formType === 'add' ? 'Add Product' : 'Edit Product' }}</h3>
+          <div class="row">
+            <div class="col-md-6 mb-3"> <label for="productName">Product Name</label> <input id="productName"
+                type="text" formControlName="productName" class="form-control" minlength="2" maxlength="20" required />
+              <div *ngIf="productForm.get('productName')?.invalid && productForm.get('productName')?.touched"
+                class="text-danger"> <small *ngIf="productForm.get('productName')?.errors?.['required']">Product Name is
+                  required.</small> <small *ngIf="productForm.get('productName')?.errors?.['minlength']">Product Name
+                  must be at least 2 characters long.</small> <small
+                  *ngIf="productForm.get('productName')?.errors?.['maxlength']">Product Name cannot exceed 20
+                  characters.</small> </div>
+            </div>
+            <div class="col-md-6 mb-3"> <label for="productCode">Product Code</label> <input id="productCode"
+                type="text" formControlName="productCode" class="form-control" minlength="6" maxlength="10"
+                pattern="^[a-zA-Z0-9_]*$" required />
+              <div *ngIf="productForm.get('productCode')?.invalid && productForm.get('productCode')?.touched"
+                class="text-danger"> <small *ngIf="productForm.get('productCode')?.errors?.['required']">Product Code is
+                  required.</small> <small *ngIf="productForm.get('productCode')?.errors?.['pattern']">Product Code must
+                  be minimum 6 characters long and can contain letters, numbers, and underscores.</small> </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3"> <label for="category">Category</label> <input id="category" type="text"
+                formControlName="category" class="form-control" minlength="2" maxlength="50" required />
+              <div *ngIf="productForm.get('category')?.invalid && productForm.get('category')?.touched"
+                class="text-danger"> <small *ngIf="productForm.get('category')?.errors?.['required']">Category is
+                  required.</small> <small *ngIf="productForm.get('category')?.errors?.['maxlength']">Category cannot
+                  exceed 50 characters.</small> </div>
+            </div>
+            <div class="col-md-6 mb-3"> <label for="brand">Brand</label> <input id="brand" type="text"
+                formControlName="brand" class="form-control" minlength="2" maxlength="50" required />
+              <div *ngIf="productForm.get('brand')?.invalid && productForm.get('brand')?.touched" class="text-danger">
+                <small *ngIf="productForm.get('brand')?.errors?.['required']">Brand is required.</small> <small
+                  *ngIf="productForm.get('brand')?.errors?.['maxlength']">Brand cannot exceed 50 characters.</small>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3"> <label for="purchasePrice">Purchase Price</label> <input id="purchasePrice"
+                type="number" formControlName="purchasePrice" class="form-control" min="0.01" required />
+              <div *ngIf="productForm.get('purchasePrice')?.invalid && productForm.get('purchasePrice')?.touched"
+                class="text-danger"> <small *ngIf="productForm.get('purchasePrice')?.errors?.['required']">Purchase
+                  Price is required.</small> <small *ngIf="productForm.get('purchasePrice')?.errors?.['min']">Purchase
+                  Price must be greater than 0.</small> </div>
+            </div>
+            <div class="col-md-6 mb-3"> <label for="sellingPrice">Selling Price</label> <input id="sellingPrice"
+                type="number" formControlName="sellingPrice" class="form-control" min="0.01" required />
+              <div *ngIf="productForm.get('sellingPrice')?.invalid && productForm.get('sellingPrice')?.touched"
+                class="text-danger"> <small *ngIf="productForm.get('sellingPrice')?.errors?.['required']">Selling Price
+                  is required.</small> <small *ngIf="productForm.get('sellingPrice')?.errors?.['min']">Selling Price
+                  must be greater than PurchasePrice.</small> </div>
+
+                  <div *ngIf="productForm.controls['sellingPrice']?.touched || productForm.controls['sellingPrice']?.dirty">
+                    <div *ngIf="productForm.hasError('sellingPriceLessThanPurchasePrice')" style="color:red">
+                      Selling price must be greater than purchase price.
+                    </div>
+                  </div>
+           
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3"> <label for="purchaseDate">Purchase Date</label> <input id="purchaseDate"
+                type="date" formControlName="purchaseDate" class="form-control" [max]="maxDate" required />
+              <div *ngIf="productForm.get('purchaseDate')?.invalid && productForm.get('purchaseDate')?.touched"
+                class="text-danger"> <small *ngIf="productForm.get('purchaseDate')?.errors?.['required']">Purchase Date
+                  is required.</small> </div>
+            </div>
+            <div class="col-md-6 mb-3"> <label for="stock">Stock</label> <input id="stock" type="number"
+                formControlName="stock" class="form-control" min="0" required />
+              <div *ngIf="productForm.get('stock')?.invalid && productForm.get('stock')?.touched" class="text-danger">
+                <small *ngIf="productForm.get('stock')?.errors?.['required']">Stock is required.</small> <small
+                  *ngIf="productForm.get('stock')?.errors?.['min']">Stock must be a positive integer.</small>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-3"> <label for="productImagePath">Product Image</label> <input
+                id="productImagePath" type="file" (change)="onFileChange($event)" class="form-control" /> </div>
+          </div>
+          <button type="submit" class="save-button"
+            style="background-color: #007bff; color: #fff; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; transition: background-color 0.3s; cursor: pointer; margin-right: 16px;">
+            Save
+          </button>
+          <button class="close-button"
+            style="font-size: 18px; font-weight: bold; background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;"
+            (click)="closeForm()">Close</button>
+
+
+        </form>
+
+
+        <!-- <div *ngSwitchCase="'view'">
+          <h2>{{ selectedProduct?.productName }}</h2>
+          <p><strong>Product Code:</strong> {{ selectedProduct?.productCode }}</p>
+          <p><strong>Category:</strong> {{ selectedProduct?.category }}</p>
+          <p><strong>Brand:</strong> {{ selectedProduct?.brand }}</p>
+          <p><strong>Selling Price:</strong> {{ selectedProduct?.sellingPrice | currency:'INR' }}</p>
+          <p><strong>Purchase Price:</strong> {{ selectedProduct?.purchasePrice | currency:'INR' }}</p>
+          <p><strong>Purchase Date:</strong> {{ selectedProduct?.purchaseDate }}</p>
+          <p><strong>Stock:</strong> {{ selectedProduct?.stock }}</p>
+          <img 
+            src="{{productImage}}" [alt]="selectedProduct?.productName" />
+          
+          <button (click)="closeForm()">Close</button>
+        </div> -->
+      </ng-container>
+    </div>
+  </div>
+  <div *ngIf="viewForm" class="popup">
+    <div class="popup-content">
+      <span class="close-button" style="font-size: 24px; font-weight: bold; padding-left: 90%; cursor: pointer;"
+        (click)="closeForm()">×</span>
+      <ng-container [ngSwitch]="formType">
+        <div *ngSwitchCase="'view'" class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>{{ selectedProduct?.productName }}</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Product Code:</strong> {{ selectedProduct?.productCode }}</p>
+              <p><strong>Category:</strong> {{ selectedProduct?.category }}</p>
+            </div>
+            <div class="col-md-6">
+              <p><strong>Brand:</strong> {{ selectedProduct?.brand }}</p>
+              <p><strong>Selling Price:</strong> {{ selectedProduct?.sellingPrice | currency:'INR' }}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p><strong>Purchase Price:</strong> {{ selectedProduct?.purchasePrice | currency:'INR' }}</p>
+              <p><strong>Purchase Date:</strong> {{ selectedProduct?.purchaseDate }}</p>
+            </div>
+            <div class="col-md-6">
+              <p><strong>Stock:</strong> {{ selectedProduct?.stock }}</p>
+              <p><img width="200px" height="200px" *ngIf="selectedProduct?.productImagePath" src="{{productImage}}"
+                  alt="{{ selectedProduct?.productName }}" /></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <button
+                style="font-size: 18px; font-weight: bold; background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;"
+                (click)="closeForm()">Close</button>
+            </div>
+          </div>
+        </div>
+
+      </ng-container>
+    </div>
+  </div>
+</div>

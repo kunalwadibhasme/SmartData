@@ -1,0 +1,170 @@
+<div class="container-fluid">
+    <div class="loginsignup-container">
+        <!-- Register Form -->
+
+        <form *ngIf="activeForm === 'register'" [formGroup]="registerForm" (ngSubmit)="onRegisterSubmit()">
+            <h2 class="text-primary">REGISTER</h2>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">First Name :</label>
+                <input type="text" formControlName="firstName" class="form-control" id="firstName" placeholder="Enter First Name" minlength="2" maxlength="15" required>
+                <div *ngIf="registerForm.get('firstName')?.invalid && registerForm.get('firstName')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('firstName')?.errors?.['required']">First Name is required.</small>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Last Name :</label>
+                <input type="text" formControlName="lastName" class="form-control" id="lastName" placeholder="Enter Last Name" minlength="2" maxlength="15" required>
+                <div *ngIf="registerForm.get('lastName')?.invalid && registerForm.get('lastName')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('lastName')?.errors?.['required']">Last Name is required.</small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="email">Email address :</label>
+                <input type="email" formControlName="email" class="form-control" id="email" placeholder="Enter email" minlength="5" maxlength="30" required>
+                <div *ngIf="registerForm.get('email')?.invalid && registerForm.get('email')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('email')?.errors?.['required']">Email is required.</small>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="usertype">User Type :</label>
+                <select formControlName="usertypeId" class="form-control" required>
+                  <option value="">Select User Type</option>
+                  <option *ngFor="let user of usertypedata" [value]="user.typeId">{{ user.usertype }}</option>
+                </select>
+                <div *ngIf="registerForm.get('usertypeId')?.invalid && registerForm.get('usertypeId')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('usertypeId')?.errors?.['required']">User type is required.</small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="dob">Date of Birth :</label>
+                <input type="date" formControlName="dateOfBirth" class="form-control" id="dateOfBirth" [max]="maxDate" required>
+                <div *ngIf="registerForm.get('dateOfBirth')?.invalid && registerForm.get('dateOfBirth')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('dateOfBirth')?.errors?.['required']">Date of Birth is required.</small>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="mobile">Mobile :</label>
+                <input type="text" formControlName="mobile" class="form-control" id="mobile" placeholder="Enter Mobile Number" (keypress)="omit_special_char($event)" minlength="10" maxlength="10" required pattern="^[0-9]*$">
+                <div *ngIf="registerForm.get('mobile')?.invalid && registerForm.get('mobile')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('mobile')?.errors?.['required']">Mobile number is required.</small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="address">Address :</label>
+                <input type="text" formControlName="address" class="form-control" id="address" placeholder="Enter Address" minlength="5" required>
+                <div *ngIf="registerForm.get('address')?.invalid && registerForm.get('address')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('address')?.errors?.['required']">Address is required.</small>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="zipcode">Zip Code :</label>
+                <input type="text" formControlName="zipCode" class="form-control" id="zipCode" placeholder="Enter Zip Code" minlength="6" maxlength="6" (keypress)="omit_special_char($event)" required pattern="^[0-9]{6}$">
+                <div *ngIf="registerForm.get('zipCode')?.invalid && registerForm.get('zipCode')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('zipCode')?.errors?.['required']">Zip Code is required.</small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="profileimage">Profile Image :</label>
+                <input type="file" accept="image/*" formControlName="profileimage" class="form-control" id="profileimage" (change)="onFileChange($event)" required>
+                <div *ngIf="registerForm.get('profileimage')?.invalid && registerForm.get('profileimage')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('profileimage')?.errors?.['required']">Profile Image is required.</small>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="country">Country :</label>
+                <select formControlName="countryId" class="form-control" (change)="getstatedatabycountryid($event)" required>
+                  <option value="countryId">Select Country</option>
+                  <option *ngFor="let country of countrydatas" [value]="country.countryId">{{ country.name }}</option>
+                </select>
+                <div *ngIf="registerForm.get('countryId')?.invalid && registerForm.get('countryId')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('countryId')?.errors?.['required']">Country is required.</small>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="state">State :</label>
+                <select formControlName="stateId" class="form-control" required>
+                  <option value="stateId">Select State</option>
+                  <option *ngFor="let state of statedatas" [value]="state.stateId">{{ state.statename }}</option>
+                </select>
+                <div *ngIf="registerForm.get('stateId')?.invalid && registerForm.get('stateId')?.touched" class="text-danger">
+                  <small *ngIf="registerForm.get('stateId')?.errors?.['required']">State is required.</small>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" (keydown)="onRegisterSubmit()">Register</button>
+            <div class="row">
+            <div class="col-md-6 mb-3">
+            <p (click)="toggleForm('login')">Already Have an Account? <span class="highlighted">LOGIN</span></p></div>
+            <div class="col-md-6 mb-3">
+              <p (click)="toggleForm('forgetpassword')">Forget Password? <span class="highlighted">Forget Password</span></p>
+          </div>
+        </div>
+          </form>
+          
+          
+        <!-- Login Form -->
+        <form *ngIf="activeForm === 'login'" [formGroup]="loginForm" (ngSubmit)="onLoginSubmit()">
+            <h2 class="text-primary">LOGIN</h2>
+            <div class="form-group">
+                <label for="username">Username :</label>
+                <input type="text" formControlName="userName" class="form-control" id="userName" placeholder="Enter Username" minlength="5" maxlength="20" required>
+                <div *ngIf="loginForm.get('userName')?.invalid && loginForm.get('userName')?.touched" class="text-danger">
+                    <small *ngIf="loginForm.get('userName')?.errors?.['required']">Username is required.</small>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password :</label>
+                <input type="password" formControlName="password" class="form-control" id="password" placeholder="Password" minlength="6" maxlength="20" required>
+                <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" class="text-danger">
+                    <small *ngIf="loginForm.get('password')?.errors?.['required']">Password is required.</small>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" (keyup)="onLoginSubmit()">Login</button>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <p (click)="toggleForm('register')">Don't Have an Account? <span class="highlighted">Register</span></p></div>
+              <div class="col-md-6 mb-3">
+                <p (click)="toggleForm('forgetpassword')">Forget Password? <span class="highlighted">Forget Password</span></p>
+            </div>
+          </div>
+
+        </form>
+
+        <!--Forget Password-->
+        <form *ngIf="activeForm === 'forgetpassword'" [formGroup]="forgetpasswordForm" (ngSubmit)="onForgetPasswordSubmit()">
+            <h2 class="text-primary">Forget Password</h2>
+            <div class="form-group">
+                <label for="email">Email address :</label>
+                <input type="email" formControlName="email" class="form-control" id="email" placeholder="Enter email" minlength="5" maxlength="30" required>
+                <div *ngIf="forgetpasswordForm.get('email')?.invalid && forgetpasswordForm.get('email')?.touched" class="text-danger">
+                    <small *ngIf="forgetpasswordForm.get('email')?.errors?.['required']">Email is required.</small>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" (keyup)="onForgetPasswordSubmit()">Submit</button>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <p (click)="toggleForm('register')">Don't Have an Account? <span class="highlighted">Register</span></p></div>
+              <div class="col-md-6 mb-3">
+                <p (click)="toggleForm('login')">Already Have an Account? <span class="highlighted">LOGIN</span></p>
+              </div>
+          </div>
+        </form>
+    </div>
+</div>
+@if(isLoading){
+  <div class="loader-backdrop">
+    <div class="loader"></div>
+  </div>
+  }

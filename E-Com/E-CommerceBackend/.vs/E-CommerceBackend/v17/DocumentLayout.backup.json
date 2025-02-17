@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\services\\loginregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:services\\loginregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\services\\adminproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:services\\adminproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\controllers\\loginregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\loginregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\entities\\salesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:entities\\salesmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\dtos\\productinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\productinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\entities\\cardtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:entities\\cardtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\e-commercefinalupdated\\e-commercebackendfinal\\migrations\\20241204234030_tenth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:migrations\\20241204234030_tenth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminProduct.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Services\\AdminProduct.cs",
+              "RelativeDocumentMoniker": "Services\\AdminProduct.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Services\\AdminProduct.cs",
+              "RelativeToolTip": "Services\\AdminProduct.cs",
+              "ViewState": "AgIAABMBAAAAAAAAAAAAAKoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:56:48.541Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRegister.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Services\\LoginRegister.cs",
+              "RelativeDocumentMoniker": "Services\\LoginRegister.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Services\\LoginRegister.cs",
+              "RelativeToolTip": "Services\\LoginRegister.cs",
+              "ViewState": "AgIAAGIBAAAAAAAAAADgv4ABAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:56:48.562Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:32:03.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SalesMaster.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Entities\\SalesMaster.cs",
+              "RelativeDocumentMoniker": "Entities\\SalesMaster.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Entities\\SalesMaster.cs",
+              "RelativeToolTip": "Entities\\SalesMaster.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:00:57.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T23:41:44.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Services\\CartService.cs",
+              "RelativeToolTip": "Services\\CartService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:49:23.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Controllers\\LoginRegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginRegisterController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Controllers\\LoginRegisterController.cs",
+              "RelativeToolTip": "Controllers\\LoginRegisterController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:06:21.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductInvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\DTOs\\ProductInvoiceDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductInvoiceDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\DTOs\\ProductInvoiceDto.cs",
+              "RelativeToolTip": "DTOs\\ProductInvoiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:59:58.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T06:12:57.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminProductController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Controllers\\AdminProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminProductController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Controllers\\AdminProductController.cs",
+              "RelativeToolTip": "Controllers\\AdminProductController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:02:19.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Productdto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\DTOs\\Productdto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Productdto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\DTOs\\Productdto.cs",
+              "RelativeToolTip": "DTOs\\Productdto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:03:34.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cardtable.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Entities\\Cardtable.cs",
+              "RelativeDocumentMoniker": "Entities\\Cardtable.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Entities\\Cardtable.cs",
+              "RelativeToolTip": "Entities\\Cardtable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:29:47.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Carddto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\DTOs\\Carddto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Carddto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\DTOs\\Carddto.cs",
+              "RelativeToolTip": "DTOs\\Carddto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:29:39.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241204234030_tenth.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Migrations\\20241204234030_tenth.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241204234030_tenth.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-CommerceFINALupdated\\E-CommerceBackendfinal\\Migrations\\20241204234030_tenth.cs",
+              "RelativeToolTip": "Migrations\\20241204234030_tenth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:40:30.324Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

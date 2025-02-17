@@ -1,0 +1,1141 @@
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\appsettings.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.exe
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Dapper.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Humanizer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Common.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Dns.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Groupware.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Imap4.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Mail.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Nntp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.OpenPGP.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Pop3.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Smtp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.WhoIs.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.build.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\scopedcss\bundle\E-CommerceBackend.styles.css
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-Commer.A1F8C003.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\refint\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend\obj\Debug\net8.0\ref\E-CommerceBackend.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\appsettings.Development.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\appsettings.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.staticwebassets.runtime.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.exe
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.deps.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.runtimeconfig.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.pdb
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Azure.Core.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Azure.Identity.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Dapper.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Humanizer.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Common.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Dns.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Groupware.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Imap4.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Mail.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Nntp.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.OpenPGP.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Pop3.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Smtp.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.WhoIs.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.ClientModel.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.CodeDom.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Memory.Data.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.csproj.AssemblyReference.cache
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.GeneratedMSBuildEditorConfig.editorconfig
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfoInputs.cache
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfo.cs
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.csproj.CoreCompileInputs.cache
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cs
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cache
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.build.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.development.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.build.E-CommerceBackend.props
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceBackend.props
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-CommerceBackend.props
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\scopedcss\bundle\E-CommerceBackend.styles.css
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-Commer.A1F8C003.Up2Date
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\refint\E-CommerceBackend.dll
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.pdb
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.genruntimeconfig.cache
+F:\Angular\1E-Commerce\E-Commerce\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\ref\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\appsettings.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.staticwebassets.runtime.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.exe
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Dapper.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Humanizer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Common.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Dns.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Groupware.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Imap4.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Mail.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Nntp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.OpenPGP.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Pop3.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.Smtp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ActiveUp.Net.WhoIs.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.build.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\scopedcss\bundle\E-CommerceBackend.styles.css
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-Commer.A1F8C003.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\refint\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\E-CommerceBackend.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendupdated\E-CommerceBackend\E-CommerceBackend\obj\Debug\net8.0\ref\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\appsettings.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\E-CommerceBackend.staticwebassets.runtime.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\E-CommerceBackend.exe
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\E-CommerceBackend.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\E-CommerceBackend.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Dapper.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Humanizer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Common.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Dns.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Groupware.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Imap4.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Mail.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Nntp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.OpenPGP.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Pop3.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.Smtp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ActiveUp.Net.WhoIs.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Mapster.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\staticwebassets\msbuild.build.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\scopedcss\bundle\E-CommerceBackend.styles.css
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-Commer.A1F8C003.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\refint\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\E-CommerceBackend.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackend05-12-2024\E-CommerceBackend(1)\obj\Debug\net8.0\ref\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\appsettings.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.staticwebassets.runtime.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.exe
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Dapper.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Humanizer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Common.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Dns.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Groupware.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Imap4.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Mail.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Nntp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.OpenPGP.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Pop3.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Smtp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.WhoIs.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Mapster.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.build.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\scopedcss\bundle\E-CommerceBackend.styles.css
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-Commer.A1F8C003.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\refint\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL\E-CommerceBackendfinal\obj\Debug\net8.0\ref\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\appsettings.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.staticwebassets.runtime.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.exe
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Dapper.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Humanizer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Common.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Dns.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Groupware.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Imap4.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Mail.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Nntp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.OpenPGP.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Pop3.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Smtp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.WhoIs.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Mapster.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.build.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\scopedcss\bundle\E-CommerceBackend.styles.css
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-Commer.A1F8C003.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\refint\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceBackendFINAL -(trial)\E-CommerceBackendfinal\obj\Debug\net8.0\ref\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\appsettings.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.staticwebassets.runtime.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.exe
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Dapper.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Humanizer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Common.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Dns.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Groupware.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Imap4.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Mail.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Nntp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.OpenPGP.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Pop3.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.Smtp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ActiveUp.Net.WhoIs.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Mapster.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Net.Mail.Abstractions.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.E-CommerceBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.build.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.E-CommerceBackend.props
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\scopedcss\bundle\E-CommerceBackend.styles.css
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-Commer.A1F8C003.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\refint\E-CommerceBackend.dll
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\E-CommerceBackend.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\E-Commerce\E-CommerceFINALupdated\E-CommerceBackendfinal\obj\Debug\net8.0\ref\E-CommerceBackend.dll

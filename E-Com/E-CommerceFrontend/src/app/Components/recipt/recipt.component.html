@@ -1,0 +1,141 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+</head>
+<body>
+    <div id="myModal" class="modal" *ngIf="isvisible && allow">
+        <div class="modal-content">
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding-bottom: 30px;">
+                <span class="head" style="flex: 1; text-align: center; font-size: 24px; font-weight: bold; color: black;">Invoice</span>
+                <span class="close" style="flex: 0; cursor: pointer;" (click)="closeModel()">×</span>
+            </div>
+            
+            
+            <div class="receipt-header">
+                <div>
+                    <strong>Invoice ID : </strong> <span id="invoiceId">{{respData.invoiceId}}</span>
+                </div>
+                <div>
+                    <strong>Invoice Date : </strong> <span id="invoiceDate">{{respData.invoiceDate}}</span>
+                </div>
+            </div>
+            <table class="table table-borderless receipt-table">
+                <thead>
+                    <tr>
+                        <th>Product Code</th>
+                        <th>Product Quantity</th>
+                        <th>Selling Price</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                     <tr *ngFor="let product of respData.productInvoices">
+                        <td>{{product.productCode}}</td>
+                        <td>{{product.quantity}}</td>
+                        <td>{{product.sellingPrice}}</td>
+                        <td>{{(product.quantity * product.sellingPrice) | currency :"INR"}}</td>
+                     </tr>
+                     
+                </tbody>
+            </table>
+            <div class="receipt-footer">
+                <strong>Total Price : </strong> <span id="totalPrice">{{respData.subTotal | currency:"INR"}}</span>
+            </div>
+            <div class="address-details">
+                <strong>Address:</strong> <span id="deliveryAddress">{{respData.address +','+' ' + respData.state}}</span><br>
+                <strong>         </strong> <span id="deliveryState"> {{respData.country +' -'+' ' + respData.zipcode}}</span><br>
+            </div>
+            <button (click)="printInvoice()" style="flex: 0; padding-left: 80%; text-align: center; ">Print Invoice</button>
+        </div>
+    </div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        .print-button {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 20px;
+        }
+        .print-button button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        }
+        .print-button button:hover {
+        background-color: #45a049; /* Darker green */
+        }
+        </style>
+</head>
+
+<body>
+    <div id="myModal" class="modal" *ngIf="isvisible && allow">
+        <div class="modal-content">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding-bottom: 30px;">
+                <span class="head"
+                    style="flex: 1; text-align: center; font-size: 24px; font-weight: bold; color: black;">Invoice</span>
+                <span class="close" style="flex: 0; cursor: pointer;" (click)="closeModel()">×</span>
+            </div>
+
+            <div class="receipt-header">
+                <div>
+                    <strong>Invoice ID : </strong> <span id="invoiceId">{{respData1.invoiceId}}</span>
+                </div>
+                <div>
+                    <strong>Invoice Date : </strong> <span id="invoiceDate">{{respData1.invoiceDate}}</span>
+                </div>
+            </div>
+            <table class="table table-borderless receipt-table">
+                <thead>
+                    <tr>
+                        <th>Product Code</th>
+                        <th>Product Quantity</th>
+                        <th>Selling Price</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id="productTableBody">
+                    <!-- Product rows will be inserted here -->
+                    <tr *ngFor="let product of respData1.productInvoices">
+                        <td>{{product.productCode}}</td>
+                        <td>{{product.quantity}}</td>
+                        <td>{{product.sellingPrice}}</td>
+                        <td>{{(product.quantity * product.sellingPrice) | currency :"INR"}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="receipt-footer">
+                <strong>Total Price : </strong> <span id="totalPrice">{{respData1.subTotal | currency:"INR"}}</span>
+            </div>
+            <div class="address-details">
+                <strong>Address:</strong> <span id="deliveryAddress">{{respData1.address +','+ ' ' +
+                    respData1.state}}</span><br>
+                <strong> </strong> <span id="deliveryState"> {{respData1.country + ' -'+ ' ' +
+                    respData1.zipcode}}</span><br>
+            </div>
+            <div class="print-button">
+                <button (click)="printInvoice()">Print</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

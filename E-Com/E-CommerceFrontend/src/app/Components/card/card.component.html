@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/css/bootstrap.min.css">
+    <style>
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-image {
+            height: 200px;
+            object-fit: cover;
+            background-color: #f8f8f8;
+        }
+
+        .default-image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #888;
+            height: 200px;
+            background-color: #f8f8f8;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+        .price {
+            color: #28a745;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .add-to-cart {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .add-to-cart:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Product Dashboard</h1>
+        <div class="row">
+            <!-- Product Card -->
+            <div class="col-md-4 mb-4" *ngFor="let product of products">
+                <div class="product-card">
+                    <!-- Product Image -->
+                    <div>
+                        <img src="{{ product.imageUrl || 'https://via.placeholder.com/200?text=No+Image' }}" 
+                             alt="{{ product.name }}" class="img-fluid product-image" 
+                             *ngIf="product.imageUrl; else defaultImg">
+                        <ng-template #defaultImg>
+                            <div class="default-image">No Image</div>
+                        </ng-template>
+                    </div>
+                    <div class="card-body">
+                        <!-- Product Name -->
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <!-- Product Brand -->
+                        <p class="card-text text-muted">{{ product.brand }}</p>
+                        <!-- Selling Price -->
+                        <p class="price">{{ product.price |currency:"INR"}}</p>
+                        <!-- Add to Cart Button -->
+                        <button class="add-to-cart" (click)="addToCart(product)">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.2/js/bootstrap.min.js"></script>
+</body>
+</html>
