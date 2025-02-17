@@ -1,0 +1,190 @@
+  
+/* Basic chat container styles */
+.chat-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+/* Chat header styles (optional) */
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #0088cc;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Select dropdown styles */
+#dropdown {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding-bottom: 10ps;
+}
+
+/* Textarea styling */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  height: 50px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #0088cc;
+}
+
+/* Button styling */
+button {
+  background-color: #09c06b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px; /* Space between textarea and button */
+}
+
+button:hover {
+  background-color: #0c702d;
+}
+
+/* Container for the textarea and button */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+/*
+
+Chat messages
+.messages-container {
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+
+.message .message-text {
+  background-color: #40f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.message.receiver .message-text {
+  background-color: #009688;
+  color: white;
+  align-self: flex-end;
+}
+
+.message.sender .message-text {
+  background-color: #f5faf8;
+  align-self: flex-start;
+  padding-left: 30%;padding-right: 0%;
+  color:black
+}
+*/
+
+/* Container for all messages */
+.messages-container {
+  display: flex;
+  flex-direction: column; /* Ensure messages are stacked vertically */
+  overflow-y: auto;
+  padding: 10px;
+  max-height: 350px; /* Adjust this to the desired height */
+}
+
+/* Common styling for all messages */
+.message {
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  max-width: 80%; /* Make sure messages don't stretch the entire width */
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Default to left alignment for received messages */
+}
+
+/* Styling for received messages (left side) */
+.receiver {
+  background-color: #f1f1f1; /* Light background for received messages */
+  color: #333;
+  align-self: flex-start; /* Align to the left */
+}
+
+/* Styling for sent messages (right side) */
+.sender {
+  background-color: #09c06b; /* Green background for sent messages */
+  color: white;
+  align-self: flex-end; /* Align to the right */
+}
+
+/* Message text */
+.message-text {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+/* Optional: Style for sender's name */
+.message p.sender {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Scrollbar styles */
+.messages-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.messages-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Scrollbars 
+.messages-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.messages-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+*/

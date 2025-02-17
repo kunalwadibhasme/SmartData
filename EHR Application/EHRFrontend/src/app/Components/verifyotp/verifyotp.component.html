@@ -1,0 +1,15 @@
+<div class="otp-popup" *ngIf="showOtpPopup">
+    <h2>OTP Verification</h2>
+    <form [formGroup]="otpForm" (ngSubmit)="onSubmit()">
+        <input type="text" id="otp" formControlName="otp" placeholder="Enter Verification OTP" maxlength="6" required>
+        <span *ngIf="otp?.touched && otp?.invalid" class="error-message">
+            OTP is required and must be a 6-digit number.
+        </span>
+        <button type="submit">Verify</button>
+    </form>
+</div>
+@if(isLoading){
+    <div class="loader-backdrop">
+      <div class="loader"></div>
+    </div>
+    }

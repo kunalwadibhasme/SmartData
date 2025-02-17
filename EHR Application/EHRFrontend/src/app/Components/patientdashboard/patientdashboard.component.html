@@ -1,0 +1,180 @@
+<div class="container mt-5">
+    <!-- Add Appointment Button -->
+    <div class="text-left mb-3" *ngIf="!isFormVisible && !update">
+        <button class="btn btn-primary" (click)="showAddAppointmentForm()">Book Appointment</button>
+        <button class="btn btn-secondary" (click)="Completeddetails()" style="padding-top: 12px; padding-bottom: 11px; padding-left: 40px; padding-right: 40px;"><b>Show Completed Appointment</b></button>
+
+      </div>
+      <h2 *ngIf="ispatientlength && !isFormVisible">No Upcoming Appointments</h2>
+      <div class="product-grid" *ngIf="!isFormVisible && !update && !ispatientlength">
+        <div class="product-header">
+          <div class="product-column">Provider Name</div>
+          <div class="product-column">Appointment Date</div>
+          <div class="product-column">Appointment Time</div>
+          <div class="product-column">Status</div>
+          <div class="product-column">Fees Paid</div>
+          <div class="product-column actions-column">Actions</div>
+        </div>
+        <div *ngFor="let patient of Patients" class="product-row">
+          
+          <div class="product-column">{{ patient.firstName +' '+patient.lastName}}</div>
+          <div class="product-column">{{ patient.appointmentDate | date }}</div>
+          <div class="product-column">{{ patient.appointmentTime +':00' }}</div>
+          <div class="product-column">{{ patient.status }}</div>
+          <div class="product-column">{{ patient.fees | currency}}</div>
+          <div class="product-column actions">
+            <button class="action-button view-button" (click)="OnEditClick(patient)" >
+              Edit
+            </button>
+            <button class="action-button delete-button" (click)="OnCancelAppointment(patient.appointmentId)" >
+              Cancel
+            </button>
+            
+          </div>
+        </div>
+      </div>
+
+    
+  
+    <!-- Add Appointment Form -->
+    <div class="appoint-form" *ngIf="isFormVisible && !update">
+      <h2 class="text-center">Book Appointment</h2>
+      <form [formGroup]="appointmentForm" (ngSubmit)="onSubmit()">
+        <div class="form-group mb-3">
+          <label for="speciality">Speciality</label>
+          <select id="speciality" formControlName="speciality" class="form-control" (change)="getProviderbasedonSpeciality($event)">
+            <option value="">-- Select Speciality --</option>
+            <option *ngFor="let special of specialities" [value]="special.id">{{ special.speciality }}</option>
+          </select>
+          <div *ngIf="appointmentForm.get('providerId')?.touched && appointmentForm.get('providerId')?.hasError('required')" class="text-danger">
+            Specialization is required.
+          </div>
+        </div>
+  
+        <div class="form-group mb-3">
+          <label for="provider">Provider</label>
+          <select id="provider" formControlName="providerId" class="form-control" (change)="getProviderfees($event)">
+            <option value="">-- Select Provider --</option>
+            <option *ngFor="let provider of filteredProviders" [value]="provider.id">{{ provider.firstName+' '+provider.lastName }}</option>
+          </select>
+          <div *ngIf="appointmentForm.get('providerId')?.touched && appointmentForm.get('providerId')?.hasError('required')" class="text-danger">
+            Provider is required.
+          </div>
+        </div>
+  
+        <div class="form-group mb-3">
+          <label for="appointmentDate">Appointment Date</label>
+          <input
+            id="appointmentDate"
+            type="date"
+            formControlName="appointmentDate"
+            class="form-control"
+            [min]="minDate"
+            (change)="onDateChange($event)"
+          />
+          <div *ngIf="appointmentForm.get('appointmentDate')?.touched && appointmentForm.get('appointmentDate')?.hasError('required')" class="text-danger">
+            Appointment date is required.
+          </div>
+        </div>
+        
+        <div class="form-group mb-3">
+          <label for="appointmentTime">Appointment Time</label>
+          <input
+            id="appointmentTime"
+            type="time"
+            name="appointment-time"
+            formControlName="appointmentTime"
+            class="form-control"
+            [min]="timeMin"
+          />
+          <div *ngIf="appointmentForm.get('appointmentTime')?.touched && (!isTimeValid() || appointmentForm.get('appointmentTime')?.hasError('required'))" class="text-danger">
+            Invalid time. Please select a 1 hour after time.
+          </div>
+        </div>
+        
+  
+        <div class="form-group mb-3">
+          <label for="chiefComplaint">Chief Complaint</label>
+          <textarea
+            id="chiefComplaint"
+            formControlName="chiefComplaint"
+            class="form-control"
+            rows="3"
+            placeholder="Describe your issue (10-200 characters)"
+          ></textarea>
+          <div *ngIf="appointmentForm.get('chiefComplaint')?.touched" class="text-danger">
+            <small *ngIf="appointmentForm.get('chiefComplaint')?.hasError('required')">Chief complaint is required.</small>
+            <small *ngIf="appointmentForm.get('chiefComplaint')?.hasError('minlength')">Minimum 10 characters required.</small>
+            <small *ngIf="appointmentForm.get('chiefComplaint')?.hasError('maxlength')">Maximum 200 characters allowed.</small>
+          </div>
+        </div>
+        <div class="form-group mb-3">
+          <label for="card-element" class ="form-label">Card Details</label>
+          <div id="card-element" class="form-control">  </div>
+        </div>
+  
+        <div class="text-center" style="justify-content: space-between;">
+          <button type="submit" class="btn btn-primary" >Submit</button>
+          <button type="button" class="btn btn-secondary" (click)="onCancel()" style="padding:0.8rem">Cancel</button>
+        </div>
+      </form>
+    </div>
+  
+
+
+<!-- Update From -->
+  <div class="appoint-form" *ngIf="!isFormVisible && update">
+    <h2 class="text-center">Update Appointment</h2>
+    <form [formGroup]="updateForm" (ngSubmit)="onUpdate()">
+      
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">ProviderName : </label>
+        <strong>{{' '+this.patientupdate.firstName+ ' ' +patientupdate.lastName }}</strong>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="appointmentDate">Appointment Date</label>
+        <input id="appointmentDate" type="date" formControlName="appointmentDate" class="form-control" [min]="minDate" (change)="onDateChange($event)"/>
+        <div *ngIf="updateForm.get('appointmentDate')?.touched && updateForm.get('appointmentDate')?.hasError('required')" class="text-danger">
+          Appointment date is required.
+        </div>
+      </div>
+      
+      <div class="form-group mb-3">
+        <label for="appointmentTime">Appointment Time</label>
+        <input id="appointmentTime" type="time" name="appointment-time" formControlName="appointmentTime" class="form-control" [min]="timeMin"/>
+        <div *ngIf="updateForm.get('appointmentTime')?.touched && (!isTimeValid() || updateForm.get('appointmentTime')?.hasError('required'))" class="text-danger">
+          Invalid time. Please select a 1 hour after time.
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="chiefComplaint">Chief Complaint</label>
+        <textarea id="chiefComplaint" formControlName="chiefComplaint" class="form-control" rows="3" placeholder="Describe your issue (10-200 characters)"></textarea>
+        <div *ngIf="updateForm.get('chiefComplaint')?.touched" class="text-danger">
+          <small *ngIf="updateForm.get('chiefComplaint')?.hasError('required')">Chief complaint is required.</small>
+          <small *ngIf="updateForm.get('chiefComplaint')?.hasError('minlength')">Minimum 5 characters required.</small>
+          <small *ngIf="updateForm.get('chiefComplaint')?.hasError('maxlength')">Maximum 200 characters allowed.</small>
+        </div>
+      </div>
+
+      <div class="text-center" style="justify-content: space-between;">
+        <button type="submit" class="btn btn-primary" [disabled]="!updateForm.valid || !isTimeValid()">Submit</button>
+        <button type="button" class="btn btn-secondary" (click)="onCancelupdate()" style="padding:0.8rem">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="icon-container">
+    <i class="bi bi-chat-text-fill icon" style="font-size: 3rem;" (click)="navigatetochat()"></i>
+  </div>
+  
+
+</div>
+
+@if(isLoading){
+  <div class="loader-backdrop">
+      <div class="loader"></div>
+  </div>
+  }
+  

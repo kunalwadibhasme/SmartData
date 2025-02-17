@@ -1,0 +1,208 @@
+<div class="container mt-5">
+  <!-- Add Appointment Button -->
+  <div class="text-left mb-3" *ngIf="!isEditing">
+    <button class="btn btn-primary" (click)="showAddAppointmentForm()" style="justify-content: space-between;">Book
+      Appointment</button>
+    <button class="btn btn-secondary" (click)="Completeddetails()" style="justify-content:space-around">Show Completed
+      Appointment</button>
+  </div>
+
+  <h2 *ngIf="ispatientlength && !isFormVisible">No Upcoming Appointments</h2>
+
+  <div class="product-grid" *ngIf="!isEditing && !isFormVisible && !ispatientlength">
+    <div class="product-header">
+      <div class="product-column">Patient Name</div>
+      <div class="product-column">Appointment Date</div>
+      <div class="product-column">Appointment Time</div>
+      <div class="product-column">Status</div>
+      <div class="product-column">Fees Paid</div>
+      <div class="product-column actions-column">Actions</div>
+    </div>
+    <div *ngFor="let patient of patientslist" class="product-row">
+
+      <div class="product-column">{{ patient.firstName +' '+ patient.lastName}}</div>
+      <div class="product-column">{{ patient.appointmentDate | date}}</div>
+      <div class="product-column">{{ patient.appointmentTime +':00' }}</div>
+      <div class="product-column">{{ patient.status }}</div>
+      <div class="product-column">{{ patient.fees | currency}}</div>
+      <div class="product-column actions">
+        <button class="action-button view-button" (click)="GoToAppointment(patient.appointmentId)">
+          Go To Appointment
+        </button>
+        <button class="action-button delete-button" (click)="OnCancelAppointment(patient.appointmentId)">
+          Cancel
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Add Appointment Form -->
+  <div class="appoint-form" *ngIf="isFormVisible && !isEditing">
+    <h2 class="text-center">Book Appointment</h2>
+    <form [formGroup]="appointmentForm" (ngSubmit)="onSubmit()">
+      <div class="form-group mb-3">
+        <label for="patientlist">Select Patient</label>
+        <select id="Patient" formControlName="patientId" class="form-control">
+          <option value="">-- Select Patient --</option>
+          <option *ngFor="let patient of patients" [value]="patient.id">{{ patient.firstName + ' ' +patient.lastName}}
+          </option>
+        </select>
+        <div *ngIf="appointmentForm.get('patientId')?.touched && appointmentForm.get('patientId')?.hasError('required')"
+          class="text-danger">
+          Appointment date is required.
+        </div>
+      </div>
+
+      <!-- <div class="form-group mb-3">
+          <label for="provider">Provider</label>
+          <select id="provider" formControlName="providerId" class="form-control" (change)="getProviderfees($event)">
+            <option value="">-- Select Provider --</option>
+            <option *ngFor="let provider of filteredProviders" [value]="provider.id">{{ provider.firstName+''+provider.lastName }}</option>
+          </select>
+          <div *ngIf="appointmentForm.get('provider')?.touched && appointmentForm.get('provider')?.hasError('required')" class="text-danger">
+            Provider is required.
+          </div>
+        </div> -->
+
+      <div class="form-group mb-3">
+        <label for="appointmentDate">Appointment Date</label>
+        <input id="appointmentDate" type="date" formControlName="appointmentDate" class="form-control" [min]="minDate"
+          (change)="onDateChange($event)" />
+        <div
+          *ngIf="appointmentForm.get('appointmentDate')?.touched && appointmentForm.get('appointmentDate')?.hasError('required')"
+          class="text-danger">
+          Appointment date is required.
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="appointmentTime">Appointment Time</label>
+        <input id="appointmentTime" type="time" name="appointment-time" formControlName="appointmentTime"
+          class="form-control" [min]="timeMin" />
+        <div
+          *ngIf="appointmentForm.get('appointmentTime')?.touched && (!isTimeValid() || appointmentForm.get('appointmentTime')?.hasError('required'))"
+          class="text-danger">
+          <!-- !isTimeValid() || -->
+          Invalid time. Please select a 1 hour after time.
+        </div>
+      </div>
+
+
+      <div class="form-group mb-3">
+        <label for="chiefComplaint">Chief Complaint</label>
+        <textarea id="chiefComplaint" formControlName="chiefComplaint" class="form-control" rows="3"
+          placeholder="Describe your issue (10-200 characters)"></textarea>
+        <div *ngIf="appointmentForm.get('chiefComplaint')?.touched" class="text-danger">
+          <small *ngIf="appointmentForm.get('chiefComplaint')?.hasError('required')">Chief complaint is
+            required.</small>
+          <small *ngIf="appointmentForm.get('chiefComplaint')?.hasError('minlength')">Minimum 5 characters
+            required.</small>
+          <small *ngIf="appointmentForm.get('chiefComplaint')?.hasError('maxlength')">Maximum 200 characters
+            allowed.</small>
+        </div>
+      </div>
+
+      <div class="text-center" style="justify-content: space-between;">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <!-- || !isTimeValid() -->
+        <button type="button" class="btn btn-secondary" (click)="onCancel()" style="padding:0.8rem">Cancel</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Go To AppointmentForm -->
+  <form *ngIf="isEditing" [formGroup]="soapForm" class="form-soap">
+    <div class="profile-header">
+      <div class="d-flex justify-content-center">
+        <!-- Image or Default Icon -->
+        <div *ngIf="profileImage; else defaultImage">
+          <img [src]="profileImage" alt="Profile Image" class="profile-img">
+        </div>
+        <ng-template #defaultImage>
+          <div class="default-profile-icon">
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </ng-template>
+      </div>
+      <h2 class="profile-name">{{ gotoappointmentdetails?.firstName+' '+ gotoappointmentdetails?.lastName }}</h2>
+    </div>
+
+    <div class="profile-details row">
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">Date of Birth:</label>
+        <strong>{{ gotoappointmentdetails?.dateOfBirth | date: 'dd/MM/yyyy' }}</strong>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">Gender:</label>
+        <strong>{{ gotoappointmentdetails.gender }}</strong>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">Age:</label>
+        <strong>{{ gotoappointmentdetails.age }}</strong>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">AppointmentDate:</label>
+        <strong>{{ gotoappointmentdetails.appointmentDate }}</strong>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">AppointmentTime:</label>
+        <strong>{{ gotoappointmentdetails.appointmentTime }}</strong>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">ChiefComplaint:</label>
+        <strong>{{ gotoappointmentdetails.chiefComplaint }}</strong>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">Subjective:</label>
+        <textarea id="subjective" formControlName="subjective" class="form-control" rows="3" placeholder="Subjective"
+          maxlength="200"></textarea>
+        <div *ngIf="soapForm.get('subjective')?.touched" class="text-danger">
+          <small *ngIf="soapForm.get('subjective')?.hasError('required')">subjective is required.</small>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">Objective:</label>
+        <textarea id="objective" formControlName="objective" class="form-control" rows="3" placeholder="objective"
+          minlength="3" maxlength="200"></textarea>
+        <div *ngIf="soapForm.get('objective')?.touched" class="text-danger">
+          <small *ngIf="soapForm.get('objective')?.hasError('required')">objective is required.</small>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">Assessment:</label>
+        <textarea id="assessment" formControlName="assessment" class="form-control" rows="3" placeholder="Assessment"
+          minlength="3" maxlength="200"></textarea>
+        <div *ngIf="soapForm.get('assessment')?.touched" class="text-danger">
+          <small *ngIf="soapForm.get('assessment')?.hasError('required')">assessment is required.</small>
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label class="profile-label">Planning:</label>
+        <textarea id="planning" formControlName="planning" class="form-control" rows="3" placeholder="planning"
+          maxlength="200"></textarea>
+        <div *ngIf="soapForm.get('planning')?.touched" class="text-danger">
+          <small *ngIf="soapForm.get('planning')?.hasError('required')">Planning is required.</small>
+        </div>
+      </div>
+      <div class="profile-buttons">
+        <button type="submit" class="btn btn-edit"
+          (click)="onSubmitSoap(gotoappointmentdetails.appointmentId)">Appointment Completed</button>
+        <button type="button" (click)="onCancelsoap()" class="btn btn-cancel">Cancel</button>
+      </div>
+
+    </div>
+  </form>
+  <div class="icon-container">
+    <i class="bi bi-chat-text-fill icon" style="font-size: 3rem;" (click)="navigatetochat()"></i>
+  </div>
+</div>
+
+@if(isLoading){
+  <div class="loader-backdrop">
+    <div class="loader"></div>
+  </div>
+  }
+

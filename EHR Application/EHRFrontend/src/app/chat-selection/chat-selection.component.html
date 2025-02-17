@@ -1,0 +1,24 @@
+<!-- <p>chat-selection works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Form with Dropdown</title>
+</head>
+<body>
+
+    <div class="form-popup" id="myForm">
+        <form class="form-container">
+           
+            <label for="dropdown"><b>Select Person to Chat</b></label>
+            <select id="dropdown" name="options" (change)="selectPatient($event)">
+                <option value="">Select Person</option>
+                <option *ngFor="let patient of patients" [value]="patient.patientId">{{ patient.firstName+ ' '+patient.lastName}}</option>
+            </select>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+</body>
+</html> -->

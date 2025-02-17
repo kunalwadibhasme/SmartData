@@ -1,0 +1,88 @@
+<div class="container mt-5">
+    <!-- Patient List: Only show when not viewing a patient's details -->
+     <h2 *ngIf="islength">No Past Appointment</h2>
+    <div class="product-grid" *ngIf="!isViewing && !islength">
+      <div class="product-header">
+        <div class="product-column">Provider Name</div>
+        <div class="product-column">Gender</div>
+        <div class="product-column">Specialization</div>
+        <div class="product-column">Appointment Date</div>
+        <div class="product-column">Appointment Time</div>
+        <div class="product-column actions-column">Actions</div>
+      </div>
+  
+      <!-- Patient rows -->
+      <div *ngFor="let patient of patientDetails" class="product-row">
+        <div class="product-column">{{ patient.firstName + ' ' + patient.lastName }}</div>
+        <div class="product-column">{{ patient.gender }}</div>
+        <div class="product-column">{{ patient.specialization }}</div>
+        <div class="product-column">{{ patient.appointmentDate | date }}</div>
+        <div class="product-column">{{ patient.appointmentTime }}</div>
+        <div class="product-column actions">
+          <button class="action-button view-button" (click)="GoToPatient(patient.appointmentId)">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Patient Profile Details Form: Only show when viewing a patient's details -->
+    <div *ngIf="isViewing" class="profile-details-section">
+      <form>
+        <div class="profile-header">
+          <div class="d-flex justify-content-center">
+            <!-- Image or Default Icon -->
+            <div *ngIf="profileImage; else defaultImage">
+              <img [src]="profileImage" alt="Profile Image" class="profile-img">
+            </div>
+            <ng-template #defaultImage>
+              <div class="default-profile-icon">
+                <i class="fas fa-user-circle"></i>
+              </div>
+            </ng-template>
+          </div>
+  
+          <!-- Profile Name -->
+          <h2 class="profile-name">{{ ViewpatientDetails[0]?.firstName + ' ' + ViewpatientDetails[0]?.lastName }}</h2>
+        </div>
+  
+        <!-- Profile Details -->
+        <div class="profile-details row">
+          
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Gender:</label>
+            <strong>{{  ViewpatientDetails[0]?.gender }}</strong>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Specialization:</label>
+            <strong>{{  ViewpatientDetails[0]?.specialization }}</strong>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Appointment Date:</label>
+            <strong>{{  ViewpatientDetails[0]?.appointmentDate | date: 'dd/MM/yyyy' }}</strong>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Appointment Time:</label>
+            <strong>{{  ViewpatientDetails[0]?.appointmentTime }}</strong>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Subjective:</label>
+            <strong>{{  ViewpatientDetails[0]?.subjective }}</strong>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Objective:</label>
+            <strong>{{  ViewpatientDetails[0]?.objective }}</strong>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Assessment:</label>
+            <strong>{{  ViewpatientDetails[0]?.assessment }}</strong>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="profile-label">Planning:</label>
+            <strong>{{  ViewpatientDetails[0]?.planning }}</strong>
+          </div>
+        </div>
+        <button class="go-back-button" (click)="GoBack()">Go Back</button>
+      </form>
+    </div>
+  </div>>

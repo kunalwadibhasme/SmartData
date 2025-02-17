@@ -1,0 +1,406 @@
+/* General Reset */
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background & General Layout */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #f8f8f8, #ffffff, #e8e8e8);
+    overflow: hidden; /* Prevent scrolling when form is visible */
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1300px;
+    }
+}
+
+/* Overlay Background */
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Add Appointment Container */
+.add-appointment-container {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px; /* Smaller container */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    display: none; /* Hide form initially */
+    position: relative;
+}
+
+/* When form is visible, show the overlay and form */
+body.show-overlay::after,
+.add-appointment-container.show-form {
+    display: block;
+}
+
+/* Appoint Form Adjustments */
+.appoint-form {
+    width: 80%;
+    padding-left: 35%;
+}
+/* Add Appointment Button - Align to left */
+.text-left {
+    text-align: left; /* Aligns the button to the left */
+    width: auto; /* Prevents the button from stretching */
+  }
+  
+
+h2 {
+    color: #009688;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #009688;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.btn-primary {
+    background-color: #009688;
+    border-color: #009688;
+    width: 20%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.btn-primary:hover {
+    background-color: #125c54;
+    border-color: #125c54;
+}
+
+.highlighted {
+    color: #009688;
+    cursor: pointer;
+}
+
+.highlighted:hover {
+    text-decoration: underline;
+}
+
+label {
+    color: #030303;
+}
+
+p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #030303;
+    transition: color 0.3s ease-in-out;
+}
+
+p:hover {
+    color: #144641;
+}
+
+/* Adjust Button Alignment */
+/* Adjust Button Alignment */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Space between buttons */
+    margin-top: 1rem;
+}
+
+
+button {
+    flex: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .add-appointment-container {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .form-control {
+        padding: 0.4rem;
+    }
+
+    .btn-primary {
+        padding: 0.5rem;
+    }
+}
+
+/* Product Grid Container */
+.product-grid {
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Product Header Row */
+.product-header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1rem;
+    background-color: #009688;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #ececec;
+}
+
+/* Product Column */
+.product-column {
+    padding: 0.2rem 1rem;
+    text-align: center;
+    color: black;
+}
+
+/* Actions Column Styling */
+.actions-column {
+    width: 120px; /* Fixed width for action buttons */
+}
+
+/* Product Row (each patient) */
+.product-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: 1px solid #f1f1f1;
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect on product rows */
+.product-row:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action Buttons Styling */
+.actions {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+.action-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.view-button {
+    background-color: #4CAF50;
+}
+
+.view-button:hover {
+    background-color: #45a049;
+}
+
+.edit-button {
+    background-color: #ff9800;
+}
+
+.edit-button:hover {
+    background-color: #e68900;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Responsive Design */
+@media (max-width: 100%) {
+    .product-header {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 0.8rem;
+    }
+
+    .product-row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .actions-column {
+        display: none; /* Hide actions on small screens */
+    }
+
+    .product-column {
+        padding: 0.5rem;
+    }
+}
+
+
+/* ///for Soap Form */
+
+  /* Common Styles */
+  .profile-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #009688, #bbe8e3);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  .profile-img,
+  .default-profile-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 3px solid #000;
+  }
+
+  .default-profile-icon i {
+    font-size: 60px;
+    color: #009688;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .profile-age {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .profile-details {
+    margin-top: 20px;
+  }
+
+  .profile-label {
+    font-weight: bold;
+    color: #009688;
+  }
+
+  .profile-details strong {
+    color: #333;
+    font-size: 1.1rem;
+    display: block;
+    padding: 5px 0;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn-edit {
+    background-color: #009688;
+    color: #fff;
+  }
+
+  .btn-edit:hover {
+    background-color: #00796b;
+  }
+
+  .btn-cancel {
+    background-color: #f44336;
+    color: #fff;
+  }
+
+  .btn-cancel:hover {
+    background-color: #d32f2f;
+  }
+  .form-soap{
+    padding-left: 2%;
+    padding-right:2%
+  }
+
+  .go-back-button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-size: 16px; /* Text size */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background change */
+  }
+  
+  .go-back-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+

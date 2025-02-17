@@ -1,0 +1,24 @@
+
+<div class="chat-container">
+  <select id="dropdown" name="options" (change)="selectPatient($event)">
+    <option value="" *ngIf="isuser" style="text-align: center;">------Select Patient------</option>
+    <option value="" *ngIf="!isuser" style="text-align: center;">------Select Provider------</option>
+    <option *ngFor="let patient of ReceiverData" [value]="patient.patientId">{{ patient.firstName + ' ' + patient.lastName }}</option>
+  </select>
+
+  <div class="messages-container">
+      <div *ngFor="let msg of messages" 
+           [ngClass]="{ 
+             'message': true, 
+             'receiver': msg.receiverId !== userid, 
+             'sender': msg.receiverId === receiverId 
+           }">
+        <p class="message-text">{{ msg.message }}</p>
+      </div>
+  </div>
+  <div class="input-container">
+    <textarea [(ngModel)]="message" placeholder="Type your message" onfocus="this.value=''"></textarea>
+    <button (click)="sendMessage(receiverId, message)" (keyup)="sendMessage(receiverId, message)">Send</button>
+  </div>
+</div>
+

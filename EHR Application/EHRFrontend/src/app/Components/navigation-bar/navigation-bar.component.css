@@ -1,0 +1,68 @@
+/* styles.css */
+.custom-navbar {
+  background-color: #004d40;
+  padding: 0.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #ffffff !important;
+  cursor:pointer;
+
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.profile-icon {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-right: 1rem; /* Added space between profile icon and logout button */
+}
+
+.nav-item.dropdown {
+  margin-right: 1rem; /* Added space between dropdown and logout button */
+  cursor:pointer;
+  
+}
+
+.dropdown-item{
+  color: #009688;
+}
+.dropdown-item:hover{
+  color:#004d40;
+}
+
+.logout-button {
+  font-size: 1.2rem;
+  color: #ffffff !important;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Hover effect for nav items */
+.nav-link:hover {
+    color: #7cf4d0!important; /* Change to desired color on hover */
+  }
+  .profile-icon:hover{
+    color:#7cf4d0;
+  }
+  
+  /* Hover effect for logout button */
+  .logout-button:hover {
+    color: #7cf4d0 !important; /* Change to desired color on hover */
+    text-decoration: underline; /* Keep the underline effect */
+    text-decoration-color: #7cf4d0; /* Set color of the underline */
+
+  }
+  

@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container-fluid">
+      <!-- Brand Name -->
+      <a class="navbar-brand">EHR Application</a>
+  
+      <!-- Navbar toggler for responsive view -->
+     
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" (click)='OnHome()'>Home</a>
+          </li>
+        </ul>
+  
+        <ul class="navbar-nav ms-auto">
+          <!-- Profile Icon with Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="profileDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <i class="bi bi-person-circle profile-icon"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+              <li><a class="dropdown-item" (click)='changepassword()'>Change Password</a></li>
+              <li><a class="dropdown-item" (click)='profile()'>Profile</a></li>
+              <li><a class="dropdown-item" (click)='Logout()'>Logout</a></li>
+            </ul>
+          </li>
+  
+          <!-- Logout Link -->
+          <!-- <li class="nav-item">
+            <a class="nav-link logout-link" href="#">Logout</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
