@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* HTML: <div class="loader"></div> */
+
+
+.loader-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.2px);
+    z-index: 99999999999999;
+  }
+ 
+.loader {
+    height: 40px;
+    aspect-ratio: .866;
+    display: grid;
+    background: conic-gradient(from -121deg at right,#0000, #BF1E62 1deg 60deg,#0000 61deg);
+    animation: l12 2s infinite linear;
+    transform-origin: 33% 50%;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    grid-area: 1/1;
+    background: conic-gradient(from -121deg at right,#0000, #FFA588 1deg 60deg,#0000 61deg);
+    transform-origin: inherit;
+    animation: inherit;
+  }
+  .loader:after {
+    background: conic-gradient(from -121deg at right,#0000, #027B7F 1deg 60deg,#0000 61deg);
+    animation-duration: 3s;
+  }
+  @keyframes l12{
+    100% {transform: rotate(1turn)}
+  }

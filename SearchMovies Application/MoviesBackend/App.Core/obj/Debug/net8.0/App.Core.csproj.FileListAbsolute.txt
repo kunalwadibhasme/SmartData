@@ -1,0 +1,34 @@
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\bin\Debug\net8.0\App.Core.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\App.Core.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\obj\Debug\net8.0\ref\App.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\bin\Debug\net8.0\App.Core.runtimeconfig.json
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\App.Core.genruntimeconfig.cache
+C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\App.Core\obj\Debug\net8.0\ref\App.Core.dll

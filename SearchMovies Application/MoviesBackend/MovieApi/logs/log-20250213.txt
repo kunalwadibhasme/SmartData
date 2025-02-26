@@ -1,0 +1,14 @@
+2025-02-13 16:42:36.249 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-13 16:42:36.637 +05:30 [INF] Now listening on: https://localhost:7176
+2025-02-13 16:42:36.641 +05:30 [INF] Now listening on: http://localhost:5171
+2025-02-13 16:42:36.732 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-13 16:42:36.734 +05:30 [INF] Hosting environment: Development
+2025-02-13 16:42:36.736 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-02-13 16:42:41.803 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-02-13 16:42:42.067 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 269.5856ms
+2025-02-13 16:42:42.078 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-13 16:42:42.089 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 10.546ms
+2025-02-13 16:42:42.153 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-02-13 16:42:42.228 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.5916ms
+2025-02-13 16:42:42.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-02-13 16:42:42.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.2552ms

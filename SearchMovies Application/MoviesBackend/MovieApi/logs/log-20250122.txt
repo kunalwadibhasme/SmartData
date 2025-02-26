@@ -1,0 +1,1304 @@
+2025-01-22 10:13:03.533 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 10:13:03.844 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 10:13:03.850 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 10:13:03.991 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 10:13:03.993 +05:30 [INF] Hosting environment: Development
+2025-01-22 10:13:03.995 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 10:13:04.435 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 10:13:04.767 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 337.4591ms
+2025-01-22 10:13:04.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 10:13:04.786 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.4561ms
+2025-01-22 10:13:04.831 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 10:13:04.872 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.7856ms
+2025-01-22 10:13:04.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 10:13:05.035 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.996ms
+2025-01-22 10:13:21.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-22 10:13:21.886 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-22 10:13:21.910 +05:30 [INF] Route matched with {action = "GetMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovie() on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 10:13:21.916 +05:30 [INF] GetMovie function is called for Fetching movie
+2025-01-22 10:13:23.083 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit)
+2025-01-22 10:13:23.153 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 10:13:23.167 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.GetMovie (MovieApi) in 1250.892ms
+2025-01-22 10:13:23.171 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-22 10:13:23.180 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - 200 null application/json; charset=utf-8 1309.1576ms
+2025-01-22 11:07:07.165 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 11:07:07.622 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 11:07:07.625 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 11:07:07.704 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 11:07:07.706 +05:30 [INF] Hosting environment: Development
+2025-01-22 11:07:07.707 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 11:07:08.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 11:07:09.285 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 400.4544ms
+2025-01-22 11:07:09.294 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 11:07:09.304 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 10.4931ms
+2025-01-22 11:07:09.355 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 11:07:09.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.8075ms
+2025-01-22 11:07:09.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 11:07:09.575 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.6513ms
+2025-01-22 11:07:50.962 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 59
+2025-01-22 11:07:50.985 +05:30 [INF] CORS policy execution failed.
+2025-01-22 11:07:50.987 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 11:07:50.992 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 11:07:51.028 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 11:07:51.071 +05:30 [INF] Login function is called
+2025-01-22 11:07:52.586 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 11:07:53.034 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 11:07:53.096 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 11:07:53.108 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 2073.4167ms
+2025-01-22 11:07:53.111 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 11:07:53.119 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 2157.3563ms
+2025-01-22 11:08:02.675 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 59
+2025-01-22 11:08:02.681 +05:30 [INF] CORS policy execution failed.
+2025-01-22 11:08:02.683 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 11:08:02.684 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 11:08:02.687 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 11:08:02.690 +05:30 [INF] Login function is called
+2025-01-22 11:08:02.741 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 11:08:03.023 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 11:08:03.028 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 338.8879ms
+2025-01-22 11:08:03.031 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 11:08:03.033 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 357.6083ms
+2025-01-22 11:10:44.848 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 45
+2025-01-22 11:10:44.861 +05:30 [INF] CORS policy execution failed.
+2025-01-22 11:10:44.864 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 11:10:44.866 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 11:10:44.867 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 11:10:44.872 +05:30 [INF] Login function is called
+2025-01-22 11:10:44.895 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 11:10:44.898 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 11:10:44.899 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 28.1577ms
+2025-01-22 11:10:44.901 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 11:10:44.909 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 60.3273ms
+2025-01-22 11:26:49.387 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 11:26:49.763 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 11:26:49.769 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 11:26:49.848 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 11:26:49.850 +05:30 [INF] Hosting environment: Development
+2025-01-22 11:26:49.852 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 11:26:50.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 11:26:51.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 362.259ms
+2025-01-22 11:26:51.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 11:26:51.235 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 10.7328ms
+2025-01-22 11:26:51.289 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 11:26:51.331 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.4706ms
+2025-01-22 11:26:51.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 11:26:51.525 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.9339ms
+2025-01-22 11:27:53.172 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/register - application/json 113
+2025-01-22 11:27:53.194 +05:30 [INF] CORS policy execution failed.
+2025-01-22 11:27:53.196 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 11:27:53.202 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Register (MovieApi)'
+2025-01-22 11:27:53.231 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(App.Core.Model.RegisterationDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 11:27:53.270 +05:30 [INF] Register function is called for adding new User
+2025-01-22 11:28:00.923 +05:30 [INF] Executed DbCommand (50ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-01-22 11:28:01.438 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([Email], [FirstName], [LastName], [Password], [UserTypeId])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-01-22 11:28:01.477 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Users, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 11:28:01.492 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Register (MovieApi) in 8254.2881ms
+2025-01-22 11:28:01.494 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Register (MovieApi)'
+2025-01-22 11:28:01.502 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/register - 200 null application/json; charset=utf-8 8331.2771ms
+2025-01-22 11:44:01.189 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 11:44:01.644 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 11:44:01.648 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 11:44:01.740 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 11:44:01.743 +05:30 [INF] Hosting environment: Development
+2025-01-22 11:44:01.743 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 11:44:02.619 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 11:44:03.008 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 395.4575ms
+2025-01-22 11:44:03.029 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 11:44:03.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 10.6147ms
+2025-01-22 11:44:03.082 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 11:44:03.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.3113ms
+2025-01-22 11:44:03.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 11:44:03.319 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.6527ms
+2025-01-22 11:44:20.677 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/register - application/json 109
+2025-01-22 11:44:20.692 +05:30 [INF] CORS policy execution failed.
+2025-01-22 11:44:20.695 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 11:44:20.700 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Register (MovieApi)'
+2025-01-22 11:44:20.732 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(App.Core.Model.RegisterationDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 11:44:20.862 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 11:44:20.887 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Register (MovieApi) in 148.0149ms
+2025-01-22 11:44:20.890 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Register (MovieApi)'
+2025-01-22 11:44:20.892 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/register - 400 null application/problem+json; charset=utf-8 215.4678ms
+2025-01-22 12:22:56.294 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 59
+2025-01-22 12:22:56.303 +05:30 [INF] CORS policy execution failed.
+2025-01-22 12:22:56.305 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 12:22:56.306 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:22:56.313 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:22:56.327 +05:30 [INF] Login function is called
+2025-01-22 12:22:57.934 +05:30 [INF] Executed DbCommand (77ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 12:22:58.375 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 12:22:58.422 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:22:58.429 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 2111.5777ms
+2025-01-22 12:22:58.432 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:22:58.439 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 2148.1ms
+2025-01-22 12:25:23.349 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 12:25:23.722 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 12:25:23.725 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 12:25:23.800 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 12:25:23.802 +05:30 [INF] Hosting environment: Development
+2025-01-22 12:25:23.803 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 12:25:25.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 12:25:25.464 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 429.5093ms
+2025-01-22 12:25:25.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 12:25:25.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 10.0468ms
+2025-01-22 12:25:25.546 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 12:25:25.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.5808ms
+2025-01-22 12:25:25.675 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 12:25:25.833 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.6684ms
+2025-01-22 12:25:57.059 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 59
+2025-01-22 12:25:57.078 +05:30 [INF] CORS policy execution failed.
+2025-01-22 12:25:57.080 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 12:25:57.086 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:25:57.113 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:25:57.187 +05:30 [INF] Login function is called
+2025-01-22 12:25:58.474 +05:30 [INF] Executed DbCommand (59ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 12:25:58.905 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 12:25:58.952 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:25:58.965 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 1845.3904ms
+2025-01-22 12:25:58.968 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:25:58.977 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 1918.9202ms
+2025-01-22 12:31:25.258 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 12:31:25.268 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:31:25.272 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 14.6698ms
+2025-01-22 12:31:25.280 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 12:31:25.283 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:31:25.285 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:31:25.287 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:31:25.301 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 12:31:25.341 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 50.7655ms
+2025-01-22 12:31:25.344 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:31:25.346 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 400 null application/problem+json; charset=utf-8 66.439ms
+2025-01-22 12:34:39.266 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 12:34:39.281 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:34:39.283 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 17.3325ms
+2025-01-22 12:34:39.296 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 54
+2025-01-22 12:34:39.299 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:34:39.300 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:34:39.301 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:34:39.308 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 12:34:39.311 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 5.6927ms
+2025-01-22 12:34:39.313 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:34:39.314 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 400 null application/problem+json; charset=utf-8 18.3663ms
+2025-01-22 12:37:04.600 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 12:37:04.611 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:37:04.612 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 11.976ms
+2025-01-22 12:37:04.621 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 12:37:04.624 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:37:04.625 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:37:04.627 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:37:04.631 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 12:37:04.634 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 4.1027ms
+2025-01-22 12:37:04.635 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:37:04.637 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 400 null application/problem+json; charset=utf-8 16.8559ms
+2025-01-22 12:37:57.293 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 12:37:57.307 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:37:57.309 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 16.2292ms
+2025-01-22 12:37:57.320 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 52
+2025-01-22 12:37:57.323 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:37:57.324 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:37:57.325 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:37:57.328 +05:30 [INF] Login function is called
+2025-01-22 12:37:57.400 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 12:37:57.697 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 12:37:57.703 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:37:57.705 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 378.1244ms
+2025-01-22 12:37:57.707 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:37:57.709 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 389.0154ms
+2025-01-22 12:39:23.591 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 12:39:23.604 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:39:23.606 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 17.4788ms
+2025-01-22 12:39:23.643 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 52
+2025-01-22 12:39:23.648 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:39:23.649 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:39:23.652 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:39:23.657 +05:30 [INF] Login function is called
+2025-01-22 12:39:23.675 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 12:39:23.820 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 12:39:23.825 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:39:23.828 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 171.3105ms
+2025-01-22 12:39:23.830 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 12:39:23.832 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 188.7657ms
+2025-01-22 12:51:33.458 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 12:51:33.468 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:51:33.474 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:51:33.477 +05:30 [INF] Usertype function is called
+2025-01-22 12:51:33.512 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 12:51:33.519 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:51:33.523 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 46.2573ms
+2025-01-22 12:51:33.525 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:51:33.527 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 68.9706ms
+2025-01-22 12:55:39.781 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 12:55:39.786 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:55:39.787 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:55:39.789 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:55:39.792 +05:30 [INF] Usertype function is called
+2025-01-22 12:55:39.802 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 12:55:39.807 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:55:39.810 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 17.9885ms
+2025-01-22 12:55:39.812 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:55:39.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 35.0011ms
+2025-01-22 12:56:17.647 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 12:56:17.660 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:56:17.661 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:56:17.663 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:56:17.666 +05:30 [INF] Usertype function is called
+2025-01-22 12:56:17.671 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 12:56:17.674 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:56:17.676 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 10.0079ms
+2025-01-22 12:56:17.677 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:56:17.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 33.8909ms
+2025-01-22 12:58:16.943 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 12:58:16.951 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:58:16.953 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:58:16.955 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:58:16.958 +05:30 [INF] Usertype function is called
+2025-01-22 12:58:16.969 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 12:58:16.974 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:58:16.977 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 19.1744ms
+2025-01-22 12:58:16.980 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:58:16.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 40.8325ms
+2025-01-22 12:58:20.907 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 12:58:20.911 +05:30 [INF] CORS policy execution successful.
+2025-01-22 12:58:20.913 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:58:20.916 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 12:58:20.919 +05:30 [INF] Usertype function is called
+2025-01-22 12:58:20.923 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 12:58:20.927 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 12:58:20.931 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 12.6807ms
+2025-01-22 12:58:20.933 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 12:58:20.935 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 28.7641ms
+2025-01-22 13:05:40.146 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:05:40.160 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:05:40.162 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:05:40.163 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:05:40.167 +05:30 [INF] Usertype function is called
+2025-01-22 13:05:40.218 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:05:40.227 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:05:40.232 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 65.4204ms
+2025-01-22 13:05:40.235 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:05:40.237 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 91.1956ms
+2025-01-22 13:38:41.600 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 13:38:41.613 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:38:41.615 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 16.1276ms
+2025-01-22 13:38:41.621 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 112
+2025-01-22 13:38:41.628 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:38:41.631 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:38:41.634 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:38:41.640 +05:30 [INF] Login function is called
+2025-01-22 13:38:41.673 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 13:38:41.679 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:38:41.684 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 45.7598ms
+2025-01-22 13:38:41.687 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:38:41.688 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 67.5501ms
+2025-01-22 13:39:22.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:39:23.002 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:39:23.004 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:39:23.006 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:39:23.015 +05:30 [INF] Usertype function is called
+2025-01-22 13:39:23.050 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:39:23.055 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:39:23.134 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 119.2176ms
+2025-01-22 13:39:23.255 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:39:23.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 277.6813ms
+2025-01-22 13:41:02.614 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:41:02.619 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:41:02.620 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:41:02.622 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:41:02.625 +05:30 [INF] Usertype function is called
+2025-01-22 13:41:02.642 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:41:02.646 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:41:02.649 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 23.6121ms
+2025-01-22 13:41:02.651 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:41:02.653 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 39.7548ms
+2025-01-22 13:42:40.899 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:42:40.904 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:42:40.905 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:42:40.907 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:42:40.919 +05:30 [INF] Usertype function is called
+2025-01-22 13:42:40.949 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:42:40.956 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:42:40.959 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 40.9594ms
+2025-01-22 13:42:40.961 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:42:40.963 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 64.0649ms
+2025-01-22 13:42:50.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:42:50.865 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:42:50.867 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:42:50.869 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:42:50.872 +05:30 [INF] Usertype function is called
+2025-01-22 13:42:50.878 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:42:50.883 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:42:50.886 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 13.9693ms
+2025-01-22 13:42:50.888 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:42:50.890 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 30.6651ms
+2025-01-22 13:43:02.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:43:02.878 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:43:02.879 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:43:02.881 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:43:02.884 +05:30 [INF] Usertype function is called
+2025-01-22 13:43:02.888 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:43:02.896 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:43:02.899 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 14.8501ms
+2025-01-22 13:43:02.901 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:43:02.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 30.376ms
+2025-01-22 13:46:02.725 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:46:02.734 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:46:02.736 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:46:02.737 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:46:02.740 +05:30 [INF] Usertype function is called
+2025-01-22 13:46:02.760 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:46:02.769 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:46:02.772 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 32.0717ms
+2025-01-22 13:46:02.776 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:46:02.778 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 53.1375ms
+2025-01-22 13:46:48.877 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:46:48.881 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:46:48.882 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:46:48.883 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:46:48.886 +05:30 [INF] Usertype function is called
+2025-01-22 13:46:48.895 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:46:48.900 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:46:48.903 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 16.2359ms
+2025-01-22 13:46:48.904 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:46:48.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 29.5449ms
+2025-01-22 13:46:55.888 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:46:55.893 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:46:55.894 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:46:55.895 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:46:55.898 +05:30 [INF] Usertype function is called
+2025-01-22 13:46:55.915 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:46:55.919 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:46:55.922 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 23.4326ms
+2025-01-22 13:46:55.924 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:46:55.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 38.0214ms
+2025-01-22 13:47:01.692 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:47:01.696 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:47:01.697 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:01.698 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:47:01.702 +05:30 [INF] Usertype function is called
+2025-01-22 13:47:01.718 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:47:01.723 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:47:01.728 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 27.002ms
+2025-01-22 13:47:01.732 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:01.734 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 42.5503ms
+2025-01-22 13:47:04.604 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:47:04.608 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:47:04.609 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:04.611 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:47:04.616 +05:30 [INF] Usertype function is called
+2025-01-22 13:47:04.619 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:47:04.623 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:47:04.625 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 9.5763ms
+2025-01-22 13:47:04.627 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:04.628 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 24.5872ms
+2025-01-22 13:47:11.646 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:47:11.650 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:47:11.651 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:11.653 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:47:11.656 +05:30 [INF] Usertype function is called
+2025-01-22 13:47:11.659 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:47:11.668 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:47:11.673 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 17.0467ms
+2025-01-22 13:47:11.675 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:11.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 34.1492ms
+2025-01-22 13:47:54.747 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:47:54.753 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:47:54.755 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:54.760 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:47:54.763 +05:30 [INF] Usertype function is called
+2025-01-22 13:47:54.768 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:47:54.773 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:47:54.778 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 14.599ms
+2025-01-22 13:47:54.780 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:54.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 35.1289ms
+2025-01-22 13:47:57.805 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:47:57.811 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:47:57.813 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:57.816 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:47:57.819 +05:30 [INF] Usertype function is called
+2025-01-22 13:47:57.829 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:47:57.837 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:47:57.840 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 20.5259ms
+2025-01-22 13:47:57.842 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:47:57.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 38.0273ms
+2025-01-22 13:49:14.506 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/register - null null
+2025-01-22 13:49:14.518 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:49:14.520 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/register - 204 null null 14.0652ms
+2025-01-22 13:49:14.531 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/register - application/json 113
+2025-01-22 13:49:14.535 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:49:14.536 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Register (MovieApi)'
+2025-01-22 13:49:14.544 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(App.Core.Model.RegisterationDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:49:14.557 +05:30 [INF] Register function is called for adding new User
+2025-01-22 13:49:14.660 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-01-22 13:49:14.927 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([Email], [FirstName], [LastName], [Password], [UserTypeId])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-01-22 13:49:14.956 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Users, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 13:49:14.961 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Register (MovieApi) in 413.9398ms
+2025-01-22 13:49:14.964 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Register (MovieApi)'
+2025-01-22 13:49:14.965 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/register - 200 null application/json; charset=utf-8 435.0524ms
+2025-01-22 13:50:40.595 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:50:40.608 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:50:40.610 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:50:40.611 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:50:40.616 +05:30 [INF] Usertype function is called
+2025-01-22 13:50:40.631 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:50:40.635 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:50:40.638 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 22.2833ms
+2025-01-22 13:50:40.647 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:50:40.649 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 53.5765ms
+2025-01-22 13:50:43.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/User/Usertype - null null
+2025-01-22 13:50:43.951 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:50:43.953 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:50:43.956 +05:30 [INF] Route matched with {action = "Usertype", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Usertype() on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:50:43.961 +05:30 [INF] Usertype function is called
+2025-01-22 13:50:43.966 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+2025-01-22 13:50:43.972 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:50:43.975 +05:30 [INF] Executed action MovieApi.Controllers.UserController.Usertype (MovieApi) in 14.1799ms
+2025-01-22 13:50:43.977 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.Usertype (MovieApi)'
+2025-01-22 13:50:43.980 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/User/Usertype - 200 null application/json; charset=utf-8 34.217ms
+2025-01-22 13:51:41.593 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 13:51:41.605 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:51:41.607 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 13.626ms
+2025-01-22 13:51:41.615 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 13:51:41.619 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:51:41.621 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:51:41.623 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:51:41.627 +05:30 [INF] Login function is called
+2025-01-22 13:51:41.638 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 13:51:41.789 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 13:51:41.794 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:51:41.796 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 170.4513ms
+2025-01-22 13:51:41.798 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:51:41.801 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 186.6858ms
+2025-01-22 13:52:35.935 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 13:52:35.943 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:52:35.945 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 10.3949ms
+2025-01-22 13:52:35.954 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 13:52:35.958 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:52:35.959 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:52:35.962 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:52:35.966 +05:30 [INF] Login function is called
+2025-01-22 13:52:35.978 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 13:52:36.127 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 13:52:36.132 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:52:36.134 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 168.9395ms
+2025-01-22 13:52:36.140 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:52:36.142 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 188.6716ms
+2025-01-22 13:52:37.564 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 13:52:37.570 +05:30 [INF] CORS policy execution successful.
+2025-01-22 13:52:37.571 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:52:37.572 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 13:52:37.576 +05:30 [INF] Login function is called
+2025-01-22 13:52:37.580 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 13:52:37.731 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 13:52:37.736 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 13:52:37.739 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 163.2485ms
+2025-01-22 13:52:37.741 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 13:52:37.742 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 178.2815ms
+2025-01-22 14:14:46.172 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 14:14:46.186 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:14:46.187 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 14.8929ms
+2025-01-22 14:14:46.194 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 14:14:46.197 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:14:46.198 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:14:46.200 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 14:14:46.202 +05:30 [INF] Login function is called
+2025-01-22 14:14:46.235 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 14:14:46.385 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 14:14:46.390 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 14:14:46.393 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 190.9018ms
+2025-01-22 14:14:46.395 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:14:46.397 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 202.8393ms
+2025-01-22 14:15:37.668 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 14:15:37.678 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:15:37.679 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 10.6044ms
+2025-01-22 14:15:37.685 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 14:15:37.689 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:15:37.690 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:15:37.691 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 14:15:37.695 +05:30 [INF] Login function is called
+2025-01-22 14:15:37.775 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 14:15:37.982 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 14:15:37.989 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 14:15:37.994 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 299.4969ms
+2025-01-22 14:15:38.003 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:15:38.005 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 320.4365ms
+2025-01-22 14:17:52.543 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 14:17:52.552 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:17:52.553 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 10.6453ms
+2025-01-22 14:17:52.560 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 14:17:52.565 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:17:52.566 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:17:52.567 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 14:17:52.570 +05:30 [INF] Login function is called
+2025-01-22 14:17:52.582 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 14:17:52.733 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 14:17:52.738 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 14:17:52.740 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 170.71ms
+2025-01-22 14:17:52.749 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:17:52.751 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 191.3823ms
+2025-01-22 14:21:01.519 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-22 14:21:01.533 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:21:01.534 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 14.8292ms
+2025-01-22 14:21:01.542 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-22 14:21:01.546 +05:30 [INF] CORS policy execution successful.
+2025-01-22 14:21:01.548 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:21:01.550 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-22 14:21:01.553 +05:30 [INF] Login function is called
+2025-01-22 14:21:01.582 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-22 14:21:01.732 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-22 14:21:01.736 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 14:21:01.738 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 186.2787ms
+2025-01-22 14:21:01.747 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-22 14:21:01.749 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 207.2983ms
+2025-01-22 15:08:55.049 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Movie/AddMovie?MovieName=DDLJ&Year=1999 - multipart/form-data; boundary=----WebKitFormBoundarytrspPo7t1evXM1z9 13456
+2025-01-22 15:08:55.059 +05:30 [INF] CORS policy execution failed.
+2025-01-22 15:08:55.060 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 15:08:55.061 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 15:08:55.079 +05:30 [INF] Route matched with {action = "AddMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMovie(App.Core.Model.AddMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 15:08:55.123 +05:30 [INF] AddMovie function is called for adding new Movie
+2025-01-22 15:08:55.166 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@__movie_MovieName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[MovieName] = @__movie_MovieName_0
+2025-01-22 15:08:55.198 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [movies] ([Deleted], [MovieName], [Posterimage], [Year])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-22 15:08:55.204 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 15:08:55.208 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.AddMovie (MovieApi) in 126.0534ms
+2025-01-22 15:08:55.211 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 15:08:55.213 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Movie/AddMovie?MovieName=DDLJ&Year=1999 - 200 null application/json; charset=utf-8 163.6341ms
+2025-01-22 16:12:11.918 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/AddMovie - multipart/form-data; boundary=----WebKitFormBoundaryPO8AKGgdn2dWQB8A 13653
+2025-01-22 16:12:11.926 +05:30 [INF] CORS policy execution successful.
+2025-01-22 16:12:11.927 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/AddMovie - 404 0 null 9.9175ms
+2025-01-22 16:12:11.933 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7176/api/User/AddMovie, Response status code: 404
+2025-01-22 16:19:11.370 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 16:19:11.722 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 16:19:11.725 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 16:19:11.798 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 16:19:11.801 +05:30 [INF] Hosting environment: Development
+2025-01-22 16:19:11.803 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 16:19:12.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 16:19:13.075 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 349.9246ms
+2025-01-22 16:19:13.084 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 16:19:13.093 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 8.5605ms
+2025-01-22 16:19:13.140 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 16:19:13.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.5481ms
+2025-01-22 16:19:13.242 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 16:19:13.347 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.3511ms
+2025-01-22 16:19:24.500 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/AddMovie - multipart/form-data; boundary=----WebKitFormBoundaryr2pMbFRkgcAo2tFy 68072
+2025-01-22 16:19:24.512 +05:30 [INF] CORS policy execution successful.
+2025-01-22 16:19:24.518 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/AddMovie - 404 0 null 17.9368ms
+2025-01-22 16:19:24.523 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7176/api/User/AddMovie, Response status code: 404
+2025-01-22 16:20:16.163 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Movie/AddMovie - multipart/form-data; boundary=----WebKitFormBoundaryy1Za06sQarUxzSfv 50262
+2025-01-22 16:20:16.176 +05:30 [INF] CORS policy execution successful.
+2025-01-22 16:20:16.180 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 16:20:16.208 +05:30 [INF] Route matched with {action = "AddMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMovie(App.Core.Model.AddMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 16:20:16.300 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 16:20:16.322 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.AddMovie (MovieApi) in 104.141ms
+2025-01-22 16:20:16.324 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 16:20:16.327 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Movie/AddMovie - 400 null application/problem+json; charset=utf-8 164.1732ms
+2025-01-22 16:31:17.359 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Movie/AddMovie - multipart/form-data; boundary=----WebKitFormBoundaryA88GBrN0BPioHFlD 329
+2025-01-22 16:31:17.373 +05:30 [INF] CORS policy execution failed.
+2025-01-22 16:31:17.375 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 16:31:17.376 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 16:31:17.377 +05:30 [INF] Route matched with {action = "AddMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMovie(App.Core.Model.AddMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 16:31:17.387 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 16:31:17.390 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.AddMovie (MovieApi) in 10.578ms
+2025-01-22 16:31:17.392 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 16:31:17.394 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Movie/AddMovie - 400 null application/problem+json; charset=utf-8 35.6099ms
+2025-01-22 16:32:55.855 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Movie/AddMovie - multipart/form-data; boundary=----WebKitFormBoundaryzBseeBSPCdYMnBUW 51130
+2025-01-22 16:32:55.868 +05:30 [INF] CORS policy execution successful.
+2025-01-22 16:32:55.870 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 16:32:55.872 +05:30 [INF] Route matched with {action = "AddMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddMovie(App.Core.Model.AddMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 16:32:55.881 +05:30 [INF] AddMovie function is called for adding new Movie
+2025-01-22 16:32:57.246 +05:30 [INF] Executed DbCommand (68ms) [Parameters=[@__movie_MovieName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[MovieName] = @__movie_MovieName_0
+2025-01-22 16:32:57.422 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [movies] ([Deleted], [MovieName], [Posterimage], [Year])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-22 16:32:57.452 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 16:32:57.460 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.AddMovie (MovieApi) in 1584.9547ms
+2025-01-22 16:32:57.464 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.AddMovie (MovieApi)'
+2025-01-22 16:32:57.474 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Movie/AddMovie - 200 null application/json; charset=utf-8 1619.6353ms
+2025-01-22 16:52:04.016 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 16:52:04.319 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 16:52:04.321 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 16:52:04.400 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 16:52:04.402 +05:30 [INF] Hosting environment: Development
+2025-01-22 16:52:04.404 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 16:52:04.928 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 16:52:05.243 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 320.7447ms
+2025-01-22 16:52:05.252 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 16:52:05.262 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.5017ms
+2025-01-22 16:52:05.308 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 16:52:05.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.0849ms
+2025-01-22 16:52:05.407 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 16:52:05.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.1764ms
+2025-01-22 16:53:29.234 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=T&apikey=your_expected_api_key - null null
+2025-01-22 16:53:29.251 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 16:53:29.280 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 16:53:30.595 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 16:53:30.671 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 16:53:30.687 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 1399.5716ms
+2025-01-22 16:53:30.689 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 16:53:30.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=T&apikey=your_expected_api_key - 200 null application/json; charset=utf-8 1463.065ms
+2025-01-22 16:54:45.628 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=s&apikey=your_expected_api_key - null null
+2025-01-22 16:54:45.640 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 16:54:45.642 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 16:54:45.699 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 16:54:45.703 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 16:54:45.705 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 59.6655ms
+2025-01-22 16:54:45.711 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 16:54:45.713 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=s&apikey=your_expected_api_key - 200 null application/json; charset=utf-8 84.594ms
+2025-01-22 17:29:59.956 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 17:30:00.302 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 17:30:00.304 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 17:30:00.378 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 17:30:00.380 +05:30 [INF] Hosting environment: Development
+2025-01-22 17:30:00.380 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 17:30:01.737 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 17:30:02.069 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 341.439ms
+2025-01-22 17:30:02.088 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 17:30:02.098 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.9195ms
+2025-01-22 17:30:02.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 17:30:02.195 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.7119ms
+2025-01-22 17:30:02.254 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 17:30:02.375 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.5767ms
+2025-01-22 17:30:48.174 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - multipart/form-data; boundary=----WebKitFormBoundaryBogAMWSggfxKgPSi 344
+2025-01-22 17:30:48.190 +05:30 [INF] CORS policy execution failed.
+2025-01-22 17:30:48.192 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 17:30:48.196 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:30:48.221 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(Int32, App.Core.Model.UpdateMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:30:48.284 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 17:30:48.318 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.UpdateMovie (MovieApi) in 87.9091ms
+2025-01-22 17:30:48.320 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:30:48.323 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - 400 null application/problem+json; charset=utf-8 150.7799ms
+2025-01-22 17:31:41.177 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 17:31:41.482 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 17:31:41.484 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 17:31:41.552 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 17:31:41.554 +05:30 [INF] Hosting environment: Development
+2025-01-22 17:31:41.556 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 17:31:42.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 17:31:42.575 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 340.4665ms
+2025-01-22 17:31:42.584 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 17:31:42.593 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.2943ms
+2025-01-22 17:31:42.638 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 17:31:42.685 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.2748ms
+2025-01-22 17:31:42.743 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 17:31:42.860 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.467ms
+2025-01-22 17:32:12.596 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - multipart/form-data; boundary=----WebKitFormBoundary03lEayqaD97LXibw 344
+2025-01-22 17:32:12.617 +05:30 [INF] CORS policy execution failed.
+2025-01-22 17:32:12.618 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 17:32:12.623 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:32:12.649 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(Int32, App.Core.Model.UpdateMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:32:12.704 +05:30 [INF] UpdateMovie function is called for updating Movie
+2025-01-22 17:32:13.963 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Id] = @__command_Id_0
+2025-01-22 17:32:13.993 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 17:32:14.005 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.UpdateMovie (MovieApi) in 1350.006ms
+2025-01-22 17:32:14.007 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:32:14.015 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - 200 null application/json; charset=utf-8 1418.5332ms
+2025-01-22 17:32:41.501 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - multipart/form-data; boundary=----WebKitFormBoundarypDeedOW3osny0rFi 344
+2025-01-22 17:32:41.507 +05:30 [INF] CORS policy execution failed.
+2025-01-22 17:32:41.508 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 17:32:41.511 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:32:41.513 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(Int32, App.Core.Model.UpdateMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:32:41.517 +05:30 [INF] UpdateMovie function is called for updating Movie
+2025-01-22 17:34:51.143 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 17:34:51.458 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 17:34:51.460 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 17:34:51.534 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 17:34:51.538 +05:30 [INF] Hosting environment: Development
+2025-01-22 17:34:51.539 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 17:34:52.048 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 17:34:52.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 327.756ms
+2025-01-22 17:34:52.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 17:34:52.401 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 14.9322ms
+2025-01-22 17:34:52.452 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 17:34:52.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.9589ms
+2025-01-22 17:34:52.580 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 17:34:52.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.9756ms
+2025-01-22 17:35:10.897 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - multipart/form-data; boundary=----WebKitFormBoundaryFn5165eVASXeM8Qy 344
+2025-01-22 17:35:10.909 +05:30 [INF] CORS policy execution failed.
+2025-01-22 17:35:10.911 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 17:35:10.915 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:35:10.942 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(Int32, App.Core.Model.UpdateMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:35:14.569 +05:30 [INF] UpdateMovie function is called for updating Movie
+2025-01-22 17:35:54.223 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Id] = @__command_Id_0
+2025-01-22 17:36:44.879 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 17:36:44.893 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.UpdateMovie (MovieApi) in 93943.4042ms
+2025-01-22 17:36:44.897 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:36:44.904 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - 200 null application/json; charset=utf-8 94007.6323ms
+2025-01-22 17:37:26.393 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 17:37:26.704 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 17:37:26.706 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 17:37:26.809 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 17:37:26.811 +05:30 [INF] Hosting environment: Development
+2025-01-22 17:37:26.813 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 17:37:27.229 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 17:37:27.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 332.0786ms
+2025-01-22 17:37:27.562 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 17:37:27.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.775ms
+2025-01-22 17:37:27.620 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 17:37:27.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.4585ms
+2025-01-22 17:37:27.719 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 17:37:27.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.5357ms
+2025-01-22 17:37:46.339 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - multipart/form-data; boundary=----WebKitFormBoundaryyDec9hLA8Ya5reZ0 344
+2025-01-22 17:37:46.353 +05:30 [INF] CORS policy execution failed.
+2025-01-22 17:37:46.355 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 17:37:46.359 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:37:46.386 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(Int32, App.Core.Model.UpdateMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:38:01.819 +05:30 [INF] UpdateMovie function is called for updating Movie
+2025-01-22 17:38:07.344 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Id] = @__command_Id_0
+2025-01-22 17:38:20.311 +05:30 [INF] Executed DbCommand (51ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [movies] ([Deleted], [MovieName], [Posterimage], [Year])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-22 17:38:20.341 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Posterimage', table 'MoviesProject.dbo.movies'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:36ac3ba7-ee12-4859-b646-5fd9ff1f9c83
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Posterimage', table 'MoviesProject.dbo.movies'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:36ac3ba7-ee12-4859-b646-5fd9ff1f9c83
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-22 17:38:21.010 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.UpdateMovie (MovieApi) in 34616.9554ms
+2025-01-22 17:38:21.013 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:38:21.016 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Posterimage', table 'MoviesProject.dbo.movies'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:36ac3ba7-ee12-4859-b646-5fd9ff1f9c83
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at App.Core.App.Movies.Command.UpdateMovieCommandhandler.Handle(UpdateMovieCommand command, CancellationToken cancellationToken) in C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\App.Core\App\Movies\Command\UpdateMovieCommand.cs:line 61
+   at MovieApi.Controllers.MovieController.UpdateMovie(Int32 Id, UpdateMovieDto update) in C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi\Controllers\MovieController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-22 17:38:21.307 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - 500 null text/plain; charset=utf-8 34968.4494ms
+2025-01-22 17:39:45.108 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - multipart/form-data; boundary=----WebKitFormBoundaryTe730jq1Jm4DpQt0 344
+2025-01-22 17:39:45.119 +05:30 [INF] CORS policy execution failed.
+2025-01-22 17:39:45.120 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 17:39:45.121 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:39:45.123 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(Int32, App.Core.Model.UpdateMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:39:48.032 +05:30 [INF] UpdateMovie function is called for updating Movie
+2025-01-22 17:39:54.412 +05:30 [INF] Executed DbCommand (212ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Id] = @__command_Id_0
+2025-01-22 17:43:57.960 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [movies] ([Deleted], [MovieName], [Posterimage], [Year])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-22 17:43:57.968 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'Infrastructure.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Posterimage', table 'MoviesProject.dbo.movies'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:36ac3ba7-ee12-4859-b646-5fd9ff1f9c83
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Posterimage', table 'MoviesProject.dbo.movies'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:36ac3ba7-ee12-4859-b646-5fd9ff1f9c83
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-01-22 17:43:58.251 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.UpdateMovie (MovieApi) in 253125.0938ms
+2025-01-22 17:43:58.253 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:43:58.255 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Posterimage', table 'MoviesProject.dbo.movies'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:36ac3ba7-ee12-4859-b646-5fd9ff1f9c83
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at App.Core.App.Movies.Command.UpdateMovieCommandhandler.Handle(UpdateMovieCommand command, CancellationToken cancellationToken)
+   at MovieApi.Controllers.MovieController.UpdateMovie(Int32 Id, UpdateMovieDto update) in C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi\Controllers\MovieController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-22 17:43:58.281 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - 500 null text/plain; charset=utf-8 253173.3685ms
+2025-01-22 17:43:58.815 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 17:43:58.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 25.0883ms
+2025-01-22 17:43:58.872 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 17:43:58.878 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.8298ms
+2025-01-22 17:43:58.927 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 17:43:58.963 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.5242ms
+2025-01-22 17:43:59.102 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 17:43:59.125 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.9753ms
+2025-01-22 17:44:16.317 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-22 17:44:16.633 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-22 17:44:16.635 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-22 17:44:16.705 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-22 17:44:16.708 +05:30 [INF] Hosting environment: Development
+2025-01-22 17:44:16.708 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend\MovieApi
+2025-01-22 17:44:17.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-22 17:44:17.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 315.7935ms
+2025-01-22 17:44:17.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-22 17:44:17.869 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.0797ms
+2025-01-22 17:44:17.912 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-22 17:44:17.953 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.0552ms
+2025-01-22 17:44:18.006 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-22 17:44:18.110 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 103.8824ms
+2025-01-22 17:44:37.231 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - multipart/form-data; boundary=----WebKitFormBoundaryst5sBEuZiwdujzmM 344
+2025-01-22 17:44:37.243 +05:30 [INF] CORS policy execution failed.
+2025-01-22 17:44:37.245 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-22 17:44:37.249 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:44:37.274 +05:30 [INF] Route matched with {action = "UpdateMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateMovie(Int32, App.Core.Model.UpdateMovieDto) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:44:41.522 +05:30 [INF] UpdateMovie function is called for updating Movie
+2025-01-22 17:44:46.408 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Id] = @__command_Id_0
+2025-01-22 17:45:39.338 +05:30 [INF] Executed DbCommand (50ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [movies] ([Deleted], [MovieName], [Posterimage], [Year])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-01-22 17:45:48.939 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-22 17:45:48.952 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.UpdateMovie (MovieApi) in 71669.5705ms
+2025-01-22 17:45:48.955 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.UpdateMovie (MovieApi)'
+2025-01-22 17:45:48.963 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7176/api/Movie/UpdateMovie?Id=2 - 200 null application/json; charset=utf-8 71732.7664ms
+2025-01-22 17:48:01.766 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=s&apikey=get_all_movie_api_key - null null
+2025-01-22 17:48:01.778 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 17:48:01.783 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 17:48:01.879 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 17:48:01.884 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 17:48:01.887 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 101.3865ms
+2025-01-22 17:48:01.895 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 17:48:01.897 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=s&apikey=get_all_movie_api_key - 200 null application/json; charset=utf-8 130.9326ms
+2025-01-22 18:27:48.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - null null
+2025-01-22 18:27:48.517 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:27:48.521 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:27:48.525 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:27:48.535 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 18:27:48.563 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 34.7508ms
+2025-01-22 18:27:48.566 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:27:48.568 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - 400 null application/problem+json; charset=utf-8 58.4294ms
+2025-01-22 18:30:48.366 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - null null
+2025-01-22 18:30:48.377 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:30:48.378 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:30:48.379 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:30:48.382 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 18:30:48.384 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 2.6902ms
+2025-01-22 18:30:48.386 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:30:48.387 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - 400 null application/problem+json; charset=utf-8 21.3134ms
+2025-01-22 18:31:23.214 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=s&apikey=get_all_movie_api_key - null null
+2025-01-22 18:31:23.226 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:31:23.228 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:31:23.232 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:31:23.274 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 18:31:23.278 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 18:31:23.280 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 45.4205ms
+2025-01-22 18:31:23.281 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:31:23.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=s&apikey=get_all_movie_api_key - 200 null application/json; charset=utf-8 69.4005ms
+2025-01-22 18:32:41.044 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - null null
+2025-01-22 18:32:41.052 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:32:41.053 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:32:41.055 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:33:14.173 +05:30 [INF] Executed DbCommand (688ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 18:33:26.027 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 18:33:30.993 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 49936.015ms
+2025-01-22 18:33:30.996 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:33:30.998 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - 200 null application/json; charset=utf-8 49954.1196ms
+2025-01-22 18:35:07.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - null null
+2025-01-22 18:35:07.323 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:35:07.324 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:07.326 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:35:07.329 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 18:35:07.331 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 2.7625ms
+2025-01-22 18:35:07.333 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:07.335 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - 400 null application/problem+json; charset=utf-8 21.1913ms
+2025-01-22 18:35:09.009 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - null null
+2025-01-22 18:35:09.012 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:35:09.013 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:09.014 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:35:11.151 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 18:35:11.155 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 18:35:11.158 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 2140.1796ms
+2025-01-22 18:35:11.160 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:11.162 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - 200 null application/json; charset=utf-8 2152.4237ms
+2025-01-22 18:35:26.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - null null
+2025-01-22 18:35:26.237 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:35:26.238 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:26.239 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:35:26.242 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 18:35:26.244 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 2.6122ms
+2025-01-22 18:35:26.245 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:26.246 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - 400 null application/problem+json; charset=utf-8 13.5297ms
+2025-01-22 18:35:27.016 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - null null
+2025-01-22 18:35:27.020 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:35:27.021 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:27.022 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:35:34.485 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 18:35:34.489 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 18:35:34.491 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 7466.9076ms
+2025-01-22 18:35:34.492 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:35:34.494 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - 200 null application/json; charset=utf-8 7477.1773ms
+2025-01-22 18:38:18.044 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - null null
+2025-01-22 18:38:18.053 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:38:18.054 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:38:18.055 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:38:18.057 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-01-22 18:38:18.059 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 1.9325ms
+2025-01-22 18:38:18.060 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:38:18.061 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=&apikey=get_all_movie_api_key - 400 null application/problem+json; charset=utf-8 18.2965ms
+2025-01-22 18:38:22.683 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - null null
+2025-01-22 18:38:22.688 +05:30 [INF] CORS policy execution successful.
+2025-01-22 18:38:22.689 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:38:22.691 +05:30 [INF] Route matched with {action = "getAllMovies", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getAllMovies(System.String, System.String) on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-22 18:38:24.421 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__Format_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit) AND [m].[MovieName] LIKE @__Format_1
+2025-01-22 18:38:24.426 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-22 18:38:24.428 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.getAllMovies (MovieApi) in 1733.8201ms
+2025-01-22 18:38:24.429 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.getAllMovies (MovieApi)'
+2025-01-22 18:38:24.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetAllMovies?search=S&apikey=get_all_movie_api_key - 200 null application/json; charset=utf-8 1748.0041ms

@@ -1,0 +1,529 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\Infrastructure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5A6AB6-771B-4ABB-BF0C-49FF74D165D9}|..\\MovieApi\\MovieApi.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0D556-D32A-42E9-A6AE-D7E125DE155F}|..\\App.Core\\App.Core.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\app.core\\app\\movies\\querys\\getallmoviequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0D556-D32A-42E9-A6AE-D7E125DE155F}|..\\App.Core\\App.Core.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\app.core\\app\\movies\\querys\\getmoviequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E9E21C-EAF1-4528-856D-0BF6F4E7BD50}|Infrastructure.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E9E21C-EAF1-4528-856D-0BF6F4E7BD50}|Infrastructure.csproj|solutionrelative:dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0D556-D32A-42E9-A6AE-D7E125DE155F}|..\\App.Core\\App.Core.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\app.core\\validators\\movievalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\MyWebAPI\\Service\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0D556-D32A-42E9-A6AE-D7E125DE155F}|..\\App.Core\\App.Core.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\app.core\\app\\user\\command\\loginusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5A6AB6-771B-4ABB-BF0C-49FF74D165D9}|..\\MovieApi\\MovieApi.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\movieapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5A6AB6-771B-4ABB-BF0C-49FF74D165D9}|..\\MovieApi\\MovieApi.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF5A6AB6-771B-4ABB-BF0C-49FF74D165D9}|..\\MovieApi\\MovieApi.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\movieapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E9E21C-EAF1-4528-856D-0BF6F4E7BD50}|Infrastructure.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E9E21C-EAF1-4528-856D-0BF6F4E7BD50}|Infrastructure.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0D556-D32A-42E9-A6AE-D7E125DE155F}|..\\App.Core\\App.Core.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\app.core\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBC0D556-D32A-42E9-A6AE-D7E125DE155F}|..\\App.Core\\App.Core.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\app.core\\app\\tokens\\command\\generatenewtokenandrefreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\CreateUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E9E21C-EAF1-4528-856D-0BF6F4E7BD50}|Infrastructure.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\moviesassessment\\moviesbackend -for performing refreshtoken\\infrastructure\\migrations\\20250123082619_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E9E21C-EAF1-4528-856D-0BF6F4E7BD50}|Infrastructure.csproj|solutionrelative:migrations\\20250123082619_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Controllers\\MovieController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\LoginUserCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\Domain\\Entities\\Users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\UpdateMovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\Domain\\Entities\\Movies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Command\\UpdateMovieCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Validators\\MovieValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\RegisterationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Validators\\UserValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Querys\\GetUserTypeQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Command\\CreateMovieCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\ChangePasswordCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "..\\MovieApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "..\\MovieApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T09:37:43.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\Validators\\MovieValidator.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Validators\\MovieValidator.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\Validators\\MovieValidator.cs",
+              "RelativeToolTip": "..\\App.Core\\Validators\\MovieValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:16:36.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\MyWebAPI\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\MyWebAPI\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\MyWebAPI\\Service\\ProductService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\MyWebAPI\\Service\\ProductService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T12:39:10.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetMovieQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T08:15:28.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "DependencyInjection.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:56:51.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllMovieQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "RelativeToolTip": "..\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T08:15:21.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "..\\MovieApi\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "..\\MovieApi\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:07:49.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenerateNewTokenAndRefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\Tokens\\Command\\GenerateNewTokenAndRefreshToken.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\App\\Tokens\\Command\\GenerateNewTokenAndRefreshToken.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\Tokens\\Command\\GenerateNewTokenAndRefreshToken.cs",
+              "RelativeToolTip": "..\\App.Core\\App\\Tokens\\Command\\GenerateNewTokenAndRefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T11:01:53.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\MovieApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\appsettings.json",
+              "RelativeToolTip": "..\\MovieApi\\appsettings.json",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-11T04:52:01.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "RelativeToolTip": "..\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIAwwDcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:42:30.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "..\\App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "..\\App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:43:04.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "..\\MovieApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\MovieApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "..\\MovieApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:16:58.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\Infrastructure\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAE4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T05:35:08.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Command\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\CreateUserCommand.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Command\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T10:12:08.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\MovieApi\\Program.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Program.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\MovieApi\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:29:10.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\MovieApi\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\MovieApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:33:36.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Command\\LoginUserCommand.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T08:56:15.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAllMovieQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetAllMovieQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T09:30:12.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\Domain\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\Domain\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\Domain\\Entities\\Users.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\Domain\\Entities\\Users.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T08:24:17.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250123082619_third.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\Infrastructure\\Migrations\\20250123082619_third.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250123082619_third.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend -for performing refreshtoken\\Infrastructure\\Migrations\\20250123082619_third.cs",
+              "RelativeToolTip": "Migrations\\20250123082619_third.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T08:26:19.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetMovieQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Querys\\GetMovieQuery.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:16:51.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateMovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\UpdateMovieDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\Model\\UpdateMovieDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\UpdateMovieDto.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\Model\\UpdateMovieDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T11:55:20.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Movies.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\Domain\\Entities\\Movies.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\Domain\\Entities\\Movies.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\Domain\\Entities\\Movies.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\Domain\\Entities\\Movies.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:41:35.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Command\\UpdateMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Command\\UpdateMovieCommand.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Command\\UpdateMovieCommand.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Command\\UpdateMovieCommand.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwG4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T12:40:25.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MovieValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Validators\\MovieValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\Validators\\MovieValidator.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Validators\\MovieValidator.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\Validators\\MovieValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:05:36.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegisterationDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\RegisterationDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\Model\\RegisterationDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\RegisterationDto.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\Model\\RegisterationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T05:47:52.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\Validators\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\Validators\\UserValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:05:07.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetUserTypeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Querys\\GetUserTypeQuery.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Querys\\GetUserTypeQuery.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Querys\\GetUserTypeQuery.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Querys\\GetUserTypeQuery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:54:02.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\MovieApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\MovieApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\MovieApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T04:56:09.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\Model\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\Model\\LoginDto.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\Model\\LoginDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T05:26:12.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateMovieCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Command\\CreateMovieCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Command\\CreateMovieCommand.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\Movies\\Command\\CreateMovieCommand.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\Movies\\Command\\CreateMovieCommand.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:25:23.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ChangePasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\ChangePasswordCommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Command\\ChangePasswordCommand.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\MoviesAssessment\\MoviesBackend\\App.Core\\App\\User\\Command\\ChangePasswordCommand.cs",
+              "RelativeToolTip": "..\\..\\MoviesBackend\\App.Core\\App\\User\\Command\\ChangePasswordCommand.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T11:05:21.678Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

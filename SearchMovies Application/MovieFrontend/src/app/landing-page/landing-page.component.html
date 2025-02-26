@@ -1,0 +1,45 @@
+<div class="container mt-5">
+    <div class="topnav" *ngIf="!isFormVisible">
+      
+          <input type="text" placeholder="Search Movie Title"  
+          [(ngModel)]="searchName" (input)="reset()" (ngModelChange)="onSearch()">
+          <button type="submit" class="btn btn-success"  (click)="onSearch()" (keydown.Enter)="onSearch()">Search</button>
+     
+    </div>
+  
+  </div>
+  
+
+<div class="container mt-5">
+    
+    <div class="row" *ngIf="!isFormVisible">
+        <!-- Product Card -->
+        <div class="col-md-4 mb-4" *ngFor="let movie of paginatedMovies">
+            <div class="product-card">
+                <!-- Product Image -->
+                <div>
+                    <img src="{{ apiUrl + movie.posterimage || 'https://via.placeholder.com/200?text=No+Image' }}"
+                        alt="{{ movie.movieName }}" class="img-fluid product-image"
+                        *ngIf="movie.posterimage; else defaultImg" style="width: 600px; height:300px">
+                    <ng-template #defaultImg>
+                        <div class="default-image">No Image</div>
+                    </ng-template>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Movie Title: {{ movie.movieName }}</h5>
+                    <h5 class="card-title">Release Year: {{ movie.year }}</h5>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pagination -->
+    <mat-paginator [length]="movieslist.length" [pageSize]="pageSize" [pageIndex]="pageIndex" (page)="onPageChange($event)">
+    </mat-paginator>
+</div>
+@if(isLoading){
+<div class="loader-backdrop">
+    <div class="loader"></div>
+</div>
+}

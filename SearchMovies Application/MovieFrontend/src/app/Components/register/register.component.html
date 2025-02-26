@@ -1,0 +1,83 @@
+<p></p>
+<div class="container-fluid">
+    <div class="loginsignup-container">
+       
+        <!-- Login Form -->
+        <form [formGroup]="registerForm" (ngSubmit)="onRegisterSubmit()">
+            <!-- <h2 style="color: #009688;">LOGIN</h2> -->
+            <div class="header-container d-flex align-items-center mb-3">
+                <!-- <i class="bi bi-arrow-left-circle" (click)="goBack()"></i> Bootstrap icon for back arrow -->
+                <h2 class="text-center flex-grow-1" style="color: #009688; margin: 0;">REGISTER</h2>
+                <div class="me-auto"></div> <!-- Filler to balance the alignment -->
+            </div>
+            <div class="form-group">
+                <label for="username">FirstName :</label>
+                <input type="text" formControlName="firstName" class="form-control" id="firstName"
+                    placeholder="Enter FirstName" minlength="3" maxlength="15"  required>
+                <div *ngIf="registerForm.get('firstName')?.invalid && registerForm.get('firstName')?.touched"
+                    class="text-danger">
+                    <small *ngIf="registerForm.get('firstName')?.errors?.['required']">FirstName is required.</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="username">LastName :</label>
+                <input type="text" formControlName="lastName" class="form-control" id="lastName"
+                    placeholder="Enter LastName" minlength="4" maxlength="15" required>
+                <div *ngIf="registerForm.get('lastName')?.invalid && registerForm.get('lastName')?.touched"
+                    class="text-danger">
+                    <small *ngIf="registerForm.get('lastName')?.errors?.['required']">lastName is required.</small>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Select Role :</label>
+                <select formControlName="userTypeId" class="form-control" required>
+                    <option value="">Select Role</option>
+                    <option *ngFor="let role of usertypedata" [value]="role.userTypeId">{{ role.userType}}</option>
+                </select>
+                <div *ngIf="registerForm.get('userTypeId')?.invalid && registerForm.get('userTypeId')?.touched"
+                    class="text-danger">
+                    <small *ngIf="registerForm.get('userTypeId')?.errors?.['required']">Role is required.</small>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="username">Email :</label>
+                <input type="text" formControlName="email" class="form-control" id="email"
+                    placeholder="Enter Email" minlength="5"  required>
+                <div *ngIf="registerForm.get('email')?.invalid && registerForm.get('email')?.touched"
+                    class="text-danger">
+                    <small *ngIf="registerForm.get('email')?.errors?.['required']">Email Address is required.</small>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password :</label>
+                <input type="password" formControlName="password" class="form-control" id="password"
+                    placeholder="Password" minlength="6" maxlength="20" required>
+                <div *ngIf="registerForm.get('password')?.invalid && registerForm.get('password')?.touched"
+                    class="text-danger">
+                    <small *ngIf="registerForm.get('password')?.errors?.['required']">Password is required.</small>
+                </div>
+            </div>
+            
+
+            <button type="submit" class="btn btn-primary" (keyup)="onRegisterSubmit()">Register</button>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <p (click)="toggleForm('login')">Already have an account? <span
+                            class="highlighted"><b>Login</b></span></p>
+                </div>
+                
+            </div>
+
+        </form>
+
+      
+    </div>
+</div>
+
+@if(isLoading){
+<div class="loader-backdrop">
+    <div class="loader"></div>
+</div>
+}

@@ -1,0 +1,1407 @@
+2025-01-29 10:11:59.940 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 10:12:00.389 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 10:12:00.392 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 10:12:00.468 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 10:12:00.471 +05:30 [INF] Hosting environment: Development
+2025-01-29 10:12:00.472 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 10:12:02.521 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 10:12:02.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 296.2735ms
+2025-01-29 10:12:02.828 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 10:12:02.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 12.0505ms
+2025-01-29 10:12:02.966 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 10:12:03.034 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.9161ms
+2025-01-29 10:12:03.180 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 10:12:03.325 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 148.6823ms
+2025-01-29 10:14:40.378 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 60
+2025-01-29 10:14:40.396 +05:30 [INF] CORS policy execution failed.
+2025-01-29 10:14:40.398 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 10:14:40.641 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 10:14:40.673 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 10:14:40.794 +05:30 [INF] Login function is called
+2025-01-29 10:14:42.497 +05:30 [INF] Executed DbCommand (70ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 10:14:42.947 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 10:14:43.084 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 10:14:43.104 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 10:14:43.115 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 2436.3067ms
+2025-01-29 10:14:43.118 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 10:14:43.125 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 2747.5031ms
+2025-01-29 10:15:22.782 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 10:15:22.797 +05:30 [INF] CORS policy execution failed.
+2025-01-29 10:15:22.799 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 10:15:22.804 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:15:22.810 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 10:18:04.831 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Security.Claims.ClaimsPrincipal+<get_Claims>d__22'.
+2025-01-29 10:18:04.847 +05:30 [INF] Executed action MovieApi.Controllers.TokenController.Refresh (MovieApi) in 162034.5995ms
+2025-01-29 10:18:04.852 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:18:04.860 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Issuer.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 10:18:04.934 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Token - 500 null text/plain; charset=utf-8 162152.9039ms
+2025-01-29 10:19:17.864 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 10:19:17.904 +05:30 [INF] CORS policy execution failed.
+2025-01-29 10:19:17.905 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 10:19:17.907 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:19:17.908 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 10:23:04.614 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 10:23:05.148 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 10:23:05.150 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 10:23:05.218 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 10:23:05.220 +05:30 [INF] Hosting environment: Development
+2025-01-29 10:23:05.221 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 10:23:07.188 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 10:23:07.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 358.9309ms
+2025-01-29 10:23:07.567 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 10:23:07.577 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.9569ms
+2025-01-29 10:23:07.628 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 10:23:07.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.2716ms
+2025-01-29 10:23:07.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 10:23:07.844 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.577ms
+2025-01-29 10:23:38.133 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 10:23:38.145 +05:30 [INF] CORS policy execution failed.
+2025-01-29 10:23:38.147 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 10:23:38.408 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:23:38.433 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 10:30:31.517 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Security.Claims.ClaimsPrincipal+<get_Claims>d__22'.
+2025-01-29 10:30:31.534 +05:30 [INF] Executed action MovieApi.Controllers.TokenController.Refresh (MovieApi) in 413090.5455ms
+2025-01-29 10:30:31.538 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:30:31.541 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Issuer.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 10:30:31.645 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Token - 500 null text/plain; charset=utf-8 413509.6051ms
+2025-01-29 10:30:32.382 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 10:30:32.447 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 64.9756ms
+2025-01-29 10:30:32.476 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 10:30:32.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 27.1328ms
+2025-01-29 10:30:32.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 10:30:32.595 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.076ms
+2025-01-29 10:30:32.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 10:30:32.741 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.0044ms
+2025-01-29 10:30:50.197 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 10:30:50.203 +05:30 [INF] CORS policy execution failed.
+2025-01-29 10:30:50.205 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 10:30:50.207 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:30:50.214 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 10:32:05.306 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Security.Claims.ClaimsPrincipal+<get_Claims>d__22'.
+2025-01-29 10:32:05.333 +05:30 [INF] Executed action MovieApi.Controllers.TokenController.Refresh (MovieApi) in 75113.8317ms
+2025-01-29 10:32:05.334 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:32:05.336 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Issuer.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 10:32:05.396 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Token - 500 null text/plain; charset=utf-8 75198.2975ms
+2025-01-29 10:32:06.239 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 10:32:06.276 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 37.5637ms
+2025-01-29 10:32:06.315 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 10:32:06.322 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.8595ms
+2025-01-29 10:32:06.345 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 10:32:06.364 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.8068ms
+2025-01-29 10:32:06.420 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 10:32:06.435 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.5551ms
+2025-01-29 10:32:23.194 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 10:32:23.200 +05:30 [INF] CORS policy execution failed.
+2025-01-29 10:32:23.201 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 10:32:23.205 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:32:23.208 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 10:34:57.979 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Security.Claims.ClaimsPrincipal+<get_Claims>d__22'.
+2025-01-29 10:34:58.003 +05:30 [INF] Executed action MovieApi.Controllers.TokenController.Refresh (MovieApi) in 154790.9445ms
+2025-01-29 10:34:58.005 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 10:34:58.006 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Subject.Claims.Issuer.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 10:34:58.068 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Token - 500 null text/plain; charset=utf-8 154874.2232ms
+2025-01-29 10:34:58.839 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 10:34:58.869 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 30.4398ms
+2025-01-29 10:34:58.897 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 10:34:58.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 6.0097ms
+2025-01-29 10:34:58.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 10:34:58.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.0486ms
+2025-01-29 10:34:59.024 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 10:34:59.040 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.3629ms
+2025-01-29 11:06:50.468 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 11:06:50.931 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 11:06:50.933 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 11:06:51.009 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 11:06:51.010 +05:30 [INF] Hosting environment: Development
+2025-01-29 11:06:51.011 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 11:06:52.249 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 11:06:52.540 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 299.5303ms
+2025-01-29 11:06:52.549 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 11:06:52.559 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 9.9669ms
+2025-01-29 11:06:52.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 11:06:52.662 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.5475ms
+2025-01-29 11:06:52.710 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 11:06:52.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.1465ms
+2025-01-29 11:07:19.565 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 11:07:19.577 +05:30 [INF] CORS policy execution failed.
+2025-01-29 11:07:19.578 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 11:07:19.680 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 11:07:19.728 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 11:24:01.241 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 11:24:01.571 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 11:24:01.573 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 11:24:01.662 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 11:24:01.664 +05:30 [INF] Hosting environment: Development
+2025-01-29 11:24:01.665 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 11:24:02.824 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 11:24:03.070 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 252.495ms
+2025-01-29 11:24:03.083 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 11:24:03.093 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 10.6024ms
+2025-01-29 11:24:03.144 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 11:24:03.197 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.5193ms
+2025-01-29 11:24:03.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 11:24:03.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.5773ms
+2025-01-29 11:24:26.815 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 11:24:26.827 +05:30 [INF] CORS policy execution failed.
+2025-01-29 11:24:26.829 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 11:24:26.935 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 11:24:26.960 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 11:24:48.272 +05:30 [INF] New AccessToken and RefreshToken is being Generated
+2025-01-29 11:24:50.595 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-01-29 11:25:59.092 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-01-29 11:25:59.100 +05:30 [INF] Executed action MovieApi.Controllers.TokenController.Refresh (MovieApi) in 92132.8193ms
+2025-01-29 11:25:59.103 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 11:25:59.112 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Token - 400 null text/plain; charset=utf-8 92297.7606ms
+2025-01-29 11:30:23.791 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 11:30:24.206 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 11:30:24.208 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 11:30:24.303 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 11:30:24.305 +05:30 [INF] Hosting environment: Development
+2025-01-29 11:30:24.306 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 11:30:24.746 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 11:30:24.995 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 255.2529ms
+2025-01-29 11:30:25.007 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 11:30:25.019 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 11.0419ms
+2025-01-29 11:30:25.068 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 11:30:25.124 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.1843ms
+2025-01-29 11:30:25.166 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 11:30:25.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.4035ms
+2025-01-29 11:30:55.620 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 60
+2025-01-29 11:30:55.638 +05:30 [INF] CORS policy execution failed.
+2025-01-29 11:30:55.639 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 11:30:55.747 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:30:55.777 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 11:30:55.859 +05:30 [INF] Login function is called
+2025-01-29 11:30:57.309 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 11:30:57.775 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 11:30:57.899 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 11:30:57.922 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 11:30:57.936 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 2152.0555ms
+2025-01-29 11:30:57.939 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:30:57.947 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 2327.2355ms
+2025-01-29 11:31:57.851 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/Token - application/json 470
+2025-01-29 11:31:57.857 +05:30 [INF] CORS policy execution failed.
+2025-01-29 11:31:57.859 +05:30 [INF] Request origin https://localhost:7176 does not have permission to access the resource.
+2025-01-29 11:31:57.863 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 11:31:57.868 +05:30 [INF] Route matched with {action = "Refresh", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(App.Core.Model.TokenApiModel) on controller MovieApi.Controllers.TokenController (MovieApi).
+2025-01-29 11:32:05.617 +05:30 [INF] New AccessToken and RefreshToken is being Generated
+2025-01-29 11:32:06.461 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__email_0
+2025-01-29 11:33:26.552 +05:30 [INF] Executed DbCommand (45ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [RefreshToken] = @p0
+OUTPUT 1
+WHERE [UserId] = @p1;
+2025-01-29 11:33:29.812 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 11:33:29.983 +05:30 [INF] Executed action MovieApi.Controllers.TokenController.Refresh (MovieApi) in 92111.1176ms
+2025-01-29 11:33:29.985 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.TokenController.Refresh (MovieApi)'
+2025-01-29 11:33:29.987 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/Token - 200 null application/json; charset=utf-8 92137.0605ms
+2025-01-29 11:50:21.423 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 11:50:21.429 +05:30 [INF] CORS policy execution successful.
+2025-01-29 11:50:21.431 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 7.5764ms
+2025-01-29 11:50:21.438 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 11:50:21.441 +05:30 [INF] CORS policy execution successful.
+2025-01-29 11:50:21.444 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:50:21.446 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 11:50:21.453 +05:30 [INF] Login function is called
+2025-01-29 11:50:21.491 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 11:50:21.799 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 11:50:21.809 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 11:50:21.813 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 11:50:21.815 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 364.1484ms
+2025-01-29 11:50:21.817 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:50:21.819 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 380.942ms
+2025-01-29 11:52:03.615 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 11:52:03.626 +05:30 [INF] CORS policy execution successful.
+2025-01-29 11:52:03.627 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 13.5302ms
+2025-01-29 11:52:03.634 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 11:52:03.639 +05:30 [INF] CORS policy execution successful.
+2025-01-29 11:52:03.669 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:52:03.671 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 11:52:03.675 +05:30 [INF] Login function is called
+2025-01-29 11:52:03.691 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 11:52:03.847 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 11:52:03.856 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 11:52:03.861 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 11:52:03.866 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 192.0984ms
+2025-01-29 11:52:03.873 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:52:03.876 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 242.46ms
+2025-01-29 11:56:09.576 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 11:56:09.587 +05:30 [INF] CORS policy execution successful.
+2025-01-29 11:56:09.589 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 14.2073ms
+2025-01-29 11:56:09.602 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 11:56:09.604 +05:30 [INF] CORS policy execution successful.
+2025-01-29 11:56:09.606 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:56:09.608 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 11:56:09.611 +05:30 [INF] Login function is called
+2025-01-29 11:56:09.623 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 11:56:09.777 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 11:56:09.786 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 11:56:09.792 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 11:56:09.794 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 183.598ms
+2025-01-29 11:56:09.796 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 11:56:09.798 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 196.9931ms
+2025-01-29 11:58:14.046 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 11:58:14.608 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 11:58:14.612 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 11:58:14.687 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 11:58:14.690 +05:30 [INF] Hosting environment: Development
+2025-01-29 11:58:14.691 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 11:58:16.515 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 11:58:17.005 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 494.6969ms
+2025-01-29 11:58:17.020 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 11:58:17.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 12.3219ms
+2025-01-29 11:58:17.086 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 11:58:17.139 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1845ms
+2025-01-29 11:58:17.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 11:58:17.289 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Token" for actions - MovieApi.Controllers.TokenController.Refresh (MovieApi),MovieApi.Controllers.TokenController.Revoke (MovieApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 11:58:17.335 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 138.5366ms
+2025-01-29 11:58:40.379 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 11:58:40.710 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 11:58:40.713 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 11:58:40.788 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 11:58:40.791 +05:30 [INF] Hosting environment: Development
+2025-01-29 11:58:40.792 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 11:58:41.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 11:58:41.870 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 267.8833ms
+2025-01-29 11:58:41.881 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 11:58:41.894 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 12.5354ms
+2025-01-29 11:58:41.947 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 11:58:41.996 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.872ms
+2025-01-29 11:58:42.041 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 11:58:42.126 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Token" for actions - MovieApi.Controllers.TokenController.Refresh (MovieApi),MovieApi.Controllers.TokenController.Revoke (MovieApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 11:58:42.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 112.9104ms
+2025-01-29 11:59:39.065 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 11:59:39.424 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 11:59:39.427 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 11:59:39.515 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 11:59:39.517 +05:30 [INF] Hosting environment: Development
+2025-01-29 11:59:39.519 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 11:59:40.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 11:59:40.553 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 271.189ms
+2025-01-29 11:59:40.560 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 11:59:40.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 11.8083ms
+2025-01-29 11:59:40.627 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 11:59:40.677 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.1017ms
+2025-01-29 11:59:40.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 11:59:40.818 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Token" for actions - MovieApi.Controllers.TokenController.Refresh (MovieApi),MovieApi.Controllers.TokenController.Revoke (MovieApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-01-29 11:59:40.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 128.6286ms
+2025-01-29 12:01:52.259 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-29 12:01:52.595 +05:30 [INF] Now listening on: https://localhost:7176
+2025-01-29 12:01:52.597 +05:30 [INF] Now listening on: http://localhost:5171
+2025-01-29 12:01:52.671 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-29 12:01:52.673 +05:30 [INF] Hosting environment: Development
+2025-01-29 12:01:52.674 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\Desktop\FILES\MoviesAssessment\MoviesBackend -for performing refreshtoken\MovieApi
+2025-01-29 12:01:53.390 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/index.html - null null
+2025-01-29 12:01:53.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/index.html - 200 null text/html;charset=utf-8 288.5142ms
+2025-01-29 12:01:53.675 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-29 12:01:53.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 11.6452ms
+2025-01-29 12:01:53.738 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/_vs/browserLink - null null
+2025-01-29 12:01:53.790 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.9613ms
+2025-01-29 12:01:53.832 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - null null
+2025-01-29 12:01:53.964 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.455ms
+2025-01-29 12:02:06.362 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:02:06.373 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:02:06.377 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 15.3558ms
+2025-01-29 12:02:06.385 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:02:06.390 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:02:06.791 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:02:06.824 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:02:06.972 +05:30 [INF] Login function is called
+2025-01-29 12:02:09.346 +05:30 [INF] Executed DbCommand (91ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:02:09.816 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:02:09.923 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:02:09.949 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:02:09.963 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 3131.8016ms
+2025-01-29 12:02:09.966 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:02:09.977 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 3592.2615ms
+2025-01-29 12:12:41.955 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:12:41.963 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:12:41.966 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 17.4731ms
+2025-01-29 12:12:41.974 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:12:41.980 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:12:41.984 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:12:41.986 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:12:41.991 +05:30 [INF] Login function is called
+2025-01-29 12:12:42.075 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:12:42.406 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:12:42.421 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:12:42.431 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:12:42.434 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 445.2555ms
+2025-01-29 12:12:42.436 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:12:42.438 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 464.9228ms
+2025-01-29 12:15:40.360 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:15:40.373 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:15:40.380 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 20.7731ms
+2025-01-29 12:15:40.386 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:15:40.391 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:15:40.393 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:15:40.395 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:15:40.400 +05:30 [INF] Login function is called
+2025-01-29 12:15:40.431 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:15:40.582 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:15:40.593 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:15:40.599 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:15:40.601 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 202.4209ms
+2025-01-29 12:15:40.604 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:15:40.606 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 220.35ms
+2025-01-29 12:19:01.595 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:19:01.609 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:19:01.611 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 17.0836ms
+2025-01-29 12:19:01.626 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:19:01.631 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:19:01.633 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:19:01.634 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:19:01.641 +05:30 [INF] Login function is called
+2025-01-29 12:19:01.661 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:19:01.821 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:19:01.832 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:19:01.837 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:19:01.840 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 199.7071ms
+2025-01-29 12:19:01.842 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:19:01.846 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 220.4751ms
+2025-01-29 12:20:38.844 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:20:38.857 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:20:38.859 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 14.3489ms
+2025-01-29 12:20:38.871 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:20:38.877 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:20:38.879 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:20:38.881 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:20:38.889 +05:30 [INF] Login function is called
+2025-01-29 12:20:38.911 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:20:39.071 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:20:39.078 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:20:39.082 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:20:39.085 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 198.1563ms
+2025-01-29 12:20:39.094 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:20:39.096 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 228.9115ms
+2025-01-29 12:23:18.866 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:23:18.876 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:23:18.878 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 11.7562ms
+2025-01-29 12:23:18.889 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:23:18.892 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:23:18.893 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:23:18.896 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:23:18.902 +05:30 [INF] Login function is called
+2025-01-29 12:23:18.917 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:23:19.067 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:23:19.077 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:23:19.085 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:23:19.089 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 188.4416ms
+2025-01-29 12:23:19.090 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:23:19.092 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 204.0852ms
+2025-01-29 12:23:19.148 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-29 12:23:19.154 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:23:19.157 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/Movie/GetMovie - 204 null null 8.8ms
+2025-01-29 12:23:19.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-29 12:23:19.171 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:23:19.173 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 12:23:19.186 +05:30 [INF] Route matched with {action = "GetMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovie() on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-29 12:23:19.193 +05:30 [INF] GetMovie function is called for Fetching movie
+2025-01-29 12:23:19.265 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit)
+2025-01-29 12:23:19.273 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:23:19.282 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.GetMovie (MovieApi) in 90.8279ms
+2025-01-29 12:23:19.284 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 12:23:19.286 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - 200 null application/json; charset=utf-8 121.2794ms
+2025-01-29 12:25:27.925 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:25:27.937 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:25:27.939 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 16.4057ms
+2025-01-29 12:25:27.959 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:25:27.964 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:25:27.966 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:25:27.968 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:25:27.972 +05:30 [INF] Login function is called
+2025-01-29 12:25:27.985 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:25:28.133 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:25:28.145 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:25:28.150 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:25:28.155 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 183.7476ms
+2025-01-29 12:25:28.158 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:25:28.160 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 201.6279ms
+2025-01-29 12:25:46.777 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:25:46.782 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:25:46.784 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 6.7919ms
+2025-01-29 12:25:46.793 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:25:46.799 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:25:46.802 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:25:46.805 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:25:46.808 +05:30 [INF] Login function is called
+2025-01-29 12:25:46.822 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:25:46.981 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:25:46.990 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:25:46.994 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:25:46.996 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 187.8183ms
+2025-01-29 12:25:46.998 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:25:47.000 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 207.6768ms
+2025-01-29 12:25:53.333 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:25:53.339 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:25:53.341 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 8.037ms
+2025-01-29 12:25:53.348 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:25:53.352 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:25:53.353 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:25:53.355 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:25:53.359 +05:30 [INF] Login function is called
+2025-01-29 12:25:53.365 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:25:53.513 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:25:53.519 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:25:53.524 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:25:53.527 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 168.4181ms
+2025-01-29 12:25:53.529 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:25:53.531 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 182.9539ms
+2025-01-29 12:26:13.638 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:26:13.648 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:26:13.649 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 11.8284ms
+2025-01-29 12:26:13.656 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:26:13.659 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:26:13.660 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:26:13.661 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:26:13.664 +05:30 [INF] Login function is called
+2025-01-29 12:26:13.667 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:26:13.812 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:26:13.818 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:26:13.821 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:26:13.823 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 159.3116ms
+2025-01-29 12:26:13.825 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:26:13.829 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 173.0133ms
+2025-01-29 12:28:00.451 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:28:00.463 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:28:00.464 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 13.5487ms
+2025-01-29 12:28:00.472 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:28:00.476 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:28:00.478 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:28:00.479 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:28:00.483 +05:30 [INF] Login function is called
+2025-01-29 12:28:00.496 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:28:00.645 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:28:00.655 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:28:00.659 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:28:00.663 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 180.8114ms
+2025-01-29 12:28:00.670 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:28:00.673 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 200.738ms
+2025-01-29 12:29:15.337 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:29:15.349 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:29:15.353 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 16.5339ms
+2025-01-29 12:29:15.362 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:29:15.366 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:29:15.368 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:29:15.370 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:29:15.374 +05:30 [INF] Login function is called
+2025-01-29 12:29:15.381 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:29:15.529 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:29:15.541 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:29:15.545 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:29:15.548 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 175.4077ms
+2025-01-29 12:29:15.552 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:29:15.558 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 197.1684ms
+2025-01-29 12:48:29.073 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:48:29.085 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:48:29.086 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 13.5237ms
+2025-01-29 12:48:29.091 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 55
+2025-01-29 12:48:29.096 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:48:29.098 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:48:29.100 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:48:29.104 +05:30 [INF] Login function is called
+2025-01-29 12:48:29.139 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:48:29.283 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:48:29.287 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 183.4633ms
+2025-01-29 12:48:29.288 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:48:29.290 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 199.3988ms
+2025-01-29 12:49:23.362 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:49:23.373 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:49:23.375 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 12.7093ms
+2025-01-29 12:49:23.385 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 53
+2025-01-29 12:49:23.389 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:49:23.391 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:49:23.393 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:49:23.396 +05:30 [INF] Login function is called
+2025-01-29 12:49:23.412 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:49:23.561 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:49:23.564 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 168.7741ms
+2025-01-29 12:49:23.566 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:49:23.573 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 188.5592ms
+2025-01-29 12:50:09.258 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:50:09.268 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:50:09.269 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 11.7056ms
+2025-01-29 12:50:09.281 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:50:09.284 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:50:09.285 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:50:09.287 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:50:09.289 +05:30 [INF] Login function is called
+2025-01-29 12:50:09.303 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:50:09.455 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:50:09.458 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 169.1773ms
+2025-01-29 12:50:09.460 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:50:09.463 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 182.5795ms
+2025-01-29 12:50:18.001 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:50:18.006 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:50:18.009 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 7.7157ms
+2025-01-29 12:50:18.020 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:50:18.026 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:50:18.028 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:50:18.031 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:50:18.035 +05:30 [INF] Login function is called
+2025-01-29 12:50:18.042 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:50:18.204 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:50:18.213 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:50:18.219 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:50:18.221 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 187.0563ms
+2025-01-29 12:50:18.222 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:50:18.224 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 204.5456ms
+2025-01-29 12:53:47.900 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:53:47.909 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:53:47.911 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 10.4719ms
+2025-01-29 12:53:47.919 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:53:47.923 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:53:47.925 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:53:47.927 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:53:47.931 +05:30 [INF] Login function is called
+2025-01-29 12:53:47.943 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:53:48.101 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:53:48.112 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:53:48.118 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:53:48.122 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 191.7028ms
+2025-01-29 12:53:48.132 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:53:48.137 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 218.4211ms
+2025-01-29 12:56:41.490 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:56:41.501 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:56:41.502 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 11.5218ms
+2025-01-29 12:56:41.511 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:56:41.515 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:56:41.516 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:56:41.517 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:56:41.521 +05:30 [INF] Login function is called
+2025-01-29 12:56:41.534 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:56:41.685 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:56:41.696 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:56:41.700 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:56:41.704 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 183.8464ms
+2025-01-29 12:56:41.713 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:56:41.716 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 206.0026ms
+2025-01-29 12:57:59.308 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:57:59.320 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:57:59.322 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 14.9041ms
+2025-01-29 12:57:59.328 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:57:59.331 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:57:59.333 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:57:59.334 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:57:59.337 +05:30 [INF] Login function is called
+2025-01-29 12:57:59.350 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:57:59.499 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:57:59.507 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:57:59.511 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:57:59.514 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 177.2686ms
+2025-01-29 12:57:59.522 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:57:59.526 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 198.7537ms
+2025-01-29 12:59:37.773 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/User/login - null null
+2025-01-29 12:59:37.787 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:59:37.788 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/User/login - 204 null null 14.991ms
+2025-01-29 12:59:37.796 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7176/api/User/login - application/json 51
+2025-01-29 12:59:37.801 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:59:37.803 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:59:37.805 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(App.Core.Model.LoginDto) on controller MovieApi.Controllers.UserController (MovieApi).
+2025-01-29 12:59:37.807 +05:30 [INF] Login function is called
+2025-01-29 12:59:37.818 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__LoginModel_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[UserTypeId]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__LoginModel_Email_0
+2025-01-29 12:59:37.970 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_UserTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserTypeId], [u].[UserType]
+FROM [userstypes] AS [u]
+WHERE [u].[UserTypeId] = @__user_UserTypeId_0
+2025-01-29 12:59:37.979 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [Email] = @p1, [FirstName] = @p2, [LastName] = @p3, [Password] = @p4, [RefreshToken] = @p5, [RefreshTokenExpiryTime] = @p6, [UserTypeId] = @p7
+OUTPUT 1
+WHERE [UserId] = @p8;
+2025-01-29 12:59:37.984 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`5[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Entities.Usertype, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:59:37.986 +05:30 [INF] Executed action MovieApi.Controllers.UserController.login (MovieApi) in 179.4528ms
+2025-01-29 12:59:37.988 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.UserController.login (MovieApi)'
+2025-01-29 12:59:37.996 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7176/api/User/login - 200 null application/json; charset=utf-8 200.486ms
+2025-01-29 12:59:47.804 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-29 12:59:47.809 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:59:47.811 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/Movie/GetMovie - 204 null null 7.4395ms
+2025-01-29 12:59:47.843 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-29 12:59:47.850 +05:30 [INF] CORS policy execution successful.
+2025-01-29 12:59:47.854 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 12:59:47.857 +05:30 [INF] Route matched with {action = "GetMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovie() on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-29 12:59:47.861 +05:30 [INF] GetMovie function is called for Fetching movie
+2025-01-29 12:59:47.871 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit)
+2025-01-29 12:59:47.875 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 12:59:47.878 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.GetMovie (MovieApi) in 16.8295ms
+2025-01-29 12:59:47.880 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 12:59:47.890 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - 200 null application/json; charset=utf-8 47.6554ms
+2025-01-29 14:33:30.326 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-29 14:33:30.335 +05:30 [INF] CORS policy execution successful.
+2025-01-29 14:33:30.336 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7176/api/Movie/GetMovie - 204 null null 10.7565ms
+2025-01-29 14:33:30.344 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-29 14:33:30.350 +05:30 [INF] CORS policy execution successful.
+2025-01-29 14:33:30.352 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 14:33:30.355 +05:30 [INF] Route matched with {action = "GetMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovie() on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-29 14:33:30.361 +05:30 [INF] GetMovie function is called for Fetching movie
+2025-01-29 14:33:30.441 +05:30 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit)
+2025-01-29 14:33:30.446 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 14:33:30.534 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.GetMovie (MovieApi) in 173.9915ms
+2025-01-29 14:33:30.537 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 14:33:30.539 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - 499 null application/json; charset=utf-8 195.8839ms
+2025-01-29 14:33:30.944 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - null null
+2025-01-29 14:33:30.952 +05:30 [INF] CORS policy execution successful.
+2025-01-29 14:33:30.957 +05:30 [INF] Executing endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 14:33:30.959 +05:30 [INF] Route matched with {action = "GetMovie", controller = "Movie"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMovie() on controller MovieApi.Controllers.MovieController (MovieApi).
+2025-01-29 14:33:30.963 +05:30 [INF] GetMovie function is called for Fetching movie
+2025-01-29 14:33:30.971 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Deleted], [m].[MovieName], [m].[Posterimage], [m].[Year]
+FROM [movies] AS [m]
+WHERE [m].[Deleted] = CAST(0 AS bit)
+2025-01-29 14:33:30.976 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Entities.Movies, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-01-29 14:33:30.979 +05:30 [INF] Executed action MovieApi.Controllers.MovieController.GetMovie (MovieApi) in 16.1332ms
+2025-01-29 14:33:30.982 +05:30 [INF] Executed endpoint 'MovieApi.Controllers.MovieController.GetMovie (MovieApi)'
+2025-01-29 14:33:30.988 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7176/api/Movie/GetMovie - 200 null application/json; charset=utf-8 43.9516ms

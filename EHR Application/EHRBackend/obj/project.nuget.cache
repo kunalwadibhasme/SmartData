@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yq5lAe2nkQw=",
+  "dgSpecHash": "RZz4sqR9KaI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\E-CommerceBackend.csproj",
+  "projectFilePath": "C:\\Users\\kunalwadibharme\\Desktop\\New folder\\SmartData\\EHR Application\\EHRBackend\\E-CommerceBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kunalwadibharme\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kunalwadibharme\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

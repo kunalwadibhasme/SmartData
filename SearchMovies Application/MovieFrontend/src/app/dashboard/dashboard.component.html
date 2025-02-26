@@ -1,0 +1,111 @@
+<div class="container mt-5">
+  <div class="topnav" *ngIf="!isFormVisible">
+      
+    <a class="active" (click)="OpenMovieForm()">Add Movie</a>
+  
+    <!-- <input type="text" placeholder="Search.." (keypress)="GetMovies($event)"> -->
+    
+        <input type="text" placeholder="Search Movie Title"  
+        [(ngModel)]="searchName" (input)="reset()" (ngModelChange)="onSearch()">
+        <button type="submit" class="btn btn-success"  (click)="onSearch()" (keydown.Enter)="onSearch()">Search</button>
+   
+  </div>
+
+</div>
+
+<div class="container mt-5">
+    
+<p></p>
+<h6 *ngIf="isemptylist" style="align-items: center;">No Movie Found</h6>
+<div class="row" *ngIf="!isFormVisible">
+    <!-- Product Card -->
+    <div class="col-md-4 mb-4" *ngFor="let movie of paginatedMovies">
+        <div class="product-card">
+            <!-- Product Image -->
+            <div>
+                <img src="{{ apiUrl + movie.posterimage || 'https://via.placeholder.com/200?text=No+Image' }}"
+                    alt="{{ movie.movieName }}" class="img-fluid product-image"
+                    *ngIf="movie.posterimage; else defaultImg" style="width: 600px; height:300px">
+                <ng-template #defaultImg>
+                    <div class="default-image">No Image</div>
+                </ng-template>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Movie Title: {{ movie.movieName }}</h5>
+                <h5 class="card-title">Release Year: {{ movie.year }}</h5>
+                <button class="btn btn-warning" (click)="OnUpdate(movie)">Update</button>
+                <button class="btn btn-danger" (click)="OnDelete(movie.id)">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pagination -->
+<mat-paginator [length]="movieslist.length" [pageSize]="pageSize" [pageIndex]="pageIndex" (page)="onPageChange($event)">
+</mat-paginator>
+
+
+      
+
+
+    <!-- Adding New Movie Details -->
+    <div class="appoint-form" *ngIf="isFormVisible">
+        <h2 class="text-center" *ngIf="isUpdate">Update Movie</h2>
+        <h2 class="text-center" *ngIf="!isUpdate">Add Movie</h2>
+
+        <form [formGroup]="movieForm" (ngSubmit)="onSubmit()">
+
+            <div class="form-group mb-3">
+                <label for="movieName">Movie Title</label>
+                <input type="text" formControlName="movieName" class="form-control" id="movieName"
+                    placeholder="Enter MovieTitle" minlength="3" maxlength="15" required>
+                <div *ngIf="movieForm.get('movieName')?.invalid && movieForm.get('movieName')?.touched"
+                    class="text-danger">
+                    <small *ngIf="movieForm.get('movieName')?.errors?.['movieName']">MovieTitle is required.</small>
+                </div>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="year">Release Year</label>
+                <input id="year" type="number" formControlName="year" placeholder="Enter Release year Exa : 2020"
+                    class="form-control" max="maxDate" maxlength="4" />
+                <div *ngIf="movieForm.get('year')?.touched && movieForm.get('year')?.hasError('required')"
+                    class="text-danger">
+                    Appointment date is required.
+                </div>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="posterimage">Poster Image :</label>
+                <input type="file" accept="image/*" formControlName="posterimage" class="form-control" id="posterimage"
+                    (change)="onFileChange($event)" required>
+                <!-- <img width="100%" src="{{apiUrl+imageurl}}" class="image">
+                <img src="{{apiUrl+imageurl|| 'https://via.placeholder.com/200?text=No+Image' }}"
+                         class="img-fluid product-image"
+                        *ngIf="imageurl; else defaultImg">
+                    <ng-template #defaultImg>
+                        <div class="default-image">No Image</div>
+                    </ng-template> -->
+                <div *ngIf="movieForm.get('posterimage')?.invalid && movieForm.get('posterimage')?.touched"
+                    class="text-danger">
+                    <small *ngIf="movieForm.get('posterimage')?.errors?.['required']">PosterImage is
+                        required.</small>
+                </div>
+            </div>
+
+            <div class="text-center" style="justify-content: space-between;">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <!-- || !isTimeValid() -->
+                <button type="button" class="btn btn-secondary" (click)="onCancel()"
+                    style="padding:0.8rem">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+
+</div>
+@if(isLoading){
+<div class="loader-backdrop">
+    <div class="loader"></div>
+</div>
+}

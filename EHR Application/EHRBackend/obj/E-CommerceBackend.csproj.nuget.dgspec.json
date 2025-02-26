@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\E-CommerceBackend.csproj": {}
+    "C:\\Users\\kunalwadibharme\\Desktop\\New folder\\SmartData\\EHR Application\\EHRBackend\\E-CommerceBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\E-CommerceBackend.csproj": {
+    "C:\\Users\\kunalwadibharme\\Desktop\\New folder\\SmartData\\EHR Application\\EHRBackend\\E-CommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\E-CommerceBackend.csproj",
+        "projectUniqueName": "C:\\Users\\kunalwadibharme\\Desktop\\New folder\\SmartData\\EHR Application\\EHRBackend\\E-CommerceBackend.csproj",
         "projectName": "E-CommerceBackend",
-        "projectPath": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\E-CommerceBackend.csproj",
+        "projectPath": "C:\\Users\\kunalwadibharme\\Desktop\\New folder\\SmartData\\EHR Application\\EHRBackend\\E-CommerceBackend.csproj",
         "packagesPath": "C:\\Users\\kunalwadibharme\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\obj\\",
+        "outputPath": "C:\\Users\\kunalwadibharme\\Desktop\\New folder\\SmartData\\EHR Application\\EHRBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kunalwadibharme\\AppData\\Roaming\\NuGet\\NuGet.Config",
