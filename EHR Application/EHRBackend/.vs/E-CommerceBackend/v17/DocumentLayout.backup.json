@@ -1,0 +1,656 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\database\\ehrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:database\\ehrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\userregistercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\chatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\chatdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\models\\soap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:models\\soap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\models\\storeotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:models\\storeotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\completedappointmentdetailsofproviderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\completedappointmentdetailsofproviderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\completedappointmentdetailsofpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\completedappointmentdetailsofpatientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-Commerce(stripe)\\E-CommerceBackendfinal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\updateappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\updateappointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\getpatientbyprovideriddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\getpatientbyprovideriddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\productinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\productinvoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\models\\bloodgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:models\\bloodgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:models\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\entities\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:entities\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:controllers\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\entities\\cardtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:entities\\cardtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\migrations\\20241212115120_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:migrations\\20241212115120_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\migrations\\20241216074729_eight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:migrations\\20241216074729_eight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\migrations\\20241216055916_seven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:migrations\\20241216055916_seven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\e-commerce\\ehrapplication\\ehrbackendfromhome16-12-24\\ehrbackend\\migrations\\20241217044607_eleventh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4DA563D-C0EE-4BB1-A12F-10E80A333E4C}|E-CommerceBackend.csproj|solutionrelative:migrations\\20241217044607_eleventh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T05:23:53.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\AppointmentService.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAowLcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:45:13.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "Services\\ChatService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\ChatService.cs",
+              "RelativeToolTip": "Services\\ChatService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:44:30.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Soap.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Soap.cs",
+              "RelativeDocumentMoniker": "Models\\Soap.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Soap.cs",
+              "RelativeToolTip": "Models\\Soap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:45:35.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:35:59.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T08:43:28.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\UserRegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserRegisterController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\UserRegisterController.cs",
+              "RelativeToolTip": "Controllers\\UserRegisterController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T17:11:50.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\RegisterService.cs",
+              "RelativeDocumentMoniker": "Services\\RegisterService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\RegisterService.cs",
+              "RelativeToolTip": "Services\\RegisterService.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAApwNcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T04:21:33.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EhrDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Database\\EhrDbContext.cs",
+              "RelativeDocumentMoniker": "Database\\EhrDbContext.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Database\\EhrDbContext.cs",
+              "RelativeToolTip": "Database\\EhrDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:32:30.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StoreOtp.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\StoreOtp.cs",
+              "RelativeDocumentMoniker": "Models\\StoreOtp.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\StoreOtp.cs",
+              "RelativeToolTip": "Models\\StoreOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:13:46.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAApwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:30:35.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\ChatDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ChatDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\ChatDto.cs",
+              "RelativeToolTip": "DTOs\\ChatDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:46:07.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:07:36.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompletedAppointmentDetailsOfPatientdto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\CompletedAppointmentDetailsOfPatientdto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CompletedAppointmentDetailsOfPatientdto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\CompletedAppointmentDetailsOfPatientdto.cs",
+              "RelativeToolTip": "DTOs\\CompletedAppointmentDetailsOfPatientdto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:43:17.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CompletedAppointmentDetailsOfProviderDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\CompletedAppointmentDetailsOfProviderDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CompletedAppointmentDetailsOfProviderDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\CompletedAppointmentDetailsOfProviderDto.cs",
+              "RelativeToolTip": "DTOs\\CompletedAppointmentDetailsOfProviderDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T06:58:03.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAtwF0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:53:03.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-Commerce(stripe)\\E-CommerceBackendfinal\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\E-Commerce(stripe)\\E-CommerceBackendfinal\\appsettings.json",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\E-Commerce(stripe)\\E-CommerceBackendfinal\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\E-Commerce(stripe)\\E-CommerceBackendfinal\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-17T11:50:56.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "getPatientbyProviderIdDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\getPatientbyProviderIdDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\getPatientbyProviderIdDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\getPatientbyProviderIdDto.cs",
+              "RelativeToolTip": "DTOs\\getPatientbyProviderIdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:37:53.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "updateAppointmentdto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\updateAppointmentdto.cs",
+              "RelativeDocumentMoniker": "DTOs\\updateAppointmentdto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\updateAppointmentdto.cs",
+              "RelativeToolTip": "DTOs\\updateAppointmentdto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T08:42:48.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\AppointmentDto.cs",
+              "RelativeToolTip": "DTOs\\AppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:28:14.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20241217044607_eleventh.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241217044607_eleventh.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241217044607_eleventh.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241217044607_eleventh.cs",
+              "RelativeToolTip": "Migrations\\20241217044607_eleventh.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:46:07.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20241216074729_eight.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241216074729_eight.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241216074729_eight.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241216074729_eight.cs",
+              "RelativeToolTip": "Migrations\\20241216074729_eight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:47:30.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20241216055916_seven.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241216055916_seven.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241216055916_seven.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241216055916_seven.cs",
+              "RelativeToolTip": "Migrations\\20241216055916_seven.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:59:16.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\State.cs",
+              "RelativeDocumentMoniker": "Models\\State.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\State.cs",
+              "RelativeToolTip": "Models\\State.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:13:11.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BloodGroup.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\BloodGroup.cs",
+              "RelativeDocumentMoniker": "Models\\BloodGroup.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\BloodGroup.cs",
+              "RelativeToolTip": "Models\\BloodGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:20:37.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "Models\\Gender.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Gender.cs",
+              "RelativeToolTip": "Models\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T12:20:13.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\Country.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Country.cs",
+              "RelativeToolTip": "Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:12:21.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Carddto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\Carddto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Carddto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\Carddto.cs",
+              "RelativeToolTip": "DTOs\\Carddto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:29:39.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Productdto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\Productdto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Productdto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\Productdto.cs",
+              "RelativeToolTip": "DTOs\\Productdto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T09:03:34.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductInvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\ProductInvoiceDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductInvoiceDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\DTOs\\ProductInvoiceDto.cs",
+              "RelativeToolTip": "DTOs\\ProductInvoiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:59:58.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241212115120_One.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241212115120_One.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241212115120_One.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Migrations\\20241212115120_One.cs",
+              "RelativeToolTip": "Migrations\\20241212115120_One.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:51:20.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Usertype.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Usertype.cs",
+              "RelativeDocumentMoniker": "Models\\Usertype.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Models\\Usertype.cs",
+              "RelativeToolTip": "Models\\Usertype.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:13:28.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Usertable.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Entities\\Usertable.cs",
+              "RelativeDocumentMoniker": "Entities\\Usertable.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Entities\\Usertable.cs",
+              "RelativeToolTip": "Entities\\Usertable.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAxwCkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:16:30.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Services\\CartService.cs",
+              "RelativeToolTip": "Services\\CartService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T08:49:23.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:32:03.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminProductController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\AdminProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminProductController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Controllers\\AdminProductController.cs",
+              "RelativeToolTip": "Controllers\\AdminProductController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T10:02:19.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwCUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T06:12:57.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Cardtable.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Entities\\Cardtable.cs",
+              "RelativeDocumentMoniker": "Entities\\Cardtable.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\E-Commerce\\EHRApplication\\EHRBackendfromhome16-12-24\\EHRBackend\\Entities\\Cardtable.cs",
+              "RelativeToolTip": "Entities\\Cardtable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T23:29:47.468Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
