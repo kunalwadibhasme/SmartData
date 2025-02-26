@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BE7AAC1-055D-4173-95D4-9AADB250B15A}|CustomerMicroService\\CustomerMicroService.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\microservice.webapi\\customermicroservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BE7AAC1-055D-4173-95D4-9AADB250B15A}|CustomerMicroService\\CustomerMicroService.csproj|solutionrelative:customermicroservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980026AB-2599-4C51-BB6A-11C3E67C4DF8}|Gateway.WebApi\\Gateway.WebApi.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\microservice.webapi\\gateway.webapi\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{980026AB-2599-4C51-BB6A-11C3E67C4DF8}|Gateway.WebApi\\Gateway.WebApi.csproj|solutionrelative:gateway.webapi\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980026AB-2599-4C51-BB6A-11C3E67C4DF8}|Gateway.WebApi\\Gateway.WebApi.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\microservice.webapi\\gateway.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980026AB-2599-4C51-BB6A-11C3E67C4DF8}|Gateway.WebApi\\Gateway.WebApi.csproj|solutionrelative:gateway.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980026AB-2599-4C51-BB6A-11C3E67C4DF8}|Gateway.WebApi\\Gateway.WebApi.csproj|c:\\users\\kunalwadibharme\\desktop\\files\\microservice.webapi\\gateway.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{980026AB-2599-4C51-BB6A-11C3E67C4DF8}|Gateway.WebApi\\Gateway.WebApi.csproj|solutionrelative:gateway.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\CustomerMicroService\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CustomerMicroService\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\CustomerMicroService\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CustomerMicroService\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T04:02:17.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\Gateway.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Gateway.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\Gateway.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Gateway.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-31T09:54:18.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\Gateway.WebApi\\ocelot.json",
+              "RelativeDocumentMoniker": "Gateway.WebApi\\ocelot.json",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\Gateway.WebApi\\ocelot.json",
+              "RelativeToolTip": "Gateway.WebApi\\ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-31T07:15:15.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\Gateway.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Gateway.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\Desktop\\FILES\\Microservice.WebApi\\Gateway.WebApi\\Program.cs",
+              "RelativeToolTip": "Gateway.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T07:04:20.527Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
