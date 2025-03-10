@@ -1,0 +1,738 @@
+2025-02-28 10:08:55.323 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-28 10:08:55.674 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-02-28 10:08:55.981 +05:30 [INF] Now listening on: https://localhost:7005
+2025-02-28 10:08:55.983 +05:30 [INF] Now listening on: http://localhost:5058
+2025-02-28 10:08:56.153 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-28 10:08:56.156 +05:30 [INF] Hosting environment: Development
+2025-02-28 10:08:56.157 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-02-28 10:08:57.170 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-02-28 10:08:57.409 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 243.6379ms
+2025-02-28 10:08:57.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-28 10:08:57.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-02-28 10:08:57.435 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.1497ms
+2025-02-28 10:08:57.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.8059ms
+2025-02-28 10:08:57.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-02-28 10:08:57.634 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.8987ms
+2025-02-28 10:13:44.368 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-28 10:13:44.474 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-02-28 10:13:44.661 +05:30 [INF] Now listening on: https://localhost:7005
+2025-02-28 10:13:44.663 +05:30 [INF] Now listening on: http://localhost:5058
+2025-02-28 10:13:44.777 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-28 10:13:44.779 +05:30 [INF] Hosting environment: Development
+2025-02-28 10:13:44.780 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-02-28 10:13:45.209 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-02-28 10:13:45.407 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 206.2184ms
+2025-02-28 10:13:45.415 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-28 10:13:45.415 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-02-28 10:13:45.425 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.7729ms
+2025-02-28 10:13:45.460 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.0923ms
+2025-02-28 10:13:45.492 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-02-28 10:13:45.601 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.2837ms
+2025-02-28 10:14:07.838 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - application/json 236
+2025-02-28 10:14:07.854 +05:30 [INF] CORS policy execution failed.
+2025-02-28 10:14:07.856 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-02-28 10:14:07.947 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:14:07.978 +05:30 [INF] Route matched with {action = "UpdateCourse", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCourse(Application.Model.Course.UpdateCourseDto) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:14:08.049 +05:30 [INF] The function to Update Course is Called
+2025-02-28 10:14:09.333 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[@__update_CourseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__update_CourseId_0
+2025-02-28 10:14:09.480 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [courses] SET [Category] = @p0, [Description] = @p1, [EndDate] = @p2, [InstructorId] = @p3, [StartDate] = @p4, [Title] = @p5
+OUTPUT 1
+WHERE [CourseId] = @p6;
+2025-02-28 10:14:09.507 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 10:14:09.518 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.UpdateCourse (LearningApi) in 1535.3189ms
+2025-02-28 10:14:09.521 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:14:09.529 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - 200 null application/json; charset=utf-8 1690.8081ms
+2025-02-28 10:17:25.420 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - null null
+2025-02-28 10:17:25.429 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:17:25.431 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 204 null null 10.8984ms
+2025-02-28 10:17:25.438 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - application/json 2
+2025-02-28 10:17:25.443 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:17:25.445 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-02-28 10:17:25.452 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-28 10:17:25.463 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-02-28 10:17:25.605 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_0
+2025-02-28 10:17:25.982 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-28 10:17:29.824 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:17:29.837 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 4380.8236ms
+2025-02-28 10:17:29.840 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-02-28 10:17:29.842 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 200 null application/json; charset=utf-8 4404.9111ms
+2025-02-28 10:17:42.986 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-02-28 10:17:42.990 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:17:42.991 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 5.1358ms
+2025-02-28 10:17:42.995 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 53
+2025-02-28 10:17:42.998 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:17:43.001 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-28 10:17:43.005 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-28 10:17:43.011 +05:30 [INF] Login function is called for adding new User
+2025-02-28 10:17:43.035 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-28 10:17:43.402 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-28 10:17:43.406 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:17:43.409 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 400.8389ms
+2025-02-28 10:17:43.410 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-28 10:17:43.411 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 416.8416ms
+2025-02-28 10:17:43.425 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:17:43.433 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:17:43.435 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:17:43.439 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:17:43.447 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:17:43.459 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:17:43.466 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:17:43.469 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 23.977ms
+2025-02-28 10:17:43.472 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:17:43.473 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 48.4287ms
+2025-02-28 10:17:50.772 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:17:50.778 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:17:50.779 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:17:50.783 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:17:50.788 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:17:50.801 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:17:50.804 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:17:50.806 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 19.4383ms
+2025-02-28 10:17:50.808 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:17:50.811 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 38.9997ms
+2025-02-28 10:22:32.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:22:32.543 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:22:32.545 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:22:32.547 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:22:32.553 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:22:32.565 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:22:32.572 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:22:32.576 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 24.8979ms
+2025-02-28 10:22:32.578 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:22:32.581 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 51.5442ms
+2025-02-28 10:22:35.429 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:22:35.434 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:22:35.436 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:22:35.438 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:22:35.440 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:22:35.447 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:22:35.452 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:22:35.454 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 13.5855ms
+2025-02-28 10:22:35.455 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:22:35.457 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 28.7341ms
+2025-02-28 10:24:21.301 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:24:21.308 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:24:21.309 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:24:21.310 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:24:21.314 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:24:21.326 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:24:21.332 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:24:21.335 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 21.8307ms
+2025-02-28 10:24:21.338 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:24:21.340 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 39.891ms
+2025-02-28 10:24:27.249 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:24:27.254 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:24:27.255 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:24:27.257 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:24:27.265 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:24:27.269 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:24:27.276 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:24:27.280 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 16.2372ms
+2025-02-28 10:24:27.282 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:24:27.285 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 35.9876ms
+2025-02-28 10:24:30.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:24:30.876 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:24:30.877 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:24:30.878 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:24:30.881 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:24:30.884 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:24:30.889 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:24:30.891 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 10.4694ms
+2025-02-28 10:24:30.893 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:24:30.894 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 24.5137ms
+2025-02-28 10:28:58.772 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:28:58.777 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:28:58.779 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:28:58.781 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:28:58.785 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:28:58.792 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:28:58.798 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:28:58.801 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 15.8534ms
+2025-02-28 10:28:58.803 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:28:58.805 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 39.2539ms
+2025-02-28 10:29:00.247 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:29:00.253 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:29:00.253 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:29:00.255 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:29:00.257 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:29:00.261 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:29:00.265 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:29:00.270 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 12.7951ms
+2025-02-28 10:29:00.272 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:29:00.274 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 27.0768ms
+2025-02-28 10:32:43.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:32:43.024 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:32:43.026 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:32:43.027 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:32:43.031 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:32:43.048 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:32:43.061 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:32:43.064 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 33.1079ms
+2025-02-28 10:32:43.066 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:32:43.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 57.3295ms
+2025-02-28 10:32:46.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:32:46.115 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:32:46.116 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:32:46.118 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:32:46.120 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:32:46.124 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:32:46.128 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:32:46.130 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 9.8994ms
+2025-02-28 10:32:46.131 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:32:46.132 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 22.7634ms
+2025-02-28 10:34:49.394 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:34:49.407 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:34:49.409 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:34:49.410 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:34:49.413 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:34:49.419 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:34:49.428 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:34:49.430 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 17.4616ms
+2025-02-28 10:34:49.433 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:34:49.434 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 42.1886ms
+2025-02-28 10:34:50.439 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:34:50.444 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:34:50.445 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:34:50.446 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:34:50.449 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:34:50.453 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:34:50.460 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:34:50.462 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 12.9936ms
+2025-02-28 10:34:50.464 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:34:50.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 27.8673ms
+2025-02-28 10:36:48.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:36:48.184 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:36:48.185 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:36:48.186 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:36:48.190 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:36:48.199 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:36:48.209 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:36:48.212 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 22.8051ms
+2025-02-28 10:36:48.214 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:36:48.215 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 44.3905ms
+2025-02-28 10:36:49.391 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:36:49.396 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:36:49.397 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:36:49.399 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:36:49.402 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:36:49.405 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:36:49.409 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:36:49.412 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 10.3526ms
+2025-02-28 10:36:49.413 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:36:49.415 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 24.5498ms
+2025-02-28 10:37:08.534 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - null null
+2025-02-28 10:37:08.539 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:37:08.541 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - 204 null null 7.2143ms
+2025-02-28 10:37:08.547 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - application/json 196
+2025-02-28 10:37:08.552 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:37:08.553 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:37:08.555 +05:30 [INF] Route matched with {action = "UpdateCourse", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCourse(Application.Model.Course.UpdateCourseDto) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:37:08.559 +05:30 [INF] The function to Update Course is Called
+2025-02-28 10:37:08.564 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__update_CourseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__update_CourseId_0
+2025-02-28 10:37:08.573 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [courses] SET [Category] = @p0, [Description] = @p1, [EndDate] = @p2, [InstructorId] = @p3, [StartDate] = @p4, [Title] = @p5
+OUTPUT 1
+WHERE [CourseId] = @p6;
+2025-02-28 10:37:08.577 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 10:37:08.578 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.UpdateCourse (LearningApi) in 19.705ms
+2025-02-28 10:37:08.580 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:37:08.581 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - 200 null application/json; charset=utf-8 34.7954ms
+2025-02-28 10:37:42.533 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:37:42.546 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:37:42.547 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:37:42.549 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:37:42.554 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:37:42.561 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:37:42.577 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:37:42.579 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 25.9824ms
+2025-02-28 10:37:42.581 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:37:42.584 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 51.1066ms
+2025-02-28 10:38:27.743 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:38:27.753 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:38:27.754 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:38:27.756 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:38:27.760 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:38:27.765 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:38:27.771 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:38:27.773 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 13.4527ms
+2025-02-28 10:38:27.775 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:38:27.777 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 34.4537ms
+2025-02-28 10:40:12.048 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - null null
+2025-02-28 10:40:12.061 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:40:12.062 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - 204 null null 14.2103ms
+2025-02-28 10:40:12.068 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - application/json 188
+2025-02-28 10:40:12.077 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:40:12.079 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:40:12.082 +05:30 [INF] Route matched with {action = "UpdateCourse", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCourse(Application.Model.Course.UpdateCourseDto) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:40:12.086 +05:30 [INF] The function to Update Course is Called
+2025-02-28 10:40:12.089 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__update_CourseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__update_CourseId_0
+2025-02-28 10:40:12.094 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [courses] SET [Category] = @p0, [Description] = @p1, [EndDate] = @p2, [InstructorId] = @p3, [StartDate] = @p4, [Title] = @p5
+OUTPUT 1
+WHERE [CourseId] = @p6;
+2025-02-28 10:40:12.098 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 10:40:12.100 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.UpdateCourse (LearningApi) in 14.6466ms
+2025-02-28 10:40:12.102 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:40:12.103 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - 200 null application/json; charset=utf-8 36.4798ms
+2025-02-28 10:40:34.447 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:40:34.451 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:40:34.452 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:40:34.454 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:40:34.458 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:40:34.464 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:40:34.468 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:40:34.471 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 13.6165ms
+2025-02-28 10:40:34.473 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:40:34.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 29.0999ms
+2025-02-28 10:40:53.031 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - null null
+2025-02-28 10:40:53.035 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:40:53.037 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - 204 null null 6.2826ms
+2025-02-28 10:40:53.043 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - application/json 188
+2025-02-28 10:40:53.047 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:40:53.048 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:40:53.050 +05:30 [INF] Route matched with {action = "UpdateCourse", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCourse(Application.Model.Course.UpdateCourseDto) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:40:53.052 +05:30 [INF] The function to Update Course is Called
+2025-02-28 10:40:53.056 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__update_CourseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__update_CourseId_0
+2025-02-28 10:41:19.594 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [courses] SET [Category] = @p0, [Description] = @p1, [EndDate] = @p2, [InstructorId] = @p3, [StartDate] = @p4, [Title] = @p5
+OUTPUT 1
+WHERE [CourseId] = @p6;
+2025-02-28 10:41:19.597 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 10:41:19.599 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.UpdateCourse (LearningApi) in 26546.9645ms
+2025-02-28 10:41:19.601 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:41:19.602 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - 200 null application/json; charset=utf-8 26559.3726ms
+2025-02-28 10:41:54.250 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:41:54.261 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:41:54.263 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:41:54.264 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:41:54.268 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:41:54.275 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:41:54.280 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:41:54.284 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 15.7709ms
+2025-02-28 10:41:54.287 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:41:54.289 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 39.9734ms
+2025-02-28 10:41:58.655 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:41:58.659 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:41:58.660 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:41:58.661 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:41:58.663 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:41:58.667 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:41:58.671 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:41:58.675 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 11.8524ms
+2025-02-28 10:41:58.677 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:41:58.679 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 23.5598ms
+2025-02-28 10:42:14.829 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - null null
+2025-02-28 10:42:14.834 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:42:14.836 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/Course/UpdateCourse - 204 null null 6.6313ms
+2025-02-28 10:42:14.843 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - application/json 177
+2025-02-28 10:42:14.848 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:42:14.849 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:42:14.850 +05:30 [INF] Route matched with {action = "UpdateCourse", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCourse(Application.Model.Course.UpdateCourseDto) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:42:14.854 +05:30 [INF] The function to Update Course is Called
+2025-02-28 10:42:14.857 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[@__update_CourseId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__update_CourseId_0
+2025-02-28 10:42:19.597 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [courses] SET [Category] = @p0, [Description] = @p1, [EndDate] = @p2, [InstructorId] = @p3, [StartDate] = @p4, [Title] = @p5
+OUTPUT 1
+WHERE [CourseId] = @p6;
+2025-02-28 10:42:19.602 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-28 10:42:19.603 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.UpdateCourse (LearningApi) in 4749.9606ms
+2025-02-28 10:42:19.605 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.UpdateCourse (LearningApi)'
+2025-02-28 10:42:19.607 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7005/api/Course/UpdateCourse - 200 null application/json; charset=utf-8 4764.241ms
+2025-02-28 10:42:19.621 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:42:19.625 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:42:19.626 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:42:19.627 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:42:19.630 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:42:19.635 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:42:19.638 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:42:19.640 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 10.2196ms
+2025-02-28 10:42:19.641 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:42:19.642 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 21.6598ms
+2025-02-28 10:44:13.514 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:44:13.526 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:44:13.528 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:44:13.538 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:44:13.546 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:44:13.647 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:44:13.652 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:44:13.662 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 118.0855ms
+2025-02-28 10:44:13.664 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:44:13.666 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 499 null application/json; charset=utf-8 151.8215ms
+2025-02-28 10:44:13.768 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:44:13.772 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:44:13.773 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:44:13.775 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:44:13.779 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:44:13.787 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:44:13.792 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:44:13.794 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 15.8042ms
+2025-02-28 10:44:13.800 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:44:13.802 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 33.9346ms
+2025-02-28 10:45:35.239 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:45:35.246 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:45:35.248 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:35.249 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:45:35.252 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:45:35.258 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:45:35.266 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:45:35.268 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 15.867ms
+2025-02-28 10:45:35.270 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:35.271 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 33.0236ms
+2025-02-28 10:45:44.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:45:45.000 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:45:45.001 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:45.004 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:45:45.006 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:45:45.009 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:45:45.013 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:45:45.015 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 9.6732ms
+2025-02-28 10:45:45.017 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:45.018 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 23.4219ms
+2025-02-28 10:45:49.563 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:45:49.568 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:45:49.570 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:49.572 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:45:49.576 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:45:49.581 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:45:49.587 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:45:49.589 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 13.04ms
+2025-02-28 10:45:49.591 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:49.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 29.843ms
+2025-02-28 10:45:49.683 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:45:49.687 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:45:49.689 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:49.691 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:45:49.694 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:45:49.698 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:45:49.703 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:45:49.704 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 10.577ms
+2025-02-28 10:45:49.706 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:45:49.707 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 24.5205ms
+2025-02-28 10:46:46.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:46:46.274 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:46:46.275 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:46:46.276 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:46:46.279 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:46:46.283 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:46:46.291 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:46:46.293 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 13.8974ms
+2025-02-28 10:46:46.296 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:46:46.298 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 30.4141ms
+2025-02-28 10:47:09.631 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:47:09.640 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:47:09.641 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:47:09.642 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:47:09.646 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:47:09.650 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:47:09.657 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:47:09.660 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 14.3911ms
+2025-02-28 10:47:09.663 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:47:09.665 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 34.5271ms
+2025-02-28 10:51:16.380 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - null null
+2025-02-28 10:51:16.389 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:51:16.390 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:51:16.391 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:51:16.396 +05:30 [INF] The function to Get AllCourses is Called
+2025-02-28 10:51:16.400 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-02-28 10:51:16.407 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:51:16.409 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 14.3778ms
+2025-02-28 10:51:16.412 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-02-28 10:51:16.413 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=1 - 200 null application/json; charset=utf-8 33.1528ms
+2025-02-28 10:51:20.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:51:20.987 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:51:20.988 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:51:20.989 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:51:20.993 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:51:20.998 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:51:21.001 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:51:21.003 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 10.0636ms
+2025-02-28 10:51:21.004 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:51:21.005 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 22.7253ms
+2025-02-28 10:52:23.218 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:52:23.232 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:52:23.233 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:23.235 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:52:23.239 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:52:23.243 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:52:23.251 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:52:23.255 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 15.9744ms
+2025-02-28 10:52:23.256 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:23.257 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 40.3174ms
+2025-02-28 10:52:23.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:52:23.462 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:52:23.464 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:23.467 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:52:23.470 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:52:23.474 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:52:23.486 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:52:23.488 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 18.0478ms
+2025-02-28 10:52:23.491 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:23.493 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 36.804ms
+2025-02-28 10:52:24.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:52:24.700 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:52:24.701 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:52:24.703 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:52:24.706 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:52:24.711 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:52:24.715 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:52:24.717 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 11.6086ms
+2025-02-28 10:52:24.719 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:52:24.721 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 26.9905ms
+2025-02-28 10:52:28.103 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:52:28.108 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:52:28.113 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:28.116 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:52:28.121 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:52:28.127 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:52:28.133 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:52:28.135 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 14.061ms
+2025-02-28 10:52:28.137 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:28.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 37.5179ms
+2025-02-28 10:52:28.339 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:52:28.343 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:52:28.346 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:28.348 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:52:28.352 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:52:28.359 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:52:28.364 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:52:28.368 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 15.6008ms
+2025-02-28 10:52:28.370 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:52:28.373 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 33.6715ms
+2025-02-28 10:52:39.295 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - null null
+2025-02-28 10:52:39.300 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:52:39.302 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:52:39.303 +05:30 [INF] Route matched with {action = "GetCourseById", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourseById(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:52:39.305 +05:30 [INF] The function to Get Courses Created by Id is Called
+2025-02-28 10:52:39.310 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] = @__command_Id_0
+2025-02-28 10:52:39.315 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:52:39.318 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourseById (LearningApi) in 12.952ms
+2025-02-28 10:52:39.320 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourseById (LearningApi)'
+2025-02-28 10:52:39.321 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetCourseById?id=1 - 200 null application/json; charset=utf-8 26.0569ms
+2025-02-28 10:54:44.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:54:44.205 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:54:44.206 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:54:44.208 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:54:44.211 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:54:44.216 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:54:44.223 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:54:44.226 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 14.8584ms
+2025-02-28 10:54:44.227 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:54:44.229 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 35.7854ms
+2025-02-28 10:55:10.760 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:55:10.770 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:55:10.771 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:55:10.772 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:55:10.776 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:55:10.780 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:55:10.787 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:55:10.789 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 13.2519ms
+2025-02-28 10:55:10.790 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:55:10.791 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 31.0293ms
+2025-02-28 10:55:14.446 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-02-28 10:55:14.449 +05:30 [INF] CORS policy execution successful.
+2025-02-28 10:55:14.450 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:55:14.451 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-02-28 10:55:14.453 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-02-28 10:55:14.458 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-02-28 10:55:14.461 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-28 10:55:14.463 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 9.4871ms
+2025-02-28 10:55:14.464 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-02-28 10:55:14.465 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 19.8873ms

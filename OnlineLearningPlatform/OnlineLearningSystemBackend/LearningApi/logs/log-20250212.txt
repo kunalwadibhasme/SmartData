@@ -1,0 +1,745 @@
+2025-02-12 10:58:32.188 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 10:58:32.355 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-02-12 10:58:32.599 +05:30 [INF] Now listening on: https://localhost:7005
+2025-02-12 10:58:32.602 +05:30 [INF] Now listening on: http://localhost:5058
+2025-02-12 10:58:32.693 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 10:58:32.695 +05:30 [INF] Hosting environment: Development
+2025-02-12 10:58:32.696 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-02-12 10:58:42.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-02-12 10:58:42.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 265.3772ms
+2025-02-12 10:58:42.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 10:58:42.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-02-12 10:58:42.849 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 12.8552ms
+2025-02-12 10:58:42.909 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.7005ms
+2025-02-12 10:58:43.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-02-12 10:58:43.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.2003ms
+2025-02-12 11:38:17.389 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 92
+2025-02-12 11:38:17.402 +05:30 [INF] CORS policy execution failed.
+2025-02-12 11:38:17.404 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-02-12 11:38:17.657 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 11:38:17.694 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 11:38:17.839 +05:30 [INF] Register function is called for adding new User
+2025-02-12 11:38:19.867 +05:30 [INF] Executed DbCommand (75ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 11:38:20.404 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([ApiKey], [CreatedAt], [Email], [FirstName], [LastName], [Password], [RefreshToken], [RefreshTokenExpiryTime], [Role])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-02-12 11:38:24.114 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 11:38:24.129 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 6427.3118ms
+2025-02-12 11:38:24.131 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 11:38:24.141 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 200 null application/json; charset=utf-8 6753.1442ms
+2025-02-12 11:38:51.049 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 59
+2025-02-12 11:38:51.061 +05:30 [INF] CORS policy execution failed.
+2025-02-12 11:38:51.062 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-02-12 11:38:51.064 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 11:38:51.069 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 11:38:51.077 +05:30 [INF] Login function is called for adding new User
+2025-02-12 11:38:51.149 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 11:39:00.670 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 11:39:00.673 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 9600.6082ms
+2025-02-12 11:39:00.675 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 11:39:00.678 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 9629.4673ms
+2025-02-12 11:42:51.394 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-02-12 11:42:51.405 +05:30 [INF] CORS policy execution successful.
+2025-02-12 11:42:51.408 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 13.8656ms
+2025-02-12 11:42:51.414 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 11:42:51.417 +05:30 [INF] CORS policy execution successful.
+2025-02-12 11:42:51.420 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 11:42:51.422 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 11:42:51.426 +05:30 [INF] Login function is called for adding new User
+2025-02-12 11:42:51.448 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 11:42:51.799 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 11:42:51.805 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 11:42:51.810 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 385.5092ms
+2025-02-12 11:42:51.811 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 11:42:51.813 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 399.6557ms
+2025-02-12 11:52:14.156 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-02-12 11:52:14.167 +05:30 [INF] CORS policy execution successful.
+2025-02-12 11:52:14.168 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 11.8101ms
+2025-02-12 11:52:14.173 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 11:52:14.176 +05:30 [INF] CORS policy execution successful.
+2025-02-12 11:52:14.177 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 11:52:14.179 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 11:52:14.182 +05:30 [INF] Login function is called for adding new User
+2025-02-12 11:52:14.295 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 11:52:14.445 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 11:52:14.449 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 11:52:14.451 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 269.9004ms
+2025-02-12 11:52:14.453 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 11:52:14.454 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 281.3883ms
+2025-02-12 12:01:47.865 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-02-12 12:01:47.873 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:01:47.875 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 9.8851ms
+2025-02-12 12:01:47.879 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:01:47.882 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:01:47.882 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:01:47.885 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:01:47.888 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:01:47.990 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:01:48.138 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:01:48.144 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:01:48.146 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 259.0069ms
+2025-02-12 12:01:48.148 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:01:48.150 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 271.4655ms
+2025-02-12 12:02:06.426 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-02-12 12:02:06.429 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:06.430 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 4.8719ms
+2025-02-12 12:02:06.437 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:02:06.440 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:06.442 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:06.444 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:02:06.446 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:02:06.452 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:02:06.604 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:02:06.608 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:02:06.610 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 163.9812ms
+2025-02-12 12:02:06.612 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:06.614 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 177.4816ms
+2025-02-12 12:02:12.010 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-02-12 12:02:12.014 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:12.015 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 4.7617ms
+2025-02-12 12:02:12.020 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:02:12.023 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:12.024 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.026 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:02:12.029 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:02:12.032 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:02:12.176 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:02:12.180 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:02:12.182 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 153.3435ms
+2025-02-12 12:02:12.183 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.184 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 164.1772ms
+2025-02-12 12:02:12.232 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:02:12.235 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:12.236 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.237 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:02:12.240 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:02:12.243 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:02:12.391 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:02:12.396 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:02:12.398 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 158.3975ms
+2025-02-12 12:02:12.399 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.401 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 169.2084ms
+2025-02-12 12:02:12.448 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:02:12.451 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:12.452 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.453 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:02:12.456 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:02:12.460 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:02:12.605 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:02:12.608 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:02:12.610 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 154.4513ms
+2025-02-12 12:02:12.612 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.613 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 165.1772ms
+2025-02-12 12:02:12.650 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:02:12.653 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:12.654 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.655 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:02:12.658 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:02:12.663 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:02:12.792 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:02:12.795 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:12.796 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.801 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:02:12.804 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:02:12.808 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:02:12.817 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:02:12.820 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:02:12.822 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 164.3852ms
+2025-02-12 12:02:12.823 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.825 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 174.9532ms
+2025-02-12 12:02:12.954 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:02:12.959 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:02:12.962 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 158.0229ms
+2025-02-12 12:02:12.964 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:12.965 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 173.7059ms
+2025-02-12 12:02:13.008 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:02:13.011 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:02:13.012 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:13.014 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:02:13.017 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:02:13.021 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:02:13.166 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:02:13.171 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:02:13.174 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 157.5958ms
+2025-02-12 12:02:13.176 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:02:13.178 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 170.0708ms
+2025-02-12 12:04:45.708 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-02-12 12:04:45.717 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:04:45.718 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 10.2371ms
+2025-02-12 12:04:45.723 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-02-12 12:04:45.726 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:04:45.727 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:04:45.728 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:04:45.732 +05:30 [INF] Login function is called for adding new User
+2025-02-12 12:04:45.737 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 12:04:45.883 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 12:04:45.887 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:04:45.888 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 156.987ms
+2025-02-12 12:04:45.890 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-02-12 12:04:45.891 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 168.2197ms
+2025-02-12 12:38:27.469 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 12:38:27.595 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-02-12 12:38:27.803 +05:30 [INF] Now listening on: https://localhost:7005
+2025-02-12 12:38:27.805 +05:30 [INF] Now listening on: http://localhost:5058
+2025-02-12 12:38:27.894 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 12:38:27.896 +05:30 [INF] Hosting environment: Development
+2025-02-12 12:38:27.898 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-02-12 12:38:28.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-02-12 12:38:29.227 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 257.9032ms
+2025-02-12 12:38:29.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 12:38:29.256 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.3782ms
+2025-02-12 12:38:29.306 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-02-12 12:38:29.359 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1076ms
+2025-02-12 12:38:29.505 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-02-12 12:38:29.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.1974ms
+2025-02-12 12:49:52.440 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 12:49:52.450 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:49:52.453 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 13.9851ms
+2025-02-12 12:49:52.459 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 1220
+2025-02-12 12:49:52.464 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:49:52.574 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 12:49:52.609 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:49:52.685 +05:30 [INF] GoogleLogin function is called
+2025-02-12 12:49:53.622 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:49:53.634 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 1018.3917ms
+2025-02-12 12:49:53.637 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 12:49:53.640 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 200 null application/json; charset=utf-8 1181.2083ms
+2025-02-12 12:50:22.023 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 12:50:22.041 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:50:22.044 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 20.7152ms
+2025-02-12 12:50:22.050 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 1220
+2025-02-12 12:50:22.054 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:50:22.056 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 12:50:22.064 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:50:22.068 +05:30 [INF] GoogleLogin function is called
+2025-02-12 12:50:22.079 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 12:50:22.081 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 14.8578ms
+2025-02-12 12:50:22.083 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 12:50:22.085 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 200 null application/json; charset=utf-8 35.8355ms
+2025-02-12 12:51:10.046 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 12:51:10.214 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-02-12 12:51:10.432 +05:30 [INF] Now listening on: https://localhost:7005
+2025-02-12 12:51:10.434 +05:30 [INF] Now listening on: http://localhost:5058
+2025-02-12 12:51:10.521 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 12:51:10.523 +05:30 [INF] Hosting environment: Development
+2025-02-12 12:51:10.524 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-02-12 12:51:11.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-02-12 12:51:11.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 261.1545ms
+2025-02-12 12:51:11.766 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-02-12 12:51:11.766 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 12:51:11.785 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 19.6633ms
+2025-02-12 12:51:11.810 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2138ms
+2025-02-12 12:51:11.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-02-12 12:51:11.983 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.8123ms
+2025-02-12 12:51:20.987 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 12:51:21.002 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:51:21.004 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 17.6653ms
+2025-02-12 12:51:21.012 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 1220
+2025-02-12 12:51:21.017 +05:30 [INF] CORS policy execution successful.
+2025-02-12 12:51:21.117 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 12:51:21.143 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 12:51:21.200 +05:30 [INF] GoogleLogin function is called
+2025-02-12 12:51:21.944 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Google.Apis.Auth.GoogleJsonWebSignature+Payload, Google.Apis.Auth, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab]]'.
+2025-02-12 12:51:21.971 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 822.4608ms
+2025-02-12 12:51:21.974 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 12:51:21.979 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 200 null application/json; charset=utf-8 966.346ms
+2025-02-12 13:00:12.144 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 13:00:12.159 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:00:12.161 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 17.0696ms
+2025-02-12 13:00:12.166 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 1220
+2025-02-12 13:00:12.169 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:00:12.173 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:00:12.180 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 13:00:12.183 +05:30 [INF] GoogleLogin function is called
+2025-02-12 13:00:12.194 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Google.Apis.Auth.GoogleJsonWebSignature+Payload, Google.Apis.Auth, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab]]'.
+2025-02-12 13:00:12.196 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 14.7027ms
+2025-02-12 13:00:12.198 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:00:12.199 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 200 null application/json; charset=utf-8 33.3213ms
+2025-02-12 13:00:28.101 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 13:00:28.225 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-02-12 13:00:28.467 +05:30 [INF] Now listening on: https://localhost:7005
+2025-02-12 13:00:28.469 +05:30 [INF] Now listening on: http://localhost:5058
+2025-02-12 13:00:28.580 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 13:00:28.582 +05:30 [INF] Hosting environment: Development
+2025-02-12 13:00:28.583 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-02-12 13:00:28.955 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-02-12 13:00:29.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 241.169ms
+2025-02-12 13:00:29.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 13:00:29.300 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-02-12 13:00:29.309 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.4522ms
+2025-02-12 13:00:29.346 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.217ms
+2025-02-12 13:00:29.378 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-02-12 13:00:29.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.8346ms
+2025-02-12 13:00:36.798 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 13:00:36.806 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:00:36.812 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 14.7512ms
+2025-02-12 13:00:36.819 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 1220
+2025-02-12 13:00:36.825 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:00:36.943 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:00:36.971 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 13:00:37.030 +05:30 [INF] GoogleLogin function is called
+2025-02-12 13:01:00.628 +05:30 [INF] Executed DbCommand (65ms) [Parameters=[@__result_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__result_Email_0
+2025-02-12 13:01:21.139 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Google.Apis.Auth.GoogleJsonWebSignature+Payload, Google.Apis.Auth, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab]]'.
+2025-02-12 13:01:21.163 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 44183.9302ms
+2025-02-12 13:01:21.167 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:01:21.174 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 200 null application/json; charset=utf-8 44355.6483ms
+2025-02-12 13:02:04.075 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 13:02:04.089 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:02:04.092 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 17.2775ms
+2025-02-12 13:02:04.102 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 1220
+2025-02-12 13:02:04.105 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:02:04.107 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:02:04.108 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 13:02:04.112 +05:30 [INF] GoogleLogin function is called
+2025-02-12 13:02:09.441 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[@__result_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__result_Email_0
+2025-02-12 13:03:12.942 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Google.Apis.Auth.GoogleJsonWebSignature+Payload, Google.Apis.Auth, Version=1.69.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab]]'.
+2025-02-12 13:03:12.955 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 107
+2025-02-12 13:03:12.964 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 68844.8895ms
+2025-02-12 13:03:12.967 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:03:12.969 +05:30 [INF] CORS policy execution failed.
+2025-02-12 13:03:12.971 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 200 null application/json; charset=utf-8 68869.8873ms
+2025-02-12 13:03:12.971 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-02-12 13:03:12.980 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 13:03:12.988 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 13:03:13.029 +05:30 [INF] Register function is called for adding new User
+2025-02-12 13:03:13.093 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 13:03:13.574 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([ApiKey], [CreatedAt], [Email], [FirstName], [LastName], [Password], [RefreshToken], [RefreshTokenExpiryTime], [Role])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-02-12 13:03:17.253 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 13:03:17.257 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 4265.8762ms
+2025-02-12 13:03:17.259 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 13:03:17.262 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 200 null application/json; charset=utf-8 4307.7283ms
+2025-02-12 13:03:30.450 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 13:03:30.455 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:03:30.457 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 7.8981ms
+2025-02-12 13:03:30.468 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 1220
+2025-02-12 13:03:30.473 +05:30 [INF] CORS policy execution successful.
+2025-02-12 13:03:30.475 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:03:30.476 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 13:03:30.479 +05:30 [INF] GoogleLogin function is called
+2025-02-12 13:03:34.642 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__result_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__result_Email_0
+2025-02-12 13:03:34.695 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 13:03:34.702 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 13:03:34.706 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 4227.5132ms
+2025-02-12 13:03:34.708 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 13:03:34.709 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 200 null application/json; charset=utf-8 4241.9394ms
+2025-02-12 14:07:15.895 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:07:15.902 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:07:15.903 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 8.4286ms
+2025-02-12 14:07:15.909 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:07:15.912 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:07:15.913 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:07:15.915 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:07:15.922 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:07:15.938 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 19.4409ms
+2025-02-12 14:07:15.940 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:07:15.941 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 32.3867ms
+2025-02-12 14:08:29.948 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:08:29.960 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:08:29.962 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 14.7938ms
+2025-02-12 14:08:29.972 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:08:29.978 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:08:29.979 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:08:29.981 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:08:29.984 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:08:29.985 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 2.0111ms
+2025-02-12 14:08:29.987 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:08:29.988 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 16.5349ms
+2025-02-12 14:28:40.959 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-12 14:28:41.086 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-02-12 14:28:41.300 +05:30 [INF] Now listening on: https://localhost:7005
+2025-02-12 14:28:41.303 +05:30 [INF] Now listening on: http://localhost:5058
+2025-02-12 14:28:41.396 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-12 14:28:41.398 +05:30 [INF] Hosting environment: Development
+2025-02-12 14:28:41.400 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-02-12 14:28:42.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-02-12 14:28:43.371 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 685.5954ms
+2025-02-12 14:28:43.381 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-12 14:28:43.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.6637ms
+2025-02-12 14:28:43.450 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-02-12 14:28:43.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.6206ms
+2025-02-12 14:28:43.540 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-02-12 14:28:43.661 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.873ms
+2025-02-12 14:32:32.578 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:32:32.578 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/facebook-login - null null
+2025-02-12 14:32:32.593 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:32:32.593 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:32:32.598 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/facebook-login - 204 null null 20.0614ms
+2025-02-12 14:32:32.598 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 20.2517ms
+2025-02-12 14:32:32.608 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login - application/json 39
+2025-02-12 14:32:32.611 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:32:32.614 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:32:32.614 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:32:32.880 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:32:32.880 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:32:32.909 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:32:32.909 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:32:32.952 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:32:32.967 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:32:32.980 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 61.8265ms
+2025-02-12 14:32:32.980 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 61.8614ms
+2025-02-12 14:32:32.984 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:32:32.985 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:32:32.988 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 376.7814ms
+2025-02-12 14:32:32.988 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login - 400 null application/problem+json; charset=utf-8 378.6448ms
+2025-02-12 14:34:03.641 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - null 0
+2025-02-12 14:34:03.648 +05:30 [INF] CORS policy execution failed.
+2025-02-12 14:34:03.651 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-02-12 14:34:03.655 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:34:03.657 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:34:03.670 +05:30 [INF] GoogleLogin function is called
+2025-02-12 14:34:05.289 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-02-12 14:34:05.316 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 14:34:05.323 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 1662.3959ms
+2025-02-12 14:34:05.327 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:34:05.335 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - 200 null application/json; charset=utf-8 1694.426ms
+2025-02-12 14:36:08.829 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 107
+2025-02-12 14:36:08.845 +05:30 [INF] CORS policy execution failed.
+2025-02-12 14:36:08.854 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-02-12 14:36:08.856 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 14:36:08.861 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:36:08.910 +05:30 [INF] Register function is called for adding new User
+2025-02-12 14:36:08.998 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 14:36:09.500 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([ApiKey], [CreatedAt], [Email], [FirstName], [LastName], [Password], [RefreshToken], [RefreshTokenExpiryTime], [Role])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-02-12 14:36:13.451 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 14:36:13.455 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 4590.5451ms
+2025-02-12 14:36:13.458 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 14:36:13.460 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 200 null application/json; charset=utf-8 4631.3095ms
+2025-02-12 14:36:20.527 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - null 0
+2025-02-12 14:36:20.532 +05:30 [INF] CORS policy execution failed.
+2025-02-12 14:36:20.533 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-02-12 14:36:20.535 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:36:20.538 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:36:20.541 +05:30 [INF] GoogleLogin function is called
+2025-02-12 14:36:20.561 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-02-12 14:36:20.611 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 14:36:20.618 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 14:36:20.622 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 81.7806ms
+2025-02-12 14:36:20.625 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:36:20.628 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - 200 null application/json; charset=utf-8 100.4332ms
+2025-02-12 14:36:34.737 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:36:34.740 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:36:34.741 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/facebook-login - null null
+2025-02-12 14:36:34.746 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:36:34.746 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 5.0308ms
+2025-02-12 14:36:34.751 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/facebook-login - 204 null null 10.3368ms
+2025-02-12 14:36:34.762 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:36:34.765 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login - application/json 39
+2025-02-12 14:36:34.768 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:36:34.769 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:36:34.771 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:36:34.771 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:36:34.774 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:36:34.778 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:36:34.782 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:36:34.782 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:36:34.786 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 5.049ms
+2025-02-12 14:36:34.788 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:36:34.790 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 10.1115ms
+2025-02-12 14:36:34.792 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:36:34.792 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login - 400 null application/problem+json; charset=utf-8 28.3151ms
+2025-02-12 14:36:34.799 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 32.9493ms
+2025-02-12 14:37:48.769 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:37:48.786 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:37:48.788 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login - text/plain 27
+2025-02-12 14:37:48.791 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 19.8373ms
+2025-02-12 14:37:48.795 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:37:48.797 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:37:48.800 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:37:48.802 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:37:48.804 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:37:48.807 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:37:48.808 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:37:48.811 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:37:48.814 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 7.12ms
+2025-02-12 14:37:48.815 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:37:48.817 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login - 400 null application/problem+json; charset=utf-8 30.7815ms
+2025-02-12 14:37:48.827 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:37:48.829 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 17.9347ms
+2025-02-12 14:37:48.831 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:37:48.832 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 36.9603ms
+2025-02-12 14:38:30.249 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:38:30.253 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:38:30.254 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 6.0204ms
+2025-02-12 14:38:30.259 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:38:30.264 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:38:30.266 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:38:30.267 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:38:30.272 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:38:30.274 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 3.2936ms
+2025-02-12 14:38:30.276 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:38:30.278 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 18.8538ms
+2025-02-12 14:40:12.108 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login - text/plain 27
+2025-02-12 14:40:12.121 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:40:12.125 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:40:12.127 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:40:12.130 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:40:12.134 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 3.8353ms
+2025-02-12 14:40:12.136 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:40:12.139 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login - 400 null application/problem+json; charset=utf-8 32.3904ms
+2025-02-12 14:40:20.453 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:40:20.457 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:40:20.458 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 5.936ms
+2025-02-12 14:40:20.466 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:40:20.470 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:40:20.471 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:40:20.472 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:40:20.474 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:40:20.477 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 3.3352ms
+2025-02-12 14:40:20.479 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:40:20.481 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 16.0757ms
+2025-02-12 14:40:26.507 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login?email= - text/plain 27
+2025-02-12 14:40:26.512 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:40:26.514 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:40:26.516 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:40:26.523 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:40:26.526 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 4.1875ms
+2025-02-12 14:40:26.528 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:40:26.529 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login?email= - 400 null application/problem+json; charset=utf-8 23.0249ms
+2025-02-12 14:43:06.073 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - null null
+2025-02-12 14:43:06.092 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:43:06.094 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/google-login - 204 null null 21.7556ms
+2025-02-12 14:43:06.109 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/google-login - application/json 2
+2025-02-12 14:43:06.113 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:43:06.116 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:43:06.117 +05:30 [INF] Route matched with {action = "Googlelogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Googlelogin(Application.Model.GoogleLoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:43:06.123 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 14:43:06.126 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Googlelogin (LearningApi) in 3.531ms
+2025-02-12 14:43:06.128 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Googlelogin (LearningApi)'
+2025-02-12 14:43:06.130 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/google-login - 400 null application/problem+json; charset=utf-8 21.6277ms
+2025-02-12 14:43:24.580 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - null null
+2025-02-12 14:43:24.585 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:43:24.587 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - 204 null null 7.4618ms
+2025-02-12 14:43:24.592 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - application/json 2
+2025-02-12 14:43:24.596 +05:30 [INF] CORS policy execution successful.
+2025-02-12 14:43:24.598 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:43:24.600 +05:30 [INF] Route matched with {action = "Facebooklogin", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Facebooklogin(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 14:43:24.604 +05:30 [INF] GoogleLogin function is called
+2025-02-12 14:43:24.725 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@__Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__Email_0
+2025-02-12 14:43:24.736 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-02-12 14:43:24.740 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 14:43:24.742 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Facebooklogin (LearningApi) in 138.4827ms
+2025-02-12 14:43:24.743 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Facebooklogin (LearningApi)'
+2025-02-12 14:43:24.745 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/facebook-login?email=kunalwadibhasme27%40gmail.com - 200 null application/json; charset=utf-8 153.3769ms
+2025-02-12 18:10:59.685 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/register - null null
+2025-02-12 18:10:59.693 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:10:59.695 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/register - 204 null null 9.7559ms
+2025-02-12 18:10:59.700 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 83
+2025-02-12 18:10:59.703 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:10:59.707 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:10:59.709 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 18:10:59.725 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 18:10:59.728 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 16.9386ms
+2025-02-12 18:10:59.729 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:10:59.731 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 400 null application/problem+json; charset=utf-8 30.83ms
+2025-02-12 18:12:14.755 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/register - null null
+2025-02-12 18:12:14.764 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:12:14.765 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/register - 204 null null 10.0674ms
+2025-02-12 18:12:14.773 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 83
+2025-02-12 18:12:14.776 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:12:14.778 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:12:14.780 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 18:12:14.784 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 18:12:14.787 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 5.2159ms
+2025-02-12 18:12:14.789 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:12:14.795 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 400 null application/problem+json; charset=utf-8 22.673ms
+2025-02-12 18:14:17.121 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/register - null null
+2025-02-12 18:14:17.132 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:14:17.134 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/register - 204 null null 13.0228ms
+2025-02-12 18:14:17.139 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 83
+2025-02-12 18:14:17.141 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:14:17.143 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:14:17.144 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 18:14:17.148 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 18:14:17.149 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 2.86ms
+2025-02-12 18:14:17.150 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:14:17.152 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 400 null application/problem+json; charset=utf-8 13.0313ms
+2025-02-12 18:14:38.966 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/register - null null
+2025-02-12 18:14:38.973 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:14:38.975 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/register - 204 null null 8.7183ms
+2025-02-12 18:14:38.983 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 83
+2025-02-12 18:14:38.986 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:14:38.987 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:14:38.988 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 18:14:38.992 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 18:14:38.994 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 3.608ms
+2025-02-12 18:14:38.995 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:14:38.997 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 400 null application/problem+json; charset=utf-8 14.0725ms
+2025-02-12 18:19:56.386 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/register - null null
+2025-02-12 18:19:56.397 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:19:56.398 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/register - 204 null null 40.3386ms
+2025-02-12 18:19:56.403 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 83
+2025-02-12 18:19:56.406 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:19:56.407 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:19:56.408 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 18:19:56.411 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-12 18:19:56.413 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 3.3021ms
+2025-02-12 18:19:56.415 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:19:56.417 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 400 null application/problem+json; charset=utf-8 13.4149ms
+2025-02-12 18:27:33.079 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/register - null null
+2025-02-12 18:27:33.087 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:27:33.088 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/register - 204 null null 9.5421ms
+2025-02-12 18:27:33.095 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/register - application/json 81
+2025-02-12 18:27:33.099 +05:30 [INF] CORS policy execution successful.
+2025-02-12 18:27:33.100 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:27:33.101 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.Model.RegisterDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-02-12 18:27:33.110 +05:30 [INF] Register function is called for adding new User
+2025-02-12 18:27:33.272 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-02-12 18:27:33.422 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([ApiKey], [CreatedAt], [Email], [FirstName], [LastName], [Password], [RefreshToken], [RefreshTokenExpiryTime], [Role])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2025-02-12 18:27:37.162 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-12 18:27:37.170 +05:30 [INF] Executed action LearningApi.Controllers.UserController.Register (LearningApi) in 4066.6355ms
+2025-02-12 18:27:37.183 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.Register (LearningApi)'
+2025-02-12 18:27:37.186 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/register - 200 null application/json; charset=utf-8 4091.2081ms
