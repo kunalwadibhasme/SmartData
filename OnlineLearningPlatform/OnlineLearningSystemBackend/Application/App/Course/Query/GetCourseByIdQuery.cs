@@ -25,7 +25,7 @@ namespace Application.App.Course.Query
         public async Task<object> Handle(GetCourseByIdQuery command, CancellationToken cancellationToken)
         {
             var result = await _appDbContext.Set<Domain.Enitities.Course>()
-                   .Where(e => e.CourseId == command.Id) // Filtering by UserId
+                   .Where(e => e.CourseId == command.Id) 
                .ToListAsync(cancellationToken);
 
             if (result.Count > 0)

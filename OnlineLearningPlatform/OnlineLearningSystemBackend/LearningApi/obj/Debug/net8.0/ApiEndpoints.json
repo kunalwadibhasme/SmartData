@@ -1,5 +1,63 @@
 [
   {
+    "ContainingType": "LearningApi.Controllers.AssignmentController",
+    "Method": "AddAssignment",
+    "RelativePath": "api/Assignment/AddAssignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignmentDto",
+        "Type": "Application.Model.Assignment.AssignmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LearningApi.Controllers.AssignmentController",
+    "Method": "CreateAssignment",
+    "RelativePath": "api/Assignment/createassignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createAssignmentDto",
+        "Type": "Application.Model.Assignment.CreateAssignmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LearningApi.Controllers.AssignmentController",
+    "Method": "GetAssignment",
+    "RelativePath": "api/Assignment/GetAssignment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LearningApi.Controllers.AssignmentController",
+    "Method": "GetAssignmentById",
+    "RelativePath": "api/Assignment/GetAssignmentById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LearningApi.Controllers.CourseController",
     "Method": "AddCourse",
     "RelativePath": "api/Course/AddCourse",

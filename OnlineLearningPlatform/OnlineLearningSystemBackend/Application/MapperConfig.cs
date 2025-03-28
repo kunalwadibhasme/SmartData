@@ -1,4 +1,5 @@
 ﻿using Application.Model;
+using Application.Model.Assignment;
 using Application.Model.Course;
 using Application.Model.Enrollment;
 using AutoMapper;
@@ -19,6 +20,11 @@ namespace Application
             CreateMap<AddCourseDto, Course>();
             CreateMap<EnrollmentDto, Enrollments>();
             CreateMap<LoginDto, User>();
+            CreateMap<AssignmentDto, Assignment>();
+
+            CreateMap<CreateAssignmentDto, Assignment>();
+
+            CreateMap<QuestionDTO, Questions>();
         }
     }
 }

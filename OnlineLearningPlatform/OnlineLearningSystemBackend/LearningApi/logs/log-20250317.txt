@@ -1,0 +1,17 @@
+2025-03-17 12:12:46.112 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-17 12:12:46.229 +05:30 [INF] Creating key {c1027330-c5df-4762-9db4-f42f34bd0cde} with creation date 2025-03-17 06:42:46Z, activation date 2025-03-17 06:42:46Z, and expiration date 2025-06-15 06:42:46Z.
+2025-03-17 12:12:46.243 +05:30 [INF] Writing data to file 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys\key-c1027330-c5df-4762-9db4-f42f34bd0cde.xml'.
+2025-03-17 12:12:46.297 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-03-17 12:12:46.526 +05:30 [INF] Now listening on: https://localhost:7005
+2025-03-17 12:12:46.528 +05:30 [INF] Now listening on: http://localhost:5058
+2025-03-17 12:12:46.627 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-17 12:12:46.629 +05:30 [INF] Hosting environment: Development
+2025-03-17 12:12:46.631 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-03-17 12:12:49.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-03-17 12:12:50.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 266.849ms
+2025-03-17 12:12:50.091 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-17 12:12:50.098 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-03-17 12:12:50.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 22.6582ms
+2025-03-17 12:12:50.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.3517ms
+2025-03-17 12:12:50.307 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-03-17 12:12:50.425 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.4428ms

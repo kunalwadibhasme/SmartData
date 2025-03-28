@@ -21,5 +21,9 @@ namespace Domain.Enitities
         public required int InstructorId { get; set; }
         public required string StartDate { get; set; }
         public required string EndDate { get; set; }
+
+
+        public ICollection<Assignment> Assignments { get; set; } // Navigation for one-to-many
+
     }
 }

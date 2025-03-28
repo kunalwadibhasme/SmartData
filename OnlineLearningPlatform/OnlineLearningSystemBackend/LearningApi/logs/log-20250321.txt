@@ -1,0 +1,646 @@
+2025-03-21 11:26:03.526 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-21 11:26:03.679 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-03-21 11:26:03.931 +05:30 [INF] Now listening on: https://localhost:7005
+2025-03-21 11:26:03.933 +05:30 [INF] Now listening on: http://localhost:5058
+2025-03-21 11:26:04.030 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-21 11:26:04.033 +05:30 [INF] Hosting environment: Development
+2025-03-21 11:26:04.035 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-03-21 11:26:05.677 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-03-21 11:26:05.919 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 251.3884ms
+2025-03-21 11:26:05.940 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-21 11:26:05.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-03-21 11:26:05.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 15.4481ms
+2025-03-21 11:26:06.001 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.8409ms
+2025-03-21 11:26:06.035 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-03-21 11:26:06.144 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.306ms
+2025-03-21 11:28:30.250 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - null null
+2025-03-21 11:28:30.264 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:28:30.267 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 204 null null 16.8123ms
+2025-03-21 11:28:30.272 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - application/json 2
+2025-03-21 11:28:30.278 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:28:30.376 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:28:30.408 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:28:30.467 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-03-21 11:28:31.632 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 1214.626ms
+2025-03-21 11:28:31.635 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:28:31.637 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'Options' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at Application.App.User.Command.ForgetpasswordComandHandler.Handle(ForgetpasswordComand command, CancellationToken cancellationToken) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\Application\App\User\Command\ForgetpasswordComand.cs:line 36
+   at LearningApi.Controllers.UserController.ForgetPassword(String Email) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\Controllers\UserController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-21 11:28:31.696 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 500 null text/plain; charset=utf-8 1423.9491ms
+2025-03-21 11:29:03.691 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-03-21 11:29:03.749 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 58.4069ms
+2025-03-21 11:29:03.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-21 11:29:03.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-03-21 11:29:03.763 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.5424ms
+2025-03-21 11:29:03.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.5958ms
+2025-03-21 11:29:03.815 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-03-21 11:29:03.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.0682ms
+2025-03-21 11:29:40.529 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - null null
+2025-03-21 11:29:40.533 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:29:40.535 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 204 null null 6.0928ms
+2025-03-21 11:29:40.540 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - application/json 2
+2025-03-21 11:29:40.544 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:29:40.546 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:29:40.547 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:29:40.551 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-03-21 11:29:40.726 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 176.1547ms
+2025-03-21 11:29:40.729 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:29:40.730 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'Options' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at Application.App.User.Command.ForgetpasswordComandHandler.Handle(ForgetpasswordComand command, CancellationToken cancellationToken) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\Application\App\User\Command\ForgetpasswordComand.cs:line 36
+   at LearningApi.Controllers.UserController.ForgetPassword(String Email) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\Controllers\UserController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-21 11:29:40.764 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 500 null text/plain; charset=utf-8 224.572ms
+2025-03-21 11:30:54.741 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-21 11:30:54.859 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-03-21 11:30:55.098 +05:30 [INF] Now listening on: https://localhost:7005
+2025-03-21 11:30:55.100 +05:30 [INF] Now listening on: http://localhost:5058
+2025-03-21 11:30:55.204 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-21 11:30:55.206 +05:30 [INF] Hosting environment: Development
+2025-03-21 11:30:55.208 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-03-21 11:30:55.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-03-21 11:30:55.648 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 229.3753ms
+2025-03-21 11:30:55.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-21 11:30:55.664 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-03-21 11:30:55.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.6731ms
+2025-03-21 11:30:55.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2837ms
+2025-03-21 11:30:55.749 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-03-21 11:30:55.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.4727ms
+2025-03-21 11:31:12.383 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=st@yopmail.com - null null
+2025-03-21 11:31:12.392 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:31:12.395 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=st@yopmail.com - 204 null null 12.2611ms
+2025-03-21 11:31:12.401 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st@yopmail.com - application/json 2
+2025-03-21 11:31:12.407 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:31:12.493 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:31:12.523 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:31:17.740 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-03-21 11:32:26.764 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 74233.4291ms
+2025-03-21 11:32:26.770 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:32:26.777 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'Options' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at Application.App.User.Command.ForgetpasswordComandHandler.Handle(ForgetpasswordComand command, CancellationToken cancellationToken) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\Application\App\User\Command\ForgetpasswordComand.cs:line 36
+   at LearningApi.Controllers.UserController.ForgetPassword(String Email) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\Controllers\UserController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-21 11:32:26.835 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st@yopmail.com - 500 null text/plain; charset=utf-8 74432.3172ms
+2025-03-21 11:33:07.737 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st%40yopmail.com - null 0
+2025-03-21 11:33:07.742 +05:30 [INF] CORS policy execution failed.
+2025-03-21 11:33:07.744 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-03-21 11:33:07.746 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:33:07.747 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:33:10.599 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-03-21 11:34:09.805 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 62055.0896ms
+2025-03-21 11:34:09.809 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:34:09.816 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'Options' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelRuntimeInitializer.Initialize(IModel model, Boolean designTime, IDiagnosticsLogger`1 validationLogger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, ModelCreationDependencies modelCreationDependencies, Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel(Boolean designTime)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__8_4(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at Application.App.User.Command.ForgetpasswordComandHandler.Handle(ForgetpasswordComand command, CancellationToken cancellationToken) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\Application\App\User\Command\ForgetpasswordComand.cs:line 36
+   at LearningApi.Controllers.UserController.ForgetPassword(String Email) in C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\Controllers\UserController.cs:line 67
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-21 11:34:09.851 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st%40yopmail.com - 500 null text/plain; charset=utf-8 62113.9438ms
+2025-03-21 11:39:59.543 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st%40yopmail.com - null 0
+2025-03-21 11:39:59.555 +05:30 [INF] CORS policy execution failed.
+2025-03-21 11:39:59.556 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-03-21 11:39:59.559 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:39:59.560 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:40:02.758 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-03-21 11:40:03.789 +05:30 [INF] Executed DbCommand (51ms) [Parameters=[@__user_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_0
+2025-03-21 11:40:03.798 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-03-21 11:40:03.850 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 52.4048ms
+2025-03-21 11:40:03.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-21 11:40:03.884 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-03-21 11:40:03.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.4361ms
+2025-03-21 11:40:03.910 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.8441ms
+2025-03-21 11:40:04.021 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-03-21 11:40:04.042 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.0026ms
+2025-03-21 11:40:04.407 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-03-21 11:40:07.958 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:40:07.970 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 8407.6204ms
+2025-03-21 11:40:07.972 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:40:07.977 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st%40yopmail.com - 499 null application/json; charset=utf-8 8434.6116ms
+2025-03-21 11:40:27.899 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st%40yopmail.com - null 0
+2025-03-21 11:40:27.905 +05:30 [INF] CORS policy execution failed.
+2025-03-21 11:40:27.907 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-03-21 11:40:27.908 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:40:27.912 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:40:29.750 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-03-21 11:40:29.807 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__user_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_0
+2025-03-21 11:40:30.053 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-03-21 11:40:33.420 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:40:33.433 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 5517.1899ms
+2025-03-21 11:40:33.439 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:40:33.443 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=st%40yopmail.com - 200 null application/json; charset=utf-8 5544.0923ms
+2025-03-21 11:41:23.275 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-03-21 11:41:23.285 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:41:23.288 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 13.1959ms
+2025-03-21 11:41:23.292 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-03-21 11:41:23.296 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:41:23.297 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 11:41:23.302 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:41:23.321 +05:30 [INF] Login function is called for adding new User
+2025-03-21 11:41:23.338 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-03-21 11:41:23.516 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-03-21 11:41:23.520 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:41:23.523 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 218.4449ms
+2025-03-21 11:41:23.524 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 11:41:23.525 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 233.7982ms
+2025-03-21 11:41:23.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=7 - null null
+2025-03-21 11:41:23.562 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:41:23.563 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-03-21 11:41:23.567 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-03-21 11:41:23.571 +05:30 [INF] The function to Get AllCourses is Called
+2025-03-21 11:41:23.637 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-03-21 11:41:23.653 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:41:23.662 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 91.5983ms
+2025-03-21 11:41:23.665 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-03-21 11:41:23.666 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=7 - 200 null application/json; charset=utf-8 109.0265ms
+2025-03-21 11:41:47.141 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - null null
+2025-03-21 11:41:47.146 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:41:47.147 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 204 null null 6.4216ms
+2025-03-21 11:41:47.152 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - application/json 2
+2025-03-21 11:41:47.156 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:41:47.157 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:41:47.158 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgetPassword(System.String) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:41:52.287 +05:30 [INF] ForgetPassword function is called for Changing Password
+2025-03-21 11:41:52.292 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_0
+2025-03-21 11:41:52.436 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-03-21 11:41:55.733 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:41:55.745 +05:30 [INF] Executed action LearningApi.Controllers.UserController.ForgetPassword (LearningApi) in 8584.4197ms
+2025-03-21 11:41:55.753 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.ForgetPassword (LearningApi)'
+2025-03-21 11:41:55.755 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/ForgetPassword?Email=sham@yopmail.com - 200 null application/json; charset=utf-8 8603.4626ms
+2025-03-21 11:42:19.579 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-03-21 11:42:19.590 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:42:19.591 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 12.3291ms
+2025-03-21 11:42:19.601 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 53
+2025-03-21 11:42:19.605 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:42:19.606 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 11:42:19.607 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 11:42:19.611 +05:30 [INF] Login function is called for adding new User
+2025-03-21 11:42:19.616 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-03-21 11:42:19.760 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-03-21 11:42:19.764 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:42:19.766 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 156.6868ms
+2025-03-21 11:42:19.768 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 11:42:19.769 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 168.5101ms
+2025-03-21 11:42:19.787 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-03-21 11:42:19.792 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:42:19.793 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 11:42:19.797 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-03-21 11:42:19.800 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-03-21 11:42:19.814 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-03-21 11:42:19.818 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:42:19.820 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 20.4195ms
+2025-03-21 11:42:19.822 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 11:42:19.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 37.1856ms
+2025-03-21 11:42:32.508 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-03-21 11:42:32.513 +05:30 [INF] CORS policy execution successful.
+2025-03-21 11:42:32.514 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 11:42:32.516 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-03-21 11:42:32.518 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-03-21 11:42:32.526 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-03-21 11:42:32.531 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 11:42:32.533 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 14.8931ms
+2025-03-21 11:42:32.535 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 11:42:32.536 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 27.6681ms
+2025-03-21 12:03:37.015 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-21 12:03:37.121 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-03-21 12:03:37.344 +05:30 [INF] Now listening on: https://localhost:7005
+2025-03-21 12:03:37.347 +05:30 [INF] Now listening on: http://localhost:5058
+2025-03-21 12:03:37.445 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-21 12:03:37.447 +05:30 [INF] Hosting environment: Development
+2025-03-21 12:03:37.449 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-03-21 12:03:37.704 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-03-21 12:03:37.909 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 211.4107ms
+2025-03-21 12:03:37.917 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-03-21 12:03:37.917 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-21 12:03:37.939 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 21.458ms
+2025-03-21 12:03:37.962 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.0522ms
+2025-03-21 12:03:38.085 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-03-21 12:03:38.211 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.072ms
+2025-03-21 12:11:43.922 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-03-21 12:11:43.930 +05:30 [INF] CORS policy execution successful.
+2025-03-21 12:11:43.933 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 10.9207ms
+2025-03-21 12:11:43.939 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 53
+2025-03-21 12:11:43.944 +05:30 [INF] CORS policy execution successful.
+2025-03-21 12:11:44.019 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 12:11:44.047 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 12:11:44.099 +05:30 [INF] Login function is called for adding new User
+2025-03-21 12:11:45.454 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-03-21 12:11:45.934 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-03-21 12:11:45.954 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 12:11:45.964 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 1911.517ms
+2025-03-21 12:11:45.967 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 12:11:45.977 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 2038.6296ms
+2025-03-21 12:11:45.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-03-21 12:11:46.002 +05:30 [INF] CORS policy execution successful.
+2025-03-21 12:11:46.004 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 12:11:46.009 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-03-21 12:11:46.023 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-03-21 12:11:46.085 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-03-21 12:11:46.102 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 12:11:46.111 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 96.5014ms
+2025-03-21 12:11:46.114 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 12:11:46.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 118.8037ms
+2025-03-21 12:12:11.151 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7005/api/User/login - null null
+2025-03-21 12:12:11.163 +05:30 [INF] CORS policy execution successful.
+2025-03-21 12:12:11.165 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7005/api/User/login - 204 null null 14.0311ms
+2025-03-21 12:12:11.170 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/User/login - application/json 51
+2025-03-21 12:12:11.173 +05:30 [INF] CORS policy execution successful.
+2025-03-21 12:12:11.176 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 12:12:11.177 +05:30 [INF] Route matched with {action = "login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] login(Application.Model.LoginDto) on controller LearningApi.Controllers.UserController (LearningApi).
+2025-03-21 12:12:11.180 +05:30 [INF] Login function is called for adding new User
+2025-03-21 12:12:11.203 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__user_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[ApiKey], [u].[CreatedAt], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[RefreshToken], [u].[RefreshTokenExpiryTime], [u].[Role]
+FROM [users] AS [u]
+WHERE [u].[Email] = @__user_Email_0
+2025-03-21 12:12:11.486 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [users] SET [ApiKey] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Password] = @p5, [RefreshToken] = @p6, [RefreshTokenExpiryTime] = @p7, [Role] = @p8
+OUTPUT 1
+WHERE [UserId] = @p9;
+2025-03-21 12:12:11.489 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType4`4[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 12:12:11.491 +05:30 [INF] Executed action LearningApi.Controllers.UserController.login (LearningApi) in 312.4325ms
+2025-03-21 12:12:11.492 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.UserController.login (LearningApi)'
+2025-03-21 12:12:11.494 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/User/login - 200 null application/json; charset=utf-8 323.7848ms
+2025-03-21 12:12:11.522 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=7 - null null
+2025-03-21 12:12:11.528 +05:30 [INF] CORS policy execution successful.
+2025-03-21 12:12:11.529 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-03-21 12:12:11.534 +05:30 [INF] Route matched with {action = "GetCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-03-21 12:12:11.540 +05:30 [INF] The function to Get AllCourses is Called
+2025-03-21 12:12:11.604 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__request_UserId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[CourseId] NOT IN (
+    SELECT [e].[CourseId]
+    FROM [enrollments] AS [e]
+    WHERE [e].[StudentId] = @__request_UserId_0
+)
+2025-03-21 12:12:11.608 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 12:12:11.610 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetCourses (LearningApi) in 70.9064ms
+2025-03-21 12:12:11.611 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetCourses (LearningApi)'
+2025-03-21 12:12:11.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetAllCourse?UserId=7 - 200 null application/json; charset=utf-8 90.5791ms
+2025-03-21 12:12:20.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - null null
+2025-03-21 12:12:20.800 +05:30 [INF] CORS policy execution successful.
+2025-03-21 12:12:20.801 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 12:12:20.802 +05:30 [INF] Route matched with {action = "GetInstructorCourses", controller = "Course"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInstructorCourses(Int32) on controller LearningApi.Controllers.CourseController (LearningApi).
+2025-03-21 12:12:20.804 +05:30 [INF] The function to Get Courses Created by Instructor is Called
+2025-03-21 12:12:20.809 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__command_Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CourseId], [c].[Category], [c].[Description], [c].[EndDate], [c].[InstructorId], [c].[StartDate], [c].[Title]
+FROM [courses] AS [c]
+WHERE [c].[InstructorId] = @__command_Id_0
+2025-03-21 12:12:20.813 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.List`1[[Domain.Enitities.Course, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-21 12:12:20.814 +05:30 [INF] Executed action LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi) in 10.1883ms
+2025-03-21 12:12:20.816 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.CourseController.GetInstructorCourses (LearningApi)'
+2025-03-21 12:12:20.817 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/api/Course/GetInstructorCourses?UserId=1 - 200 null application/json; charset=utf-8 20.0501ms
+2025-03-21 12:13:26.916 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-21 12:13:26.969 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-21 12:13:26.970 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-03-21 12:13:26.971 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-03-21 12:13:26.993 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-03-21 12:13:27.004 +05:30 [INF] Applying migration '20250312113701_seventh'.
+2025-03-21 12:13:27.057 +05:30 [ERR] Failed executing DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [assignments] ADD [CourseId] int NOT NULL DEFAULT 0;
+2025-03-21 12:13:58.985 +05:30 [INF] User profile is available. Using 'C:\Users\kunalwadibharme\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-21 12:13:59.090 +05:30 [WRN] The WebRootPath was not found: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi\wwwroot. Static files may be unavailable.
+2025-03-21 12:13:59.292 +05:30 [INF] Now listening on: https://localhost:7005
+2025-03-21 12:13:59.295 +05:30 [INF] Now listening on: http://localhost:5058
+2025-03-21 12:13:59.395 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-21 12:13:59.397 +05:30 [INF] Hosting environment: Development
+2025-03-21 12:13:59.398 +05:30 [INF] Content root path: C:\Users\kunalwadibharme\source\repos\OnlineLearningSystem\LearningApi
+2025-03-21 12:13:59.842 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/index.html - null null
+2025-03-21 12:14:00.049 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/index.html - 200 null text/html;charset=utf-8 212.445ms
+2025-03-21 12:14:00.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_vs/browserLink - null null
+2025-03-21 12:14:00.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-21 12:14:00.075 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 17.42ms
+2025-03-21 12:14:00.112 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.3122ms
+2025-03-21 12:14:00.174 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - null null
+2025-03-21 12:14:00.285 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7005/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.5027ms
+2025-03-21 12:23:39.129 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7005/api/Assignment/create - application/json 1027
+2025-03-21 12:23:39.142 +05:30 [INF] CORS policy execution failed.
+2025-03-21 12:23:39.144 +05:30 [INF] Request origin https://localhost:7005 does not have permission to access the resource.
+2025-03-21 12:23:39.222 +05:30 [INF] Executing endpoint 'LearningApi.Controllers.AssignmentController.CreateTest (LearningApi)'
+2025-03-21 12:23:39.248 +05:30 [INF] Route matched with {action = "CreateTest", controller = "Assignment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTest(Application.Model.Assignment.CreateAssignmentDto) on controller LearningApi.Controllers.AssignmentController (LearningApi).
+2025-03-21 12:23:51.770 +05:30 [INF] Executing OkObjectResult, writing value of type 'Application.Model.Assignment.CreateAssignmentDto'.
+2025-03-21 12:24:02.841 +05:30 [INF] Executed action LearningApi.Controllers.AssignmentController.CreateTest (LearningApi) in 23585.7728ms
+2025-03-21 12:24:02.843 +05:30 [INF] Executed endpoint 'LearningApi.Controllers.AssignmentController.CreateTest (LearningApi)'
+2025-03-21 12:24:02.845 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7005/api/Assignment/create - 200 null application/json; charset=utf-8 23716.9063ms

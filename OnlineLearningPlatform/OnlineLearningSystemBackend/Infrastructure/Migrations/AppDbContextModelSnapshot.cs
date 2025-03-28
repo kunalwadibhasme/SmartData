@@ -22,6 +22,64 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Domain.Enitities.Answer", b =>
+                {
+                    b.Property<int>("AnswerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AnswerId"));
+
+                    b.Property<string>("AnswerText")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AnswerId");
+
+                    b.HasIndex("QuestionId")
+                        .IsUnique();
+
+                    b.ToTable("answer");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Assignment", b =>
+                {
+                    b.Property<int>("AssignmentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AssignmentId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DueDate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("courseId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("testLink")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AssignmentId");
+
+                    b.HasIndex("courseId");
+
+                    b.ToTable("Assignments");
+                });
+
             modelBuilder.Entity("Domain.Enitities.Course", b =>
                 {
                     b.Property<int>("CourseId")
@@ -80,6 +138,57 @@ namespace Infrastructure.Migrations
                     b.ToTable("enrollments");
                 });
 
+            modelBuilder.Entity("Domain.Enitities.Options", b =>
+                {
+                    b.Property<int>("OptionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OptionId"));
+
+                    b.Property<string>("OptionText")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OptionId");
+
+                    b.HasIndex("QuestionId");
+
+                    b.ToTable("options");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Questions", b =>
+                {
+                    b.Property<int>("QuestionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("QuestionId"));
+
+                    b.Property<int>("AssignmentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("QuestionText")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<string>("QuestionType")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("QuestionId");
+
+                    b.HasIndex("AssignmentId");
+
+                    b.ToTable("questions");
+                });
+
             modelBuilder.Entity("Domain.Enitities.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -123,6 +232,68 @@ namespace Infrastructure.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("users");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Answer", b =>
+                {
+                    b.HasOne("Domain.Enitities.Questions", "Question")
+                        .WithOne("Answer")
+                        .HasForeignKey("Domain.Enitities.Answer", "QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Assignment", b =>
+                {
+                    b.HasOne("Domain.Enitities.Course", "Course")
+                        .WithMany("Assignments")
+                        .HasForeignKey("courseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Options", b =>
+                {
+                    b.HasOne("Domain.Enitities.Questions", "Question")
+                        .WithMany("Options")
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Questions", b =>
+                {
+                    b.HasOne("Domain.Enitities.Assignment", "Assignments")
+                        .WithMany("Questions")
+                        .HasForeignKey("AssignmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Assignments");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Assignment", b =>
+                {
+                    b.Navigation("Questions");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Course", b =>
+                {
+                    b.Navigation("Assignments");
+                });
+
+            modelBuilder.Entity("Domain.Enitities.Questions", b =>
+                {
+                    b.Navigation("Answer")
+                        .IsRequired();
+
+                    b.Navigation("Options");
                 });
 #pragma warning restore 612, 618
         }

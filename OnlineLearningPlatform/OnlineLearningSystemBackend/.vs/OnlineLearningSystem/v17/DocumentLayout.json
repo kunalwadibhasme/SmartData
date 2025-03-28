@@ -3,60 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\user\\query\\getprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\user\\query\\getprofilequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12B80534-44AC-4D73-91AE-3C2B5B67BF56}|LearningApi\\LearningApi.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\learningapi\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B80534-44AC-4D73-91AE-3C2B5B67BF56}|LearningApi\\LearningApi.csproj|solutionrelative:learningapi\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B80534-44AC-4D73-91AE-3C2B5B67BF56}|LearningApi\\LearningApi.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\learningapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12B80534-44AC-4D73-91AE-3C2B5B67BF56}|LearningApi\\LearningApi.csproj|solutionrelative:learningapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\assignment\\command\\addstudentassignmentanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\assignment\\command\\addstudentassignmentanswer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\course\\query\\updatecoursequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\course\\query\\updatecoursequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\domain\\enitities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|solutionrelative:domain\\enitities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\course\\query\\getenrolledcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\course\\query\\getenrolledcourses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\domain\\enitities\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|solutionrelative:domain\\enitities\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\course\\command\\createcoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\course\\command\\createcoursecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\assignment\\command\\createassignmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\assignment\\command\\createassignmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B80534-44AC-4D73-91AE-3C2B5B67BF56}|LearningApi\\LearningApi.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\learningapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12B80534-44AC-4D73-91AE-3C2B5B67BF56}|LearningApi\\LearningApi.csproj|solutionrelative:learningapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\domain\\enitities\\studentsassignmentsubmitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|solutionrelative:domain\\enitities\\studentsassignmentsubmitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\model\\course\\addcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\model\\course\\addcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\domain\\enitities\\submittedanswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00D3CE54-D26D-41F6-A8A6-75C61EBEDEE3}|Domain\\Domain.csproj|solutionrelative:domain\\enitities\\submittedanswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\model\\course\\updatecoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\model\\course\\updatecoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\model\\assignment\\studentassignmentanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\model\\assignment\\studentassignmentanswerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\course\\query\\getcoursebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\course\\query\\getcoursebyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\assignment\\query\\getassignmentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\assignment\\query\\getassignmentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\course\\query\\getcoursebyinstructoridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\course\\query\\getcoursebyinstructoridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\course\\query\\getcoursequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\course\\query\\getcoursequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\course\\query\\getallcoursequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\course\\query\\getallcoursequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\user\\command\\forgetpasswordcomand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\user\\command\\forgetpasswordcomand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\app\\user\\command\\changepasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\app\\user\\command\\changepasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|c:\\users\\kunalwadibharme\\source\\repos\\onlinelearningsystem\\application\\model\\assignment\\assignmentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589C5880-5CD8-4149-B50E-7F3BD99B7335}|Application\\Application.csproj|solutionrelative:application\\model\\assignment\\assignmentgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,176 +74,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetprofileQuery.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\User\\Query\\GetprofileQuery.cs",
-              "RelativeDocumentMoniker": "Application\\App\\User\\Query\\GetprofileQuery.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\User\\Query\\GetprofileQuery.cs",
-              "RelativeToolTip": "Application\\App\\User\\Query\\GetprofileQuery.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAnwBwAAABpAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T09:18:02.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UpdateCourseQuery.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\UpdateCourseQuery.cs",
-              "RelativeDocumentMoniker": "Application\\App\\Course\\Query\\UpdateCourseQuery.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\UpdateCourseQuery.cs",
-              "RelativeToolTip": "Application\\App\\Course\\Query\\UpdateCourseQuery.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAASwBwAAAAnAAAAAAAAAA==",
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\Answer.cs",
+              "RelativeDocumentMoniker": "Domain\\Enitities\\Answer.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\Answer.cs",
+              "RelativeToolTip": "Domain\\Enitities\\Answer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:56:30.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetCourseByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetCourseByIdQuery.cs",
-              "RelativeDocumentMoniker": "Application\\App\\Course\\Query\\GetCourseByIdQuery.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetCourseByIdQuery.cs",
-              "RelativeToolTip": "Application\\App\\Course\\Query\\GetCourseByIdQuery.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAApwDAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T12:17:49.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetAllCourseQuery.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetAllCourseQuery.cs",
-              "RelativeDocumentMoniker": "Application\\App\\Course\\Query\\GetAllCourseQuery.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetAllCourseQuery.cs",
-              "RelativeToolTip": "Application\\App\\Course\\Query\\GetAllCourseQuery.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:59:22.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\LearningApi\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "LearningApi\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\LearningApi\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "LearningApi\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T09:04:20.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\LearningApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "LearningApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\LearningApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "LearningApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAYwEoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:31:32.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateCourseCommand.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Command\\CreateCourseCommand.cs",
-              "RelativeDocumentMoniker": "Application\\App\\Course\\Command\\CreateCourseCommand.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Command\\CreateCourseCommand.cs",
-              "RelativeToolTip": "Application\\App\\Course\\Command\\CreateCourseCommand.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T09:33:25.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T06:29:00.537Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetEnrolledCourses.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetEnrolledCourses.cs",
-              "RelativeDocumentMoniker": "Application\\App\\Course\\Query\\GetEnrolledCourses.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetEnrolledCourses.cs",
-              "RelativeToolTip": "Application\\App\\Course\\Query\\GetEnrolledCourses.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAApwB4AAAAsAAAAAAAAAA==",
+              "Title": "Questions.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\Questions.cs",
+              "RelativeDocumentMoniker": "Domain\\Enitities\\Questions.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\Questions.cs",
+              "RelativeToolTip": "Domain\\Enitities\\Questions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T08:59:17.413Z",
+              "WhenOpened": "2025-03-26T06:25:54.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentsAssignmentSubmitted.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\StudentsAssignmentSubmitted.cs",
+              "RelativeDocumentMoniker": "Domain\\Enitities\\StudentsAssignmentSubmitted.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\StudentsAssignmentSubmitted.cs",
+              "RelativeToolTip": "Domain\\Enitities\\StudentsAssignmentSubmitted.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:29:21.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignmentController.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\LearningApi\\Controllers\\AssignmentController.cs",
+              "RelativeDocumentMoniker": "LearningApi\\Controllers\\AssignmentController.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\LearningApi\\Controllers\\AssignmentController.cs",
+              "RelativeToolTip": "LearningApi\\Controllers\\AssignmentController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T05:09:21.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddCourseDto.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Course\\AddCourseDto.cs",
-              "RelativeDocumentMoniker": "Application\\Model\\Course\\AddCourseDto.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Course\\AddCourseDto.cs",
-              "RelativeToolTip": "Application\\Model\\Course\\AddCourseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AddStudentAssignmentAnswer.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Assignment\\Command\\AddStudentAssignmentAnswer.cs",
+              "RelativeDocumentMoniker": "Application\\App\\Assignment\\Command\\AddStudentAssignmentAnswer.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Assignment\\Command\\AddStudentAssignmentAnswer.cs",
+              "RelativeToolTip": "Application\\App\\Assignment\\Command\\AddStudentAssignmentAnswer.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T11:43:28.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateCourseDto.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Course\\UpdateCourseDto.cs",
-              "RelativeDocumentMoniker": "Application\\Model\\Course\\UpdateCourseDto.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Course\\UpdateCourseDto.cs",
-              "RelativeToolTip": "Application\\Model\\Course\\UpdateCourseDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T04:18:08.795Z"
+              "WhenOpened": "2025-03-25T12:53:50.396Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GetCourseByInstructorIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetCourseByInstructorIdQuery.cs",
-              "RelativeDocumentMoniker": "Application\\App\\Course\\Query\\GetCourseByInstructorIdQuery.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetCourseByInstructorIdQuery.cs",
-              "RelativeToolTip": "Application\\App\\Course\\Query\\GetCourseByInstructorIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
+              "Title": "AssignmentGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Assignment\\AssignmentGetDto.cs",
+              "RelativeDocumentMoniker": "Application\\Model\\Assignment\\AssignmentGetDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Assignment\\AssignmentGetDto.cs",
+              "RelativeToolTip": "Application\\Model\\Assignment\\AssignmentGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T05:16:16.661Z"
+              "WhenOpened": "2025-03-25T06:38:56.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetCourseQuery.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetCourseQuery.cs",
-              "RelativeDocumentMoniker": "Application\\App\\Course\\Query\\GetCourseQuery.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Course\\Query\\GetCourseQuery.cs",
-              "RelativeToolTip": "Application\\App\\Course\\Query\\GetCourseQuery.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAhwBsAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CreateAssignmentCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Assignment\\Command\\CreateAssignmentCommand.cs",
+              "RelativeDocumentMoniker": "Application\\App\\Assignment\\Command\\CreateAssignmentCommand.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Assignment\\Command\\CreateAssignmentCommand.cs",
+              "RelativeToolTip": "Application\\App\\Assignment\\Command\\CreateAssignmentCommand.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T07:15:54.482Z"
+              "WhenOpened": "2025-03-21T07:08:17.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ForgetpasswordComand.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\User\\Command\\ForgetpasswordComand.cs",
-              "RelativeDocumentMoniker": "Application\\App\\User\\Command\\ForgetpasswordComand.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\User\\Command\\ForgetpasswordComand.cs",
-              "RelativeToolTip": "Application\\App\\User\\Command\\ForgetpasswordComand.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDUAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SubmittedAnswers.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\SubmittedAnswers.cs",
+              "RelativeDocumentMoniker": "Domain\\Enitities\\SubmittedAnswers.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Domain\\Enitities\\SubmittedAnswers.cs",
+              "RelativeToolTip": "Domain\\Enitities\\SubmittedAnswers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:24:05.541Z"
+              "WhenOpened": "2025-03-26T05:47:43.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ChangePasswordCommand.cs",
-              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\User\\Command\\ChangePasswordCommand.cs",
-              "RelativeDocumentMoniker": "Application\\App\\User\\Command\\ChangePasswordCommand.cs",
-              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\User\\Command\\ChangePasswordCommand.cs",
-              "RelativeToolTip": "Application\\App\\User\\Command\\ChangePasswordCommand.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "StudentAssignmentAnswerDto.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Assignment\\StudentAssignmentAnswerDto.cs",
+              "RelativeDocumentMoniker": "Application\\Model\\Assignment\\StudentAssignmentAnswerDto.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\Model\\Assignment\\StudentAssignmentAnswerDto.cs",
+              "RelativeToolTip": "Application\\Model\\Assignment\\StudentAssignmentAnswerDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T06:05:26.531Z"
+              "WhenOpened": "2025-03-26T05:06:04.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAssignmentQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Assignment\\Query\\GetAssignmentQuery.cs",
+              "RelativeDocumentMoniker": "Application\\App\\Assignment\\Query\\GetAssignmentQuery.cs",
+              "ToolTip": "C:\\Users\\kunalwadibharme\\source\\repos\\OnlineLearningSystem\\Application\\App\\Assignment\\Query\\GetAssignmentQuery.cs",
+              "RelativeToolTip": "Application\\App\\Assignment\\Query\\GetAssignmentQuery.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:26:11.727Z"
             }
           ]
         }
